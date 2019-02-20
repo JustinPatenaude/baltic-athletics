@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<div class="page__header" style="background-image: url('{{ "/assets/images/banner-catalogues.jpg" | relative_url }}');">
+  <div class="container">
+    <div class="grid-middle">
+        <div class="col-12">
+          <h1 class="page__header-title">Catalogues</h1>
+        </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="grid-center">
+    <div class="col-10">
+      <div class="search">
+        <form class="search__form">
+          <div class="input__wrapper search__input-wrapper cf">
+            <input class="input__text search__input" type="text" placeholder="What are you looking for?" />
+            <button class="btn search__btn"><i class="fal fa-search"></i> Search</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+{% for category in page.categories %}
+  <div class="container">
+    <div class="page__title-wrapper">
+      {% assign categoryHandle = category.title | downcase | replace: " ", "-" %}
+      {% capture categoryImageUrl %}/assets/images/title-{{ categoryHandle }}.svg{% endcapture %}
+      <img class="page__title-img" src="{{ categoryImageUrl | relative_url }}" />
+      <h3 class="page__title">{{ category.title }}</h3>
+    </div>
+  </div>
+  <div class="container">
+    <div class="grid">
+      {% for item in category.items %}
+        {% assign itemHandle = item | downcase | replace: " ", "-" %}
+        {% capture itemImageUrl %}/assets/images/{{ categoryHandle }}-{{ itemHandle }}.svg{% endcapture %}
+        <div class="col-2">
+          <a href="#" class="catalogue__category">
+            <div class="catalogue__category-img-wrapper">
+              <img class="catalogue__category-img" src="{{ itemImageUrl | relative_url }}" />
+            </div>
+            <div class="catalogue__category-title-wrapper">
+              <h5 class="catalogue__category-title">{{ item }}</h5>
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+{% endfor %}
