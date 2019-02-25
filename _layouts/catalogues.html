@@ -28,7 +28,7 @@ layout: default
 {% for category in page.categories %}
   <div class="container">
     <div class="page__title-wrapper">
-      {% assign categoryHandle = category.title | downcase | replace: " ", "-" %}
+      {% assign categoryHandle = category.title | handleize %}
       {% capture categoryImageUrl %}/assets/images/title-{{ categoryHandle }}.svg{% endcapture %}
       <img class="page__title-img" src="{{ categoryImageUrl | relative_url }}" />
       <h3 class="page__title">{{ category.title }}</h3>
@@ -37,7 +37,7 @@ layout: default
   <div class="container">
     <div class="grid">
       {% for item in category.items %}
-        {% assign itemHandle = item | downcase | replace: " ", "-" %}
+        {% assign itemHandle = item | handleize %}
         {% capture itemImageUrl %}/assets/images/{{ categoryHandle }}-{{ itemHandle }}.svg{% endcapture %}
         <div class="col-2_lg-3_md-4_sm-6">
           <a href="#" class="catalogue__category">
