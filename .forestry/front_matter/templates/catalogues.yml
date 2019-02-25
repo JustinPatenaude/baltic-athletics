@@ -24,6 +24,12 @@ fields:
   description: 'The categories in which the catalogues may be sorted. Example: sports,
     attire, gym equipment, etc.'
   fields:
+  - type: text
+    name: title
+    label: Title
+    description: The title of the category
   - type: list
     name: sub-categories
     label: Sub-categories
+  config:
+    labelField: title
