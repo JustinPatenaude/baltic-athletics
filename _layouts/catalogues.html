@@ -39,7 +39,7 @@ layout: default
       {% for item in category.items %}
         {% assign itemHandle = item | downcase | replace: " ", "-" %}
         {% capture itemImageUrl %}/assets/images/{{ categoryHandle }}-{{ itemHandle }}.svg{% endcapture %}
-        <div class="col-2">
+        <div class="col-2_lg-3_md-4_sm-6">
           <a href="#" class="catalogue__category">
             <div class="catalogue__category-img-wrapper">
               <img class="catalogue__category-img" src="{{ itemImageUrl | relative_url }}" />

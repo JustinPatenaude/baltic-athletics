@@ -2722,6 +2722,7 @@ input, textarea, button {
 ======================*/
 .catalogue__category {
   display: block;
+  margin-bottom: 30px;
   padding: 25px 30px 10px 30px;
   background-color: #fff;
   border-radius: 4px;
@@ -2773,11 +2774,18 @@ input, textarea, button {
 
 .search__input {
   float: left;
-  width: calc(100% - 122px);
+  width: calc(100% - 126px);
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border: 2px solid #fff;
   border-radius: 4px 0 0 4px;
   box-shadow: none; }
+  .search__input:focus {
+    border-color: #4B87C7;
+    outline: 0; }
 
 .search__btn {
   float: right;
-  padding: 15px 20px;
+  padding: 13px 20px;
+  border: 2px solid #4B87C7;
   border-radius: 0 4px 4px 0; }

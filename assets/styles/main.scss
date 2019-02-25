@@ -18,7 +18,7 @@ $colorGreyLight: #CCCCCC;
 $colorGrey: #666666;
 $colorDark: #333333;
 
-$gutter: 20px;
+$gutter: 30px;
 
 $fontOne: 'Open Sans', sans-serif;
 
@@ -477,6 +477,7 @@ input, textarea, button {
 ======================*/
 .catalogue__category {
   display: block;
+  margin-bottom: $gutter;
   padding: 25px 30px 10px 30px;
   background-color: #fff;
   border-radius: 4px;
@@ -530,12 +531,20 @@ input, textarea, button {
 }
 .search__input {
   float: left;
-  width: calc(100% - 122px);
+  width: calc(100% - 126px);
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border: 2px solid #fff;
   border-radius: 4px 0 0 4px;
   box-shadow: none;
+  &:focus {
+    border-color: $colorBlue;
+    outline: 0;
+  }
 }
 .search__btn {
   float: right;
-  padding: 15px 20px;
+  padding: 13px 20px;
+  border: 2px solid $colorBlue;
   border-radius: 0 4px 4px 0;
 }
