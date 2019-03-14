@@ -35,7 +35,7 @@ categories:
   - Canopies
   - Blankets
   - Banners
-  - Bags/Totes/Duffels
+  - Bags / Totes / Duffels
   - Aprons
   - Apparel - Sublimated
 - title: Gym Equipment
@@ -48,7 +48,7 @@ categories:
   - PE Playground
   - Misc.
   - Nets
-  - Inflators/Essentials
+  - Inflators / Essentials
   - Dividers
 - title: Attire & Accessories
   sub-categories:
@@ -61,13 +61,6 @@ categories:
   - Hats
   - Bags
 - title: Sports
-  items:
-  - Archery
-  - Badminton
-  - Baseball
-  - Basketball
-  - Beach Volleyball
-  - Boxing
   sub-categories:
   - Weight Lifting
   - Water Polo
