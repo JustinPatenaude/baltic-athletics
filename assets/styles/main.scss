@@ -442,12 +442,12 @@ input, textarea, button {
   font-size: 36px;
   line-height: 36px;
   font-weight: bold;
+  text-align: center;
   color: #fff;
 }
 .page__title-wrapper {
   position: relative;
   display: inline-block;
-  width: 100%;
   margin-bottom: 30px;
   padding: 0 20px 0 0;
   background-color: $colorBlue;
@@ -476,9 +476,16 @@ input, textarea, button {
   text-transform: uppercase;
   color: #fff;
 }
+.page__content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
 /* RESPONSIVE STYLES FOR HEADER + MOBILE MENU */
 @media only screen and (max-width: 768px) {
+  .page__title-wrapper {
+    width: 100%;
+  }
   .page__title {
     font-size: 16px;
   }

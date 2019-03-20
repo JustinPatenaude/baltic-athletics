@@ -13,7 +13,7 @@ layout: default
 </div>
 <div class="container">
   <div class="grid-center">
-    <div class="col-10">
+    <div class="col-10_md-12">
       <div class="search">
         <form class="search__form category__search-form">
           <div class="input__wrapper search__input-wrapper cf">
@@ -30,30 +30,38 @@ layout: default
   {% for category in pageCategories %}
     <div class="category">
       <div class="container">
-        <div class="page__title-wrapper">
-          {% assign categoryHandle = category.title | slugify %}
-          {% capture categoryImageUrl %}/assets/images/title-{{ categoryHandle }}.svg{% endcapture %}
-          <img class="page__title-img" src="{{ categoryImageUrl | relative_url }}" />
-          <h3 class="page__title">{{ category.title }}</h3>
+        <div class="grid-center">
+          <div class="col-10_md-12">
+            <div class="page__title-wrapper">
+              {% assign categoryHandle = category.title | slugify %}
+              {% capture categoryImageUrl %}/assets/images/title-{{ categoryHandle }}.svg{% endcapture %}
+              <img class="page__title-img" src="{{ categoryImageUrl | relative_url }}" />
+              <h3 class="page__title">{{ category.title }}</h3>
+            </div>
+          </div>
         </div>
       </div>
       <div class="container">
-        <div class="grid">
-          {% assign subCategories = category.sub-categories | reverse %}
-          {% for item in subCategories %}
-            {% assign itemHandle = item | slugify %}
-            {% capture itemImageUrl %}/assets/images/{{ categoryHandle }}-{{ itemHandle }}.svg{% endcapture %}
-            <div class="col-2_lg-3_md-4_sm-6 catalogue__category-wrapper">
-              <a href="#" class="catalogue__category">
-                <div class="catalogue__category-img-wrapper">
-                  <img class="catalogue__category-img" src="{{ itemImageUrl | relative_url }}" />
+        <div class="grid-center">
+          <div class="col-10_md-12">
+            <div class="grid">
+              {% assign subCategories = category.sub-categories | reverse %}
+              {% for item in subCategories %}
+                {% assign itemHandle = item | slugify %}
+                {% capture itemImageUrl %}/assets/images/{{ categoryHandle }}-{{ itemHandle }}.svg{% endcapture %}
+                <div class="col-2_lg-3_md-4_sm-6 catalogue__category-wrapper">
+                  <a href="#" class="catalogue__category">
+                    <div class="catalogue__category-img-wrapper">
+                      <img class="catalogue__category-img" src="{{ itemImageUrl | relative_url }}" />
+                    </div>
+                    <div class="catalogue__category-title-wrapper">
+                      <h5 class="catalogue__category-title">{{ item }}</h5>
+                    </div>
+                  </a>
                 </div>
-                <div class="catalogue__category-title-wrapper">
-                  <h5 class="catalogue__category-title">{{ item }}</h5>
-                </div>
-              </a>
+              {% endfor %}
             </div>
-          {% endfor %}
+          </div>
         </div>
       </div>
     </div>
