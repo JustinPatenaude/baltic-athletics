@@ -5,6 +5,12 @@ permalink: "/meet-the-team/"
 team:
 - {}
 team-members:
+- name: Bill Anderson
+  bio: |-
+    When it comes to pick ups & drop offs, Bill is our guy! He is always eager & ready to go, and will most likely be the guy to drop off at your location if we are sending something to you.
+
+    Bill enjoys the outdoors and working on/sailing his sailboats. He enjoys spending time with his family and is always there to help someone out when you need.
+  photo: "/bill.jpg"
 - name: Suzie Doiron
   bio: |-
     We are excited to have Suzie join our Baltic team! She helps out wherever is needed around the company, so her job varies day to day.
