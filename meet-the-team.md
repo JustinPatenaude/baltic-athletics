@@ -5,7 +5,7 @@ permalink: "/meet-the-team/"
 team:
 - {}
 team-members:
-- name: Mikayla
+- name: Mikayla Patenaude
   bio: |-
     Mikayla has many roles in this company but her main one is being head of the art department. She also manages clothing orders, assists Corina in the Team Order Management department, and helps respond to Baltic emails.
 
