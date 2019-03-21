@@ -34,6 +34,10 @@ fields:
     description: A short bio about the team member.
     config:
       required: true
+  - type: file
+    label: Photo
+    name: photo
+    description: The team member's photo
   config:
     labelField: name
 pages:
