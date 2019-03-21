@@ -14,6 +14,19 @@ layout: default
 <div class="container page__content">
   <div class="grid-center">
     <div class="col-8_md-12 rte">
+      <div class="grid-middle">
+        {% for teamMember in page.team-members %}
+          <div class="col-4">
+            <img src="{{ teamMember.photo }}" />
+          </div>
+          <div class="col-8">
+            <h2>{{ teamMember.name }}</h2>
+            <div class="content">
+              {{ teamMember.bio }}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
       {{ content }}
     </div>
   </div>
