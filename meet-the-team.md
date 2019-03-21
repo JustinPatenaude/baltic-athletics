@@ -5,6 +5,12 @@ permalink: "/meet-the-team/"
 team:
 - {}
 team-members:
+- name: Mikayla
+  bio: |-
+    Mikayla has many roles in this company but her main one is being head of the art department. She also manages clothing orders, assists Corina in the Team Order Management department, and helps respond to Baltic emails.
+
+    Mikayla is married to Justin, who is a web designer, and they have a young daughter, Lexie. Outside of work, Mikayla is a part-time interior design student. She also likes to play piano and guitar, and is always practicing photography.
+  photo: "/mikayla.jpg"
 - name: Corina Ruus
   bio: |-
     Corina is our jack-of-all-trades! She handles all of Baltic’s bookkeeping, as well as heads up the Team Order Management projects. You may also receive an response from Corina when you contact us via email.
