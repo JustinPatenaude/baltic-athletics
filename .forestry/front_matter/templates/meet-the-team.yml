@@ -1,7 +1,6 @@
 ---
 label: Meet the Team
 hide_body: true
-display_field: title
 fields:
 - name: layout
   label: Layout
@@ -19,8 +18,8 @@ fields:
   hidden: true
   default: "/meet-the-team/"
 - type: field_group_list
-  name: team
-  label: Team
+  name: team-members
+  label: Team members
   description: The members of the team
   fields:
   - type: text
