@@ -2326,10 +2326,34 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: 12px;
+  line-height: 1.8em;
+  font-weight: 700; }
+
+h1, .h1 {
+  font-size: 32px; }
+
+h2, .h2 {
+  font-size: 28px; }
+
+h3, .h3 {
+  font-size: 24px; }
+
+h4, .h4 {
+  font-size: 20px; }
+
+h5, .h5 {
+  font-size: 16px; }
+
+h6, .h6 {
+  font-size: 12px; }
+
 p {
-  margin-bottom: 20px;
-  font-size: 18px;
-  line-height: 34px; }
+  margin-bottom: 12px;
+  font-size: 16px;
+  line-height: 1.8em; }
 
 strong {
   font-weight: 700; }
@@ -2404,10 +2428,6 @@ input, textarea, button {
       color: #fff;
       background-color: #3A6492; }
 
-.image__block {
-  display: block;
-  width: 100%; }
-
 .input__text {
   display: block;
   width: 100%;
@@ -2432,16 +2452,32 @@ input, textarea, button {
 .hide {
   display: none; }
 
+.image__block {
+  display: block;
+  width: 100%; }
+
+.rounded {
+  border-radius: 4px; }
+
+.margin-20 {
+  margin-bottom: 20px; }
+
+.margin-30 {
+  margin-bottom: 30px; }
+
 @media only screen and (max-width: 768px) {
   .sm-margin-20 {
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+
+  .sm-margin-30 {
+    margin-bottom: 30px; } }
 /*======================
   HEADER
 ======================*/
 .header {
   position: relative;
   z-index: 5;
-  height: 90px;
+  height: 96px;
   border-top: 6px solid #4B87C7;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1); }
 
@@ -2686,6 +2722,7 @@ input, textarea, button {
   background-size: cover; }
 
 .page__header-title {
+  margin-bottom: 0;
   font-size: 36px;
   line-height: 36px;
   font-weight: bold;
