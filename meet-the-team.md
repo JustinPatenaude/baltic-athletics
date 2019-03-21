@@ -5,6 +5,12 @@ permalink: "/meet-the-team/"
 team:
 - {}
 team-members:
+- name: Chloe Ruus
+  bio: |-
+    Chloe helps receive and process the clothing orders that come in our doors. She assists Corina & Mikayla with Team Order Management, and is a great asset to our Baltic team.
+
+    Chloe enjoys playing with her niece, baking, and astronomy. She is also a huge Marvel fan (really – if you want to know anything about Marvel, she most likely knows the answer!) and can quote most of the movies word for word.
+  photo: "/chloe.jpg"
 - name: Mikayla Patenaude
   bio: |-
     Mikayla has many roles in this company but her main one is being head of the art department. She also manages clothing orders, assists Corina in the Team Order Management department, and helps respond to Baltic emails.
