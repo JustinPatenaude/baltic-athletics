@@ -36,3 +36,5 @@ fields:
       required: true
   config:
     labelField: name
+pages:
+- meet-the-team.md
