@@ -5,6 +5,12 @@ permalink: "/meet-the-team/"
 team:
 - {}
 team-members:
+- name: Suzie Doiron
+  bio: |-
+    We are excited to have Suzie join our Baltic team! She helps out wherever is needed around the company, so her job varies day to day.
+
+    Suzie enjoys spending time in nature, and can often be found at the lake, camping, fishing, or boating. Since recently finishing two years on mission trips, she is now a junior high volleyball coach, as well as a youth ministry coordinator for various youth groups. In the near future, Suzie plans to return to school to study liberal arts at the post-secondary level.
+  photo: "/suzie.jpg"
 - name: Chloe Ruus
   bio: |-
     Chloe helps receive and process the clothing orders that come in our doors. She assists Corina & Mikayla with Team Order Management, and is a great asset to our Baltic team.
