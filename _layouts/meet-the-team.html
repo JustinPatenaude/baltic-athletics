@@ -14,20 +14,28 @@ layout: default
 <div class="container page__content">
   <div class="grid-center">
     <div class="col-8_md-12 rte">
-      <div class="grid-middle">
-        {% for teamMember in page.team-members %}
-          <div class="col-4">
-            <img src="{{ teamMember.photo | prepend: site.mediaUrl }}" />
-          </div>
-          <div class="col-8">
-            <h2>{{ teamMember.name }}</h2>
-            <div class="content">
-              {{ teamMember.bio }}
+      {% for teamMember in page.team-members reversed %}
+        <div class="grid-middle margin-30">
+          {% assign forloopModulo = forloop.index | modulo: 2 %}
+          {% if forloopModulo > 0 %}
+            <div class="col-4">
+              <img class="image__block rounded" src="{{ teamMember.photo | prepend: site.mediaUrl }}" />
             </div>
-          </div>
-        {% endfor %}
-      </div>
-      {{ content }}
+            <div class="col-8">
+              <h2 class="h5">{{ teamMember.name }}</h2>
+              {{ teamMember.bio | markdownify }}
+            </div>
+          {% else %}
+            <div class="col-8">
+              <h2 class="h5">{{ teamMember.name }}</h2>
+              {{ teamMember.bio | markdownify }}
+            </div>
+            <div class="col-4">
+              <img class="image__block rounded" src="{{ teamMember.photo | prepend: site.mediaUrl }}" />
+            </div>
+          {% endif %}
+        </div>
+      {% endfor %}
     </div>
   </div>
 </div>
