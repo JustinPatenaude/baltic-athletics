@@ -2,8 +2,8 @@ $(document).ready(function(){
   /* ==========================
      MOBILE MENU
   ========================== */
-  $('.js-mobile-menu-btn').on('click', function(){
-    $('body').toggleClass('nav-opened');
+  $('.nav__item--has-sub').on('click', function(){
+    $(this).toggleClass('active');
   });
   $('.overlay').on('click', function(){
     $('body').removeClass('nav-opened');
@@ -16,11 +16,14 @@ $(document).ready(function(){
   /* ==========================
      RESPONSIVE MENU
   ========================== */
-  $(window).resize(function(){
+  if($(window).width() > 768){
+    $(window).resize(function(){
+      responsiveNav();
+    });
     responsiveNav();
-  });
-
-  responsiveNav();
+  } else {
+    $('.nav__item-wrapper .nav__item').prependTo('.sub-nav__inner').removeClass('nav__item').addClass('sub-nav__item');
+  }
 
   /* ==========================
      RESPONSIVE MENU
@@ -29,7 +32,6 @@ $(document).ready(function(){
     var inputtedValue = e.target.value;
     $('.catalogue__category-title').each(function(){
       var title = $(this).text().toLowerCase();
-      console.log(inputtedValue, title, title.indexOf(inputtedValue));
       if(title.indexOf(inputtedValue) < 0){
         $(this).closest('.catalogue__category-wrapper').hide();
       } else {
@@ -49,7 +51,6 @@ function responsiveNav(){
       navItemWrapper = $('.nav__item-wrapper').outerWidth(),
       navItemButton = $('.nav__item--has-sub').outerWidth(),
       total = navItemWrapper+navItemButton+30;
-      console.log(total, maxWidth, navItemWrapper, navItemButton);
   if(total > maxWidth){
     $('.nav__item-wrapper .nav__item').last().prependTo('.sub-nav__inner').removeClass('nav__item').addClass('sub-nav__item');
     responsiveNav();
