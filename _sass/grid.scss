@@ -360,10 +360,11 @@ html.lte-ie9 .col, html.lte-ie9 [class*="col-"] {
 /*==============================================================================
 	#HIDE SHOW
 ==============================================================================*/
-[class*="lg-show"]{ display: none;}
-[class*="md-show"]{ display: none;}
-[class*="sm-show"]{ display: none;}
-[class*="xs-show"]{ display: none;}
+[class*="lg-show"]{ display: none!important;}
+[class*="md-show"]{ display: none!important;}
+[class*="sm-show"]{ display: none!important;}
+[class*="sm-show-ib"]{ display: none!important;}
+[class*="xs-show"]{ display: none!important;}
 .text-right {
   text-align: right;
 }

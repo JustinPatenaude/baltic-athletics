@@ -436,18 +436,43 @@ input, textarea, button {
     max-width: 100%;
   }
   .banner__title {
+    margin-bottom: 10px;
     font-size: 48px;
-    line-height: 58px;
+    line-height: 1.2em;
     font-weight: 700;
     color: #fff;
   }
   .banner__text {
+    margin-bottom: 20px;
     font-size: 24px;
-    line-height: 34px;
+    line-height: 1.2em;
     color: #fff;
   }
   .home__specialties-item-wrapper {
     margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .home__about-owner {
+    margin-top: 30px;
+    text-align: left;
+  }
+  .home__specialties-wrapper {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .home__centered-section {
+    padding: 40px 0;
+  }
+  .banner {
+    height: 320px;
+  }
+  .banner__title {
+    font-size: 32px;
+  }
+  .banner__text {
+    font-size: 18px;
   }
 }
 
