@@ -145,8 +145,9 @@ $glp_col-11-12: (100%/11);
 
 @mixin hideShow($prefix)
 {
-	[class*="#{$prefix}-hide"]{ display: none;}
-	[class*="#{$prefix}-show"]{ display: block;}
+	[class*="#{$prefix}-hide"]{ display: none!important;}
+  [class*="#{$prefix}-show"]{ display: block!important;}
+	[class*="#{$prefix}-show-ib"]{ display: inline-block!important;}
 }
 
 /*==============================================================================

@@ -231,7 +231,7 @@ input, textarea, button {
   }
   &.nav__item--has-sub {
     position: relative;
-    &:hover {
+    &:hover, &.active {
       .sub-nav__wrapper {
         display: block;
       }
@@ -290,13 +290,17 @@ input, textarea, button {
 }
 .sub-nav__link, .sub-nav__inner .nav__link {
   display: block;
+  width: 100%;
   padding: 10px 20px;
   font-size: 16px;
   line-height: 22px;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   color: #fff;
+  overflow: hidden;
   transition: all .2s ease-in-out;
   &:hover {
     background-color: $colorBlueDark;
@@ -310,7 +314,10 @@ input, textarea, button {
 ======================*/
 
 /* RESPONSIVE STYLES FOR HEADER + MOBILE MENU */
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 768px) {
+  .nav__item-wrapper {
+    display: none;
+  }
 }
 
 /*======================
@@ -356,15 +363,16 @@ input, textarea, button {
   margin-bottom: 60px;
 }
 .home__specialties-heading {
+  margin: 0;
   font-size: 24px;
 }
 .home__specialties-item {
-  min-height: calc(100% - 60px);
+  height: 100%;
   padding: 30px;
   text-align: center;
   background: #FFFFFF;
-  box-shadow: 0 0 30px 0 rgba(0,0,0,0.10);
   border-radius: 4px;
+  box-shadow: 0 0 30px 0 rgba(0,0,0,0.10);
   transition: all .2s ease-in-out;
   &:hover {
     box-shadow: 0 0 30px 0 rgba(0,0,0,0.30);
@@ -376,6 +384,7 @@ input, textarea, button {
   margin-bottom: 20px;
 }
 .home__specialties-title {
+  margin: 0;
   font-size: 14px;
   line-height: 19px;
   font-weight: 700;
@@ -522,6 +531,13 @@ input, textarea, button {
 
 /* RESPONSIVE STYLES FOR HEADER + MOBILE MENU */
 @media only screen and (max-width: 768px) {
+  .page__header {
+    padding: 40px 0;
+  }
+  .page__header-title {
+    font-size: 24px;
+    line-height: 32px;
+  }
   .page__title-wrapper {
     width: 100%;
   }
