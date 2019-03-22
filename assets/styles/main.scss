@@ -333,6 +333,7 @@ input, textarea, button {
   max-width: 50%;
 }
 .banner__title {
+  margin-bottom: 0;
   font-size: 64px;
   line-height: 76px;
   font-weight: 700;
@@ -507,6 +508,7 @@ input, textarea, button {
 .page__title {
   display: inline-block;
   vertical-align: top;
+  margin-bottom: 0;
   font-size: 24px;
   line-height: 50px;
   font-weight: 700;
@@ -604,4 +606,9 @@ input, textarea, button {
   padding: 13px 20px;
   border: 2px solid $colorBlue;
   border-radius: 0 4px 4px 0;
+}
+@media only screen and (max-width: 768px) {
+  .search__input {
+    width: calc(100% - 60px);
+  }
 }
