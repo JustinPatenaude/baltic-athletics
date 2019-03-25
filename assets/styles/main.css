@@ -2423,7 +2423,7 @@ input, textarea, button {
 .btn {
   display: inline-block;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 22px;
   font-weight: 700;
   text-transform: uppercase;
@@ -2531,7 +2531,7 @@ input, textarea, button {
   border-right: 1px solid #6E96C1; }
 
 .nav__link {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 22px;
   font-weight: 700;
   text-transform: uppercase;
@@ -2574,7 +2574,7 @@ input, textarea, button {
   display: block;
   width: 100%;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 22px;
   font-weight: 700;
   text-transform: uppercase;
