@@ -15,7 +15,6 @@ sections:
 - type: document
   path: _data/categories.yml
   label: Category list
-  match: "**/*"
 upload_dir: ''
 public_path: ''
 front_matter_path: ''
