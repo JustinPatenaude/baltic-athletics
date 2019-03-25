@@ -2422,7 +2422,7 @@ input, textarea, button {
 
 .btn {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 8px 16px;
   font-size: 14px;
   line-height: 22px;
   font-weight: 700;
@@ -2565,10 +2565,15 @@ input, textarea, button {
     border-color: transparent transparent #4B87C7 transparent; }
 
 .sub-nav__inner {
-  padding: 10px 0;
   background-color: #4B87C7;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
-  border-radius: 4px; }
+  border-radius: 4px;
+  overflow: hidden; }
+
+.sub-nav__item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15); }
+  .sub-nav__item.sub-nav__item--last-desktop {
+    border-bottom: 0; }
 
 .sub-nav__link, .sub-nav__inner .nav__link {
   display: block;
@@ -2584,7 +2589,7 @@ input, textarea, button {
   color: #fff;
   overflow: hidden;
   transition: all .2s ease-in-out; }
-  .sub-nav__link:hover, .sub-nav__inner .nav__link:hover {
+  .sub-nav__link:hover, .sub-nav__link.active, .sub-nav__inner .nav__link:hover, .sub-nav__inner .nav__link.active {
     background-color: #3A6492; }
   .sub-nav__link .svg-inline--fa, .sub-nav__inner .nav__link .svg-inline--fa {
     margin-right: 10px; }
@@ -2593,9 +2598,23 @@ input, textarea, button {
   MOBILE MENU
 ======================*/
 /* RESPONSIVE STYLES FOR HEADER + MOBILE MENU */
-@media only screen and (max-width: 768px) {
-  .nav__item-wrapper {
-    display: none; }
+.menu-show, .menu-show-ib {
+  display: none; }
+
+@media only screen and (max-width: 955px) {
+  .menu-hide {
+    display: none !important; }
+
+  .menu-show {
+    display: block; }
+
+  .menu-show-ib {
+    display: inline-block; }
+
+  .sub-nav__item.sub-nav__item--last-desktop {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15); }
+  .sub-nav__item.sub-nav__item--last-mobile {
+    border-bottom: 0; }
 
   .nav__item.nav__item--has-sub.active .sub-nav__wrapper {
     display: block !important; }
@@ -2805,7 +2824,7 @@ input, textarea, button {
   display: inline-block;
   vertical-align: top;
   margin-bottom: 0;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 50px;
   font-weight: 700;
   text-transform: uppercase;
