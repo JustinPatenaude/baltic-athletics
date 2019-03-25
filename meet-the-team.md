@@ -2,8 +2,6 @@
 layout: meet-the-team
 title: Meet the Team
 permalink: "/meet-the-team/"
-team:
-- {}
 team-members:
 - name: Bill Anderson
   bio: |-
