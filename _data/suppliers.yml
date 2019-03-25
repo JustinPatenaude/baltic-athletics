@@ -1,0 +1,25 @@
+suppliers:
+- name: Test One
+  bio: |-
+    This is a bio for Test One. Some information will be located here.
+
+    This is also set in markdown for easy text formatting.
+  photo: "/bill.jpg"
+- name: Test Two
+  bio: |-
+    This is a bio for Test Two. Some information will be located here.
+
+    This is also set in markdown for easy text formatting.
+  photo: "/corina.jpg"
+- name: Test Three
+  bio: |-
+    This is a bio for Test Three. Some information will be located here.
+
+    This is also set in markdown for easy text formatting.
+  photo: "/mikayla.jpg"
+- name: Test Four
+  bio: |-
+    This is a bio for Test Four. Some information will be located here.
+
+    This is also set in markdown for easy text formatting.
+  photo: "/justin.jpg"
