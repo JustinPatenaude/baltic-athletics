@@ -32,5 +32,3 @@ fields:
     label: Sub-categories
   config:
     labelField: title
-pages:
-- catalogues.md
