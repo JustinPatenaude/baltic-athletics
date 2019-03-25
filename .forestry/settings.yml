@@ -4,6 +4,9 @@ auto_deploy: true
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: _data/suppliers.yml
+  label: Suppliers
 - type: jekyll-pages
   label: Pages
   create: all
