@@ -13,11 +13,12 @@ fields:
 - type: text
   name: permalink
   label: Permalink
-  hidden: true
-  description: 'Permalink should be: /catalogues/TITLE-HANDLE'
+  hidden: false
+  description: 'Permalink should be: "/catalogues/TITLE" where TITLE is the lowercased
+    version of the title. Example: Beach Volleyball would be "/catalogues/beach-volleyball".'
   config:
-    required: true
-  default: "/catalogues/TEST"
+    required: false
+  default: "/catalogues/TITLE"
 - type: text
   name: title
   label: Title
