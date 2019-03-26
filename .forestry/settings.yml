@@ -13,7 +13,7 @@ sections:
   create: documents
   match: "**/*"
   exclude: "**/index.md"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - catalogue
 - type: directory
@@ -22,7 +22,7 @@ sections:
   create: documents
   match: "**/*"
   exclude: "**/index.md"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: heading
   label: Lists
 - type: document
