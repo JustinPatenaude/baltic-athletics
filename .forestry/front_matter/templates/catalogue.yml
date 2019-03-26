@@ -11,6 +11,10 @@ fields:
     required: true
   default: category
 - type: text
+  name: title
+  label: Title
+  hidden: false
+- type: text
   name: permalink
   label: Permalink
   hidden: false
@@ -19,10 +23,6 @@ fields:
   config:
     required: false
   default: "/catalogues/TITLE"
-- type: text
-  name: title
-  label: Title
-  hidden: true
 - type: list
   name: products
   label: Products
