@@ -1,4 +1,31 @@
 ---
-label: Catalogue
+label: Category
 hide_body: true
-fields: []
+fields:
+- type: text
+  name: title
+  label: Title
+  hidden: true
+- type: list
+  name: products
+  label: Products
+  description: A list of products your suppliers offer in this category
+  config:
+    use_select: false
+    source:
+      type: documents
+- type: image_gallery
+  name: photos
+  label: Photos
+  description: Photos of products in this category
+- type: list
+  label: Suppliers
+  name: suppliers
+  description: Suppliers that offer products in this category
+  config:
+    use_select: true
+    source:
+      type: documents
+      section: suppliers-afe0117c-529e-4620-a4f8-e3de3c4b03d2
+      file: _data/suppliers.yml
+      path: suppliers
