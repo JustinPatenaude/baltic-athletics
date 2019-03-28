@@ -1,12 +1,28 @@
 ---
 label: Category
 hide_body: true
-display_field: title
 fields:
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  description: 'Layout should be: category'
+  config:
+    required: true
+  default: category
 - type: text
   name: title
   label: Title
-  hidden: true
+  hidden: false
+- type: text
+  name: permalink
+  label: Permalink
+  hidden: false
+  description: 'Permalink should be: "/catalogues/TITLE" where TITLE is the lowercased
+    version of the title. Example: Beach Volleyball would be "/catalogues/beach-volleyball".'
+  config:
+    required: false
+  default: "/catalogues/TITLE"
 - type: list
   name: products
   label: Products
