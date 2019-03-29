@@ -45,6 +45,8 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/augusta-sportswear.md
+- suppliers/atf-sports.md
 - suppliers/alphabroder.md
 - suppliers/alleson.md
 - suppliers/ajm-international.md
