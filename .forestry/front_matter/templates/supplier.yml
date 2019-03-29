@@ -45,6 +45,7 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/spalding.md
 - suppliers/sp-apparel-inc.md
 - suppliers/sanmar.md
 - suppliers/salming.md
