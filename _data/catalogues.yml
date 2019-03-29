@@ -1,4 +1,58 @@
+---
 catalogues:
+- title: Sports
+  sub-categories:
+  - Archery
+  - Badminton
+  - Baseball
+  - Basketball
+  - Beach Volleyball
+  - Boxing
+  - Cross-Country Skiing
+  - Cycling
+  - Floor Hockey
+  - Football
+  - Golf
+  - Futsal
+  - Hockey
+  - Lacrosse
+  - Marine Supplies
+  - Officials Equipment
+  - Orienteering
+  - Ringette
+  - Rugby
+  - Snowshoes
+  - Soccer
+  - Table Tennis
+  - Team Handball
+  - Tennis
+  - Track & Field
+  - Ultimate
+  - Volleyball
+  - Water Polo
+  - Weight Lifting
+- title: Attire & Accessories
+  sub-categories:
+  - Sweaters
+  - Shorts
+  - Shirts
+  - Pants
+  - Jerseys
+  - Jackets
+  - Hats
+  - Bags
+- title: Gym Equipment
+  sub-categories:
+  - Wall Pads
+  - Trainer Supplies
+  - Scorekeeping Tables
+  - Score Boards
+  - Posts
+  - PE Playground
+  - Misc.
+  - Nets
+  - Inflators / Essentials
+  - Dividers
 - title: Promotional Items
   sub-categories:
   - Writing Materials
@@ -34,56 +88,3 @@ catalogues:
   - Bags / Totes / Duffels
   - Aprons
   - Apparel - Sublimated
-- title: Gym Equipment
-  sub-categories:
-  - Wall Pads
-  - Trainer Supplies
-  - Scorekeeping Tables
-  - Score Boards
-  - Posts
-  - PE Playground
-  - Misc.
-  - Nets
-  - Inflators / Essentials
-  - Dividers
-- title: Attire & Accessories
-  sub-categories:
-  - Sweaters
-  - Shorts
-  - Shirts
-  - Pants
-  - Jerseys
-  - Jackets
-  - Hats
-  - Bags
-- title: Sports
-  sub-categories:
-  - Weight Lifting
-  - Water Polo
-  - Volleyball
-  - Ultimate
-  - Track & Field
-  - Tennis
-  - Team Handball
-  - Table Tennis
-  - Soccer
-  - Snowshoes
-  - Rugby
-  - Ringette
-  - Orienteering
-  - Officials Equipment
-  - Marine Supplies
-  - Lacrosse
-  - Hockey
-  - Futsal
-  - Golf
-  - Football
-  - Floor Hockey
-  - Cycling
-  - Cross-Country Skiing
-  - Boxing
-  - Beach Volleyball
-  - Basketball
-  - Baseball
-  - Badminton
-  - Archery
