@@ -25,32 +25,31 @@ layout: default
     </div>
   </div>
 </div>
-{% assign pageCategories = page.categories | reverse %}
 <div class="categories__all">
-  {% for category in pageCategories %}
+  {% for catalogue in site.data.catalogues.catalogues %}
     <div class="category">
       <div class="container">
         <div class="grid-center">
           <div class="col-10_md-12">
             <div class="page__title-wrapper">
-              {% assign categoryHandle = category.title | slugify %}
-              {% capture categoryImageUrl %}/assets/images/title-{{ categoryHandle }}.svg{% endcapture %}
-              <img class="page__title-img" src="{{ categoryImageUrl | relative_url }}" />
-              <h3 class="page__title">{{ category.title }}</h3>
+              {% assign catalogueHandle = catalogue.title | slugify %}
+              {% capture catalogueImageUrl %}/assets/images/title-{{ catalogueHandle }}.svg{% endcapture %}
+              <img class="page__title-img" src="{{ catalogueImageUrl | relative_url }}" />
+              <h3 class="page__title">{{ catalogue.title }}</h3>
             </div>
           </div>
         </div>
       </div>
       <div class="container">
         <div class="grid-center">
-          <div class="col-10_md-12">
+          <div class="col-12">
             <div class="grid">
-              {% assign subCategories = category.sub-categories | reverse %}
-              {% for item in subCategories %}
+              {% for item in catalogue.sub-categories %}
                 {% assign itemHandle = item | slugify %}
-                {% capture itemImageUrl %}/assets/images/{{ categoryHandle }}-{{ itemHandle }}.svg{% endcapture %}
+                {% capture itemImageUrl %}/assets/images/{{ catalogueHandle }}-{{ itemHandle }}.svg{% endcapture %}
                 <div class="col-2_lg-3_md-4_xs-6 catalogue__category-wrapper">
-                  <a href="#" class="catalogue__category">
+                  {% capture itemLink %}/catalogues/{{ itemHandle }}{% endcapture %}
+                  <a href="{{ itemLink | relative_url }}" class="catalogue__category">
                     <div class="catalogue__category-img-wrapper">
                       <img class="catalogue__category-img" src="{{ itemImageUrl | relative_url }}" />
                     </div>

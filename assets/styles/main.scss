@@ -192,6 +192,9 @@ input, textarea, button {
 .margin-30 {
   margin-bottom: 30px;
 }
+.margin-50 {
+  margin-bottom: 50px;
+}
 @media only screen and (max-width: 768px) {
   .sm-margin-20 {
     margin-bottom: 20px;
@@ -657,6 +660,55 @@ input, textarea, button {
   text-transform: uppercase;
   color: $colorGrey;
   transform: translate(0, -50%);
+}
+
+/*======================
+  CATEGORY
+======================*/
+.category__photo-wrapper {
+  position: relative;
+  display: block;
+  padding-bottom: 100%;
+  background-color: #F3F3F3;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: zoom-in;
+}
+.category__photo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 100%;
+  max-height: 100%;
+  transform: translate(-50%, -50%);
+  transition: all .2s ease-in-out;
+  &:hover {
+    max-width: 102%;
+    max-height: 102%;
+  }
+}
+.supplier__wrapper {
+  display: block;
+  margin-bottom: $gutter;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.10);
+  transition: all .2s ease-in-out;
+  &:hover {
+    box-shadow: 0 0 30px rgba(0,0,0,0.25);
+  }
+}
+.supplier__section {
+  position: relative;
+  padding-left: 30px;
+}
+.supplier__section-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  font-size: 24px;
 }
 
 /*======================
