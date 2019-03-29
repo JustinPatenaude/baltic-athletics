@@ -47,6 +47,10 @@ fields:
       file: _data/suppliers.yml
       path: suppliers
 pages:
+- catalogues/jackets.md
+- catalogues/hats.md
+- catalogues/bags.md
+- catalogues/weight-lifting.md
 - catalogues/water-polo.md
 - catalogues/volleyball.md
 - catalogues/ultimate.md
