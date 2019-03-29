@@ -1,0 +1,22 @@
+---
+label: Supplier
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: permalink
+  label: permalink
+- type: list
+  name: suppliers
+  label: suppliers
+- type: list
+  name: products
+  label: products
+- type: image_gallery
+  name: photos
+  label: photos
