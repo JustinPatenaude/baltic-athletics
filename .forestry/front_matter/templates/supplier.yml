@@ -45,6 +45,7 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/salming.md
 - suppliers/russell-athletic.md
 - suppliers/pukka.md
 - suppliers/powertek.md
