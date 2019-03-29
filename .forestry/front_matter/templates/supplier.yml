@@ -45,6 +45,8 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/dyenomite.md
+- suppliers/dom-sports.md
 - suppliers/diadora.md
 - suppliers/d-gel.md
 - suppliers/d-r-hockey.md
