@@ -40,7 +40,7 @@ fields:
     use_select: true
     source:
       type: pages
-      section: suppliers
+      section: catalogues
       file: _data/catalogues.yml
   default: []
 pages:
