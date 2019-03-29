@@ -47,6 +47,8 @@ fields:
       file: _data/suppliers.yml
       path: suppliers
 pages:
+- catalogues/first-aid.md
+- catalogues/eyewear.md
 - catalogues/event-planning.md
 - catalogues/drinkware.md
 - catalogues/custom-mats.md
