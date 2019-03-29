@@ -32,3 +32,5 @@ fields:
   name: info
   label: Info
   description: Extra supplier's info useful to your customers.
+pages:
+- suppliers/court-1.md
