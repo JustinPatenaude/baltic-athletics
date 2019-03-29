@@ -45,6 +45,8 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/get-xposed.md
+- suppliers/gemsport.md
 - suppliers/fruit-of-the-loom.md
 - suppliers/fox-40.md
 - suppliers/forum.md
