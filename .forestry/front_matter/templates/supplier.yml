@@ -32,5 +32,16 @@ fields:
   name: info
   label: Info
   description: Extra supplier's info useful to your customers.
+- type: list
+  name: categories
+  label: Categories
+  description: All the categories that this supplier sells.
+  config:
+    use_select: true
+    source:
+      type: documents
+      section: category-list
+      file: _data/catalogues.yml
+  default: []
 pages:
 - suppliers/court-1.md
