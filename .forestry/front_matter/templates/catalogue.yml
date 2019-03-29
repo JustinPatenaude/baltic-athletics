@@ -47,6 +47,9 @@ fields:
       file: _data/suppliers.yml
       path: suppliers
 pages:
+- catalogues/home.md
+- catalogues/auto.md
+- catalogues/health-fitness.md
 - catalogues/gift-sets.md
 - catalogues/games.md
 - catalogues/food-gifts.md
