@@ -33,26 +33,26 @@ catalogues:
   - Weight Lifting
 - title: Attire & Accessories
   sub-categories:
-  - Sweaters
-  - Shorts
-  - Shirts
-  - Pants
-  - Jerseys
-  - Jackets
-  - Hats
   - Bags
+  - Hats
+  - Jackets
+  - Jerseys
+  - Pants
+  - Shirts
+  - Shorts
+  - Sweaters
 - title: Gym Equipment
   sub-categories:
-  - Wall Pads
-  - Trainer Supplies
-  - Scorekeeping Tables
-  - Score Boards
-  - Posts
-  - PE Playground
-  - Misc.
-  - Nets
-  - Inflators / Essentials
   - Dividers
+  - Inflators / Essentials
+  - Nets
+  - Misc.
+  - PE Playground
+  - Posts
+  - Score Boards
+  - Scorekeeping Tables
+  - Trainer Supplies
+  - Wall Pads
 - title: Promotional Items
   sub-categories:
   - Writing Materials
