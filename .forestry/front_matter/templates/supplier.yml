@@ -45,6 +45,8 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/champion-sports.md
+- suppliers/canadawide-sports.md
 - suppliers/campus-crew.md
 - suppliers/by-group.md
 - suppliers/brandwear.md
