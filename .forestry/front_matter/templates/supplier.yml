@@ -45,6 +45,8 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/pear-sox.md
+- suppliers/omnikin.md
 - suppliers/novelty-printers.md
 - suppliers/monsens-sporting-goods-limited.md
 - suppliers/mikasa.md
