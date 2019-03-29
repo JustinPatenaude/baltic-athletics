@@ -45,6 +45,9 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/fruit-of-the-loom.md
+- suppliers/fox-40.md
+- suppliers/forum.md
 - suppliers/fiel.md
 - suppliers/farpost-goals.md
 - suppliers/faber-snowshoes.md
