@@ -45,6 +45,8 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/fiel.md
+- suppliers/farpost-goals.md
 - suppliers/faber-snowshoes.md
 - suppliers/exel-sports.md
 - suppliers/edgewood-matting.md
