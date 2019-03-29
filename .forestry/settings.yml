@@ -23,6 +23,8 @@ sections:
   match: "**/*"
   exclude: "**/index.md"
   new_doc_ext: md
+  templates:
+  - supplier
 - type: heading
   label: Lists
 - type: document
