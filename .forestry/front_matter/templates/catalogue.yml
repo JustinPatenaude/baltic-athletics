@@ -47,6 +47,10 @@ fields:
       file: _data/suppliers.yml
       path: suppliers
 pages:
+- catalogues/tissues.md
+- catalogues/tech-items.md
+- catalogues/table-covers.md
+- catalogues/signage.md
 - catalogues/safety.md
 - catalogues/plush-novelties.md
 - catalogues/pets.md
