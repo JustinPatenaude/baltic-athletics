@@ -1,89 +1,90 @@
+---
 catalogues:
-- title: Promotional Items
-  sub-categories:
-  - Writing Materials
-  - Wind Flags
-  - Umbrellas
-  - Travel
-  - Towels
-  - Tooks, Lights & Keytags
-  - Tissues
-  - Tech Items
-  - Table Covers
-  - Signage
-  - Safety
-  - Plush & Novelties
-  - Pets
-  - Outdoor & Camping
-  - Notebooks
-  - Lanyards
-  - Home & Travel
-  - Home & Auto
-  - Health & Fitness
-  - Gift Sets
-  - Games
-  - Food Gifts
-  - First Aid
-  - Eyewear
-  - Event Planning
-  - Drinkware
-  - Custom Mats
-  - Canopies
-  - Blankets
-  - Banners
-  - Bags / Totes / Duffels
-  - Aprons
-  - Apparel - Sublimated
-- title: Gym Equipment
-  sub-categories:
-  - Wall Pads
-  - Trainer Supplies
-  - Scorekeeping Tables
-  - Score Boards
-  - Posts
-  - PE Playground
-  - Misc.
-  - Nets
-  - Inflators / Essentials
-  - Dividers
-- title: Attire & Accessories
-  sub-categories:
-  - Sweaters
-  - Shorts
-  - Shirts
-  - Pants
-  - Jerseys
-  - Jackets
-  - Hats
-  - Bags
 - title: Sports
   sub-categories:
-  - Weight Lifting
-  - Water Polo
-  - Volleyball
-  - Ultimate
-  - Track & Field
-  - Tennis
-  - Team Handball
-  - Table Tennis
-  - Soccer
-  - Snowshoes
-  - Rugby
-  - Ringette
-  - Orienteering
-  - Officials Equipment
-  - Marine Supplies
-  - Lacrosse
-  - Hockey
-  - Futsal
-  - Golf
-  - Football
-  - Floor Hockey
-  - Cycling
-  - Cross-Country Skiing
-  - Boxing
-  - Beach Volleyball
-  - Basketball
-  - Baseball
-  - Badminton
   - Archery
+  - Badminton
+  - Baseball
+  - Basketball
+  - Beach Volleyball
+  - Boxing
+  - Cross-Country Skiing
+  - Cycling
+  - Floor Hockey
+  - Football
+  - Golf
+  - Futsal
+  - Hockey
+  - Lacrosse
+  - Marine Supplies
+  - Officials Equipment
+  - Orienteering
+  - Ringette
+  - Rugby
+  - Snowshoes
+  - Soccer
+  - Table Tennis
+  - Team Handball
+  - Tennis
+  - Track & Field
+  - Ultimate
+  - Volleyball
+  - Water Polo
+  - Weight Lifting
+- title: Attire & Accessories
+  sub-categories:
+  - Bags
+  - Hats
+  - Jackets
+  - Jerseys
+  - Pants
+  - Shirts
+  - Shorts
+  - Sweaters
+- title: Gym Equipment
+  sub-categories:
+  - Dividers
+  - Inflators / Essentials
+  - Nets
+  - Misc.
+  - PE Playground
+  - Posts
+  - Score Boards
+  - Scorekeeping Tables
+  - Trainer Supplies
+  - Wall Pads
+- title: Promotional Items
+  sub-categories:
+  - Apparel - Sublimated
+  - Aprons
+  - Bags / Totes / Duffels
+  - Banners
+  - Blankets
+  - Canopies
+  - Custom Mats
+  - Drinkware
+  - Event Planning
+  - Eyewear
+  - First Aid
+  - Food Gifts
+  - Games
+  - Gift Sets
+  - Health & Fitness
+  - Home & Auto
+  - Home & Travel
+  - Lanyards
+  - Notebooks
+  - Outdoor & Camping
+  - Pets
+  - Plush & Novelties
+  - Safety
+  - Signage
+  - Table Covers
+  - Tech Items
+  - Tissues
+  - Tooks, Lights & Keytags
+  - Towels
+  - Travel
+  - Umbrellas
+  - Wind Flags
+  - Writing Materials
