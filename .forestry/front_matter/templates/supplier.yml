@@ -39,8 +39,8 @@ fields:
   config:
     use_select: true
     source:
-      type: documents
-      section: category-list
+      type: pages
+      section: suppliers
       file: _data/catalogues.yml
   default: []
 pages:
