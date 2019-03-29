@@ -45,6 +45,9 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/lowry.md
+- suppliers/linwood.md
+- suppliers/kwik-goal.md
 - suppliers/kobe-sportswear.md
 - suppliers/hot-chillys.md
 - suppliers/hit-promo.md
