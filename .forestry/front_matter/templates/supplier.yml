@@ -16,6 +16,7 @@ fields:
   label: permalink
   description: 'Permalink should be: "/suppliers/TITLE" where TITLE is the lowercased
     version of the title. Example: Monsens Sporting Goods Limited would be "/suppliers/monsens-sporting-goods-limited".'
+  default: "/suppliers/TITLE"
 - type: file
   name: logo
   label: Logo
