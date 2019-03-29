@@ -47,6 +47,7 @@ fields:
       file: _data/suppliers.yml
       path: suppliers
 pages:
+- catalogues/apparel.md
 - catalogues/wall-pads.md
 - catalogues/trainer-supplies.md
 - catalogues/scorekeeping-tables.md
