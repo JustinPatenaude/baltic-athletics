@@ -45,6 +45,8 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/ajm-international.md
+- suppliers/adspec.md
 - suppliers/admiral.md
 - suppliers/360-athletics.md
 - suppliers/court-1.md
