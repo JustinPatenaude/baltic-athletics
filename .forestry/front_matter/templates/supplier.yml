@@ -5,18 +5,30 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
+  default: supplier
+  description: 'Layout should be: supplier'
 - type: text
   name: title
   label: title
 - type: text
   name: permalink
   label: permalink
-- type: list
-  name: suppliers
-  label: suppliers
-- type: list
-  name: products
-  label: products
+  description: 'Permalink should be: "/suppliers/TITLE" where TITLE is the lowercased
+    version of the title. Example: Monsens Sporting Goods Limited would be "/suppliers/monsens-sporting-goods-limited".'
+- type: file
+  name: logo
+  label: Logo
+  description: Supplier's logo
+- type: text
+  name: website
+  label: Website
+  description: Supplier's website
 - type: image_gallery
-  name: photos
-  label: photos
+  name: pdfs
+  label: PDFs
+  description: Supplier's PDF catalogues
+- type: textarea
+  name: info
+  label: Info
+  description: Extra supplier's info useful to your customers.
