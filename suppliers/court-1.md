@@ -23,6 +23,8 @@ info: |-
   Tug-of-war ropes
   Golf netting
   Gym floor protective covers
-date: 2019-03-28 22:29:10 -0500
+date: 2019-03-29 03:29:10 +0000
+categories:
+- catalogues/archery.md
 
 ---
