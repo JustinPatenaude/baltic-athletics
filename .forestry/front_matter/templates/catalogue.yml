@@ -47,6 +47,9 @@ fields:
       file: _data/suppliers.yml
       path: suppliers
 pages:
+- catalogues/dividers.md
+- catalogues/sweaters.md
+- catalogues/shorts.md
 - catalogues/shirts.md
 - catalogues/pants.md
 - catalogues/jerseys.md
