@@ -47,6 +47,9 @@ fields:
       file: _data/suppliers.yml
       path: suppliers
 pages:
+- catalogues/misc.md
+- catalogues/nets.md
+- catalogues/inflators-essentials.md
 - catalogues/dividers.md
 - catalogues/sweaters.md
 - catalogues/shorts.md
