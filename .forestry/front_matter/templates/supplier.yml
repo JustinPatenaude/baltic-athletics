@@ -45,6 +45,9 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/york.md
+- suppliers/yonex.md
+- suppliers/wilson.md
 - suppliers/ulhsport.md
 - suppliers/trimark.md
 - suppliers/toba-sportswear.md
