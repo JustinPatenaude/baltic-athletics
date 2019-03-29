@@ -45,6 +45,8 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/kobe-sportswear.md
+- suppliers/hot-chillys.md
 - suppliers/hit-promo.md
 - suppliers/high-5-sportswear.md
 - suppliers/get-xposed.md
