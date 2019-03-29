@@ -45,6 +45,8 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/toba-sportswear.md
+- suppliers/the-ultimate-disc-golf-store.md
 - suppliers/technosport.md
 - suppliers/starline.md
 - suppliers/stackhouse-athletic.md
