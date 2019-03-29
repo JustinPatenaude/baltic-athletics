@@ -11,3 +11,26 @@ layout: default
     </div>
   </div>
 </div>
+<div class="page__content">
+  <div class="container">
+    <div class="grid-center">
+      <div class="col-12">
+        <div class="page__title-wrapper">
+          <img class="page__title-img" src="{{ '/assets/images/title-products.svg' | relative_url }}" />
+          <h3 class="page__title">Products</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="grid-center">
+      <div class="col-12">
+        <ul>
+          {% for product in page.products %}
+            <li>{{ product }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
