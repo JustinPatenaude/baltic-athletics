@@ -699,9 +699,16 @@ input, textarea, button {
     box-shadow: 0 0 30px rgba(0,0,0,0.25);
   }
 }
+.supplier__logo {
+  width: 100%;
+}
+.supplier__title {
+  margin-bottom: 20px;
+  line-height: 1.2em;
+}
 .supplier__section {
   position: relative;
-  padding-left: 30px;
+  padding-left: 35px;
 }
 .supplier__section-icon {
   position: absolute;

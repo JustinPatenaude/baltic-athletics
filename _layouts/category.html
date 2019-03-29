@@ -65,7 +65,8 @@ layout: default
               </div>
               <div class="col-8">
                 <h3 class="supplier__title">{{ supplierPage.title }}</h3>
-                {% if supplierPage.website %}
+                {% assign supplierPageWebsite = supplierPage.website | size %}
+                {% if supplierPage.website.size > 0 %}
                   <div class="supplier__section">
                     <div class="supplier__section-icon">
                       <i class="fal fa-globe"></i>
@@ -73,7 +74,7 @@ layout: default
                     <a href="{{ supplierPage.website }}" target="_blank" >{{ supplierPage.website }}</a>
                   </div>
                 {% endif %}
-                {% if supplierPage.pdfs %}
+                {% if supplierPage.pdfs.size > 0 %}
                   <div class="supplier__section">
                     <div class="supplier__section-icon">
                       <i class="fal fa-file-pdf"></i>
@@ -87,7 +88,7 @@ layout: default
                     </ul>
                   </div>
                 {% endif %}
-                {% if supplierPage.info %}
+                {% if supplierPage.info.size > 0 %}
                   <div class="supplier__section">
                     <div class="supplier__section-icon">
                       <i class="fal fa-info-circle"></i>
