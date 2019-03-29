@@ -47,6 +47,9 @@ fields:
       file: _data/suppliers.yml
       path: suppliers
 pages:
+- catalogues/safety.md
+- catalogues/plush-novelties.md
+- catalogues/pets.md
 - catalogues/outdoor-camping.md
 - catalogues/notebooks.md
 - catalogues/lanyards.md
