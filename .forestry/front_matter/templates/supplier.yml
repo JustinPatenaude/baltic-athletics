@@ -45,6 +45,7 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/alleson.md
 - suppliers/ajm-international.md
 - suppliers/adspec.md
 - suppliers/admiral.md
