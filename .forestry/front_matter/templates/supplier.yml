@@ -45,6 +45,8 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/mikasa.md
+- suppliers/martini-promotions.md
 - suppliers/lowry.md
 - suppliers/linwood.md
 - suppliers/kwik-goal.md
