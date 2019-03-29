@@ -45,6 +45,8 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/novelty-printers.md
+- suppliers/monsens-sporting-goods-limited.md
 - suppliers/mikasa.md
 - suppliers/martini-promotions.md
 - suppliers/lowry.md
