@@ -46,3 +46,5 @@ fields:
       section: suppliers-afe0117c-529e-4620-a4f8-e3de3c4b03d2
       file: _data/suppliers.yml
       path: suppliers
+pages:
+- catalogues/badminton.md
