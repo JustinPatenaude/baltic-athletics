@@ -47,6 +47,9 @@ fields:
       file: _data/suppliers.yml
       path: suppliers
 pages:
+- catalogues/scorekeeping-tables.md
+- catalogues/posts.md
+- catalogues/pe-playground.md
 - catalogues/misc.md
 - catalogues/nets.md
 - catalogues/inflators-essentials.md
