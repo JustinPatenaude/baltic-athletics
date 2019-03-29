@@ -8,9 +8,23 @@ $(document).ready(function(){
   $('.overlay').on('click', function(){
     $('body').removeClass('nav-opened');
   });
+
+  /* ==========================
+     HOME
+  ========================== */
   $('.home__testimonials-slider').slick({
     dots: false,
     arrows: false
+  });
+
+  /* ==========================
+     CATEGORY PHOTOS
+  ========================== */
+  $('.category__photo-wrapper').magnificPopup({
+    type: 'image',
+    gallery:{
+      enabled: true
+    }
   });
 
   /* ==========================
