@@ -45,6 +45,7 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/brandwear.md
 - suppliers/black-knight.md
 - suppliers/bauer.md
 - suppliers/augusta-sportswear.md
