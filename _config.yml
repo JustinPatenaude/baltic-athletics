@@ -28,7 +28,7 @@ mediaUrl: https://d2aasorcg54mje.cloudfront.net
 # Build settings
 markdown: kramdown
 plugins:
-  - jekyll-feed
+  # - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

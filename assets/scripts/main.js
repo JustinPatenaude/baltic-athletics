@@ -28,6 +28,26 @@ $(document).ready(function(){
   });
 
   /* ==========================
+     CATALOGUE SEARCH
+  ========================== */
+  $('.category__search-form .search__input').on('keyup', function(e){
+    var inputtedValue = e.target.value;
+    $('.catalogue__category-title').each(function(){
+      var title = $(this).text().toLowerCase();
+      if(title.indexOf(inputtedValue) < 0){
+        $(this).closest('.catalogue__category-wrapper').hide();
+      } else {
+        $(this).closest('.catalogue__category-wrapper').show();
+      }
+      if($(this).closest('.category').height() < 81){
+        $(this).closest('.category').hide();
+      } else {
+        $(this).closest('.category').show();
+      }
+    });
+  });
+
+  /* ==========================
      RESPONSIVE MENU
   ========================== */
   // if($(window).width() > 768){
@@ -38,26 +58,6 @@ $(document).ready(function(){
   // } else {
   //   $('.nav__item-wrapper .nav__item').prependTo('.sub-nav__inner').removeClass('nav__item').addClass('sub-nav__item');
   // }
-
-  /* ==========================
-     RESPONSIVE MENU
-  ========================== */
-  // $('.category__search-form .search__input').on('keyup', function(e){
-  //   var inputtedValue = e.target.value;
-  //   $('.catalogue__category-title').each(function(){
-  //     var title = $(this).text().toLowerCase();
-  //     if(title.indexOf(inputtedValue) < 0){
-  //       $(this).closest('.catalogue__category-wrapper').hide();
-  //     } else {
-  //       $(this).closest('.catalogue__category-wrapper').show();
-  //     }
-  //     if($(this).closest('.category').height() < 81){
-  //       $(this).closest('.category').hide();
-  //     } else {
-  //       $(this).closest('.category').show();
-  //     }
-  //   });
-  // });
 });
 
 // function responsiveNav(){
