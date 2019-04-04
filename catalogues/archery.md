@@ -3,8 +3,8 @@ layout: category
 title: Archery
 permalink: "/catalogues/archery"
 suppliers:
-- Court-1
-- Monsens Sporting Good Limited
+- suppliers/court-1.md
+- suppliers/monsens-sporting-goods-limited.md
 products:
 - Arrows
 - Bows
