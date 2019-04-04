@@ -1,6 +1,21 @@
 ---
 layout: supplier
-categories: []
+categories:
+- catalogues/badminton.md
+- catalogues/baseball.md
+- catalogues/basketball.md
+- catalogues/beach-volleyball.md
+- catalogues/football.md
+- catalogues/inflators-essentials.md
+- catalogues/lacrosse.md
+- catalogues/nets.md
+- catalogues/pe-playground.md
+- catalogues/rugby.md
+- catalogues/soccer.md
+- catalogues/table-tennis.md
+- catalogues/track-field.md
+- catalogues/ultimate.md
+- catalogues/volleyball.md
 title: 360 Athletics
 permalink: "/suppliers/360-athletics"
 logo: "/360-athletics-logo.jpg"
