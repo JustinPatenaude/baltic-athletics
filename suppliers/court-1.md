@@ -26,5 +26,14 @@ info: |-
 date: 2019-03-29 03:29:10 +0000
 categories:
 - catalogues/archery.md
+- catalogues/badminton.md
+- catalogues/basketball.md
+- catalogues/floor-hockey.md
+- catalogues/hockey.md
+- catalogues/lacrosse.md
+- catalogues/misc.md
+- catalogues/team-handball.md
+- catalogues/tennis.md
+- catalogues/volleyball.md
 
 ---
