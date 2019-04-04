@@ -54,9 +54,8 @@ layout: default
           <h3 class="page__title">Suppliers</h3>
         </div>
       </div>
-      {% for supplier in page.suppliers %}
-        {% assign supplierPage = site.pages | where: 'title', supplier %}
-        {% assign supplierPage = supplierPage[0] %}
+      {% assign supplierPages = site.pages | where_exp: 'categories', "categories contains page.title" %}
+      {% for supplier in supplierPages %}
         <div class="col-6">
           <div class="supplier__wrapper">
             <div class="grid">
@@ -64,7 +63,7 @@ layout: default
                 <img class="supplier__logo" src="{{ supplierPage.logo | prepend: site.mediaUrl }}" />
               </div>
               <div class="col-8">
-                <h3 class="supplier__title">Test - {{ supplierPage.title }}</h3>
+                <h3 class="supplier__title">{{ supplierPage.title }}</h3>
                 {% assign supplierPageWebsite = supplierPage.website | size %}
                 {% if supplierPage.website.size > 0 %}
                   <div class="supplier__section">
