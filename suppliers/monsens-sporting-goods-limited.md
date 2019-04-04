@@ -1,12 +1,13 @@
 ---
 layout: supplier
 permalink: "/suppliers/monsens-sporting-goods-limited"
-categories: []
+categories:
+- catalogues/archery.md
 title: Monsens Sporting Goods Limited
-logo: ''
-website: ''
+logo: "/monsens-logo.png"
+website: http://www.monsens.ca/
 pdfs: []
 info: ''
-date: 2019-03-29 17:30:45 -0500
+date: 2019-03-29 22:30:45 +0000
 
 ---
