@@ -1,7 +1,6 @@
 ---
 label: Supplier
 hide_body: true
-display_field: title
 fields:
 - type: text
   name: layout
@@ -34,6 +33,10 @@ fields:
   name: info
   label: Info
   description: Extra supplier's info useful to your customers.
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 - type: list
   name: categories
   label: Categories
