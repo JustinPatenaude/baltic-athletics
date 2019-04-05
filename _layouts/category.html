@@ -54,32 +54,33 @@ layout: default
           <h3 class="page__title">Suppliers</h3>
         </div>
       </div>
-      {% assign supplierPages = site.pages | where_exp: 'categories', "categories contains page.title" %}
+      {% assign strippedPermalink = page.permalink | remove: '"' | remove_first: '/' | append: '.md' %}
+      {% assign supplierPages = site.pages | where: 'layout', "supplier" %}
+      {% assign supplierPages = supplierPages | where_exp: 'supplier', "supplier.categories contains strippedPermalink" %}
       {% for supplier in supplierPages %}
         <div class="col-6">
           <div class="supplier__wrapper">
             <div class="grid">
               <div class="col-4">
-                <img class="supplier__logo" src="{{ supplierPage.logo | prepend: site.mediaUrl }}" />
+                <img class="supplier__logo" src="{{ supplier.logo | prepend: site.mediaUrl }}" />
               </div>
               <div class="col-8">
-                <h3 class="supplier__title">{{ supplierPage.title }}</h3>
-                {% assign supplierPageWebsite = supplierPage.website | size %}
-                {% if supplierPage.website.size > 0 %}
+                <h3 class="supplier__title">{{ supplier.title }}</h3>
+                {% if supplier.website.size > 0 %}
                   <div class="supplier__section">
                     <div class="supplier__section-icon">
                       <i class="fal fa-globe"></i>
                     </div>
-                    <a href="{{ supplierPage.website }}" target="_blank" >{{ supplierPage.website }}</a>
+                    <a class="supplier__section-website" href="{{ supplier.website }}" target="_blank" >{{ supplier.website }}</a>
                   </div>
                 {% endif %}
-                {% if supplierPage.pdfs.size > 0 %}
+                {% if supplier.pdfs.size > 0 %}
                   <div class="supplier__section">
                     <div class="supplier__section-icon">
                       <i class="fal fa-file-pdf"></i>
                     </div>
                     <ul class="supplier__pdfs">
-                      {% for pdf in supplierPage.pdfs %}
+                      {% for pdf in supplier.pdfs %}
                         <li class="supplier__pdf">
                           <a href="{{ pdf | prepend: site.mediaUrl }}" target="_blank" >{{ pdf }}</a>
                         </li>
@@ -87,12 +88,12 @@ layout: default
                     </ul>
                   </div>
                 {% endif %}
-                {% if supplierPage.info.size > 0 %}
+                {% if supplier.info.size > 0 %}
                   <div class="supplier__section">
                     <div class="supplier__section-icon">
                       <i class="fal fa-info-circle"></i>
                     </div>
-                    {{ supplierPage.info | markdownify }}
+                    {{ supplier.info | markdownify }}
                   </div>
                 {% endif %}
               </div>

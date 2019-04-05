@@ -709,6 +709,12 @@ input, textarea, button {
 .supplier__section {
   position: relative;
   padding-left: 35px;
+  p {
+    line-height: 24px;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
 }
 .supplier__section-icon {
   position: absolute;
@@ -716,6 +722,11 @@ input, textarea, button {
   left: 0;
   z-index: 5;
   font-size: 24px;
+}
+.supplier__section-website {
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 /*======================
