@@ -93,7 +93,9 @@ layout: default
                     <div class="supplier__section-icon">
                       <i class="fal fa-info-circle"></i>
                     </div>
-                    {{ supplier.info | markdownify }}
+                    <div class="markdown">
+                      {{ supplier.info | markdownify }}
+                    </div>
                   </div>
                 {% endif %}
               </div>

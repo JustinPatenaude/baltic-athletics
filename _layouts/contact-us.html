@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<div class="page__header" style="background-image: url('{{ "/assets/images/banner-catalogues.jpg" | relative_url }}');">
+  <div class="container">
+    <div class="grid-middle">
+        <div class="col-12">
+          <h1 class="page__header-title">{{ page.title }}</h1>
+        </div>
+    </div>
+  </div>
+</div>
+<div class="container page__content">
+  <div class="grid-center">
+    <div class="col-8_md-12 rte">
+      <div class="grid">
+        <div class="col-12 margin-30">
+            {{ content }}
+        </div>
+        <div class="col-6 margin-30">
+          <label class="label" for="first_name">First name</label>
+          <input id="first_name" class="input__text" type="text" />
+        </div>
+        <div class="col-6 margin-30">
+          <label class="label" for="last_name">Last name</label>
+          <input id="last_name" class="input__text" type="text" />
+        </div>
+        <div class="col-12 margin-30">
+          <label class="label" for="email">Email</label>
+          <input id="email" class="input__text" type="email" />
+        </div>
+        <div class="col-12">
+          <label class="label" for="message">Message</label>
+          <textarea id="message" class="input__text input__textarea"></textarea>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
