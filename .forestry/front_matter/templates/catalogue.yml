@@ -31,6 +31,25 @@ fields:
     use_select: false
     source:
       type: documents
+- name: images
+  type: field_group_list
+  fields:
+  - name: description
+    type: text
+    config:
+      required: false
+    label: Description
+    description: the description of the image. Product name, supplier, etc.
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: Image
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Images
 - type: list
   label: Suppliers
   name: suppliers
