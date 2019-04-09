@@ -34,11 +34,11 @@ fields:
 - name: photos
   type: field_group_list
   fields:
-  - name: photo_title
+  - name: description
     type: text
     config:
       required: false
-    label: Photo title
+    label: Description
     description: Describe the photo in a few words.
   - name: photo
     type: file
