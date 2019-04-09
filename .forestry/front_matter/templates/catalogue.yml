@@ -46,9 +46,9 @@ fields:
       maxSize: 250
     label: Photo
   config:
-    min: 
+    min: '0'
     max: 
-    labelField: 
+    labelField: description
   label: Photos
 - type: list
   label: Suppliers
