@@ -31,25 +31,6 @@ fields:
     use_select: false
     source:
       type: documents
-- name: photos
-  type: field_group_list
-  fields:
-  - name: description
-    type: text
-    config:
-      required: false
-    label: Description
-    description: Describe the photo in a few words.
-  - name: photo
-    type: file
-    config:
-      maxSize: ''
-    label: Photo
-  config:
-    min: ''
-    max: 
-    labelField: description
-  label: Photos
 - type: list
   label: Suppliers
   name: suppliers
