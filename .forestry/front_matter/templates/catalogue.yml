@@ -31,7 +31,7 @@ fields:
     use_select: false
     source:
       type: documents
-- name: photo_gallery
+- name: photos
   type: field_group_list
   fields:
   - name: photo_title
@@ -49,7 +49,7 @@ fields:
     min: 
     max: 
     labelField: 
-  label: Photo gallery
+  label: Photos
 - type: list
   label: Suppliers
   name: suppliers
