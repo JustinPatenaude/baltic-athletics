@@ -2448,6 +2448,19 @@ input, textarea, button {
       color: #fff;
       background-color: #3A6492; }
 
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  line-height: 22px;
+  text-transform: uppercase;
+  font-weight: 700; }
+
+.input__text-wrapper {
+  position: relative; }
+  .input__text-wrapper input:active, .input__text-wrapper input:focus {
+    outline: 0; }
+
 .input__text {
   display: block;
   width: 100%;
@@ -2456,7 +2469,15 @@ input, textarea, button {
   background-color: #fff;
   border: 0;
   border-radius: 4px;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1); }
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease-in-out; }
+  .input__text:focus, .input__text:active {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    outline: 0; }
+
+.input__textarea {
+  min-height: 200px;
+  max-width: 100%; }
 
 /*======================
   HELPERS
@@ -2947,6 +2968,8 @@ input, textarea, button {
 .supplier__section {
   position: relative;
   padding-left: 35px; }
+  .supplier__section p {
+    line-height: 24px; }
 
 .supplier__section-icon {
   position: absolute;
@@ -2954,6 +2977,24 @@ input, textarea, button {
   left: 0;
   z-index: 5;
   font-size: 24px; }
+
+.supplier__section-website {
+  display: block;
+  font-size: 16px;
+  line-height: 24px; }
+
+/*======================
+  MARKDOWN
+======================*/
+.markdown p {
+  margin-bottom: 6px; }
+.markdown ul {
+  margin-left: 10px;
+  list-style-type: disc;
+  list-style-position: inside; }
+.markdown li {
+  margin-bottom: 3px;
+  line-height: 24px; }
 
 /*======================
   SEARCH
@@ -2967,7 +3008,7 @@ input, textarea, button {
 
 .search__input {
   float: left;
-  width: calc(100% - 126px);
+  width: calc(100% - 116px);
   padding-top: 13px;
   padding-bottom: 13px;
   border: 2px solid #fff;

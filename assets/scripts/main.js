@@ -39,6 +39,7 @@ $(document).ready(function(){
       } else {
         $(this).closest('.catalogue__category-wrapper').show();
       }
+      // console.log($(this).text(), $(this).closest('.category').height());
       if($(this).closest('.category').height() < 81){
         $(this).closest('.category').hide();
       } else {
