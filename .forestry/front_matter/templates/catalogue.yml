@@ -31,10 +31,25 @@ fields:
     use_select: false
     source:
       type: documents
-- type: image_gallery
-  name: photos
-  label: Photos
-  description: Photos of products in this category
+- name: photo_gallery
+  type: field_group_list
+  fields:
+  - name: photo_title
+    type: text
+    config:
+      required: false
+    label: Photo title
+    description: Describe the photo in a few words.
+  - name: photo
+    type: file
+    config:
+      maxSize: 250
+    label: Photo
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Photo gallery
 - type: list
   label: Suppliers
   name: suppliers
