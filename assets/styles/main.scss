@@ -175,12 +175,13 @@ input, textarea, button {
   font-size: 16px;
   background-color: #fff;
   border: 0;
-  border-bottom: 2px solid #fff;
+  //border-bottom: 2px solid #fff;
   border-radius: 4px;
   box-shadow: 0 0 30px rgba(0,0,0,0.10);
-  transition: border-color 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
   &:focus, &:active {
-    border-color: $colorBlue;
+   // border-color: $colorBlue;
+    box-shadow: 0 0 30px rgba(0,0,0,0.30);
     outline: 0;
   }
 }
