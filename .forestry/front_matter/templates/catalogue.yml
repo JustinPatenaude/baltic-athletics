@@ -43,10 +43,10 @@ fields:
   - name: photo
     type: file
     config:
-      maxSize: 250
+      maxSize: ''
     label: Photo
   config:
-    min: '0'
+    min: ''
     max: 
     labelField: description
   label: Photos
