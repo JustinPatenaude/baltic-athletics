@@ -2,6 +2,38 @@
 
   <div class="footer-top">
     <div class="container">
+      <div class="grid-center">
+        <div class="col-4">
+          <h3 class="white-text">Looking for something?</h3>
+          <p class="white-text">We know our suppliers like the back of our hand. Let us know what you’re looking for and we’ll make sure you get the best products, the best prices and the best service.</p>
+        </div>
+        <div class="col-6">
+          <form class="footer-form" action="https://formspree.io/justinpatenaude92@gmail.com" method="POST">
+            <div class="grid">
+              <div class="col-6 margin-30">
+                <label class="label-wire" for="first_name">First name</label>
+                <input id="first_name" class="input-wire__text" type="text" name="first_name" placeholder="Email address" />
+              </div>
+              <div class="col-6 margin-30">
+                <label class="label-wire" for="last_name">Last name</label>
+                <input id="last_name" class="input-wire__text" type="text" name="last_name" placeholder="Name" />
+              </div>
+              <div class="col-12 margin-30">
+                <label class="label-wire" for="message">Message</label>
+                <textarea id="message" class="input-wire__text input__textarea" name="message" placeholder="How can I help you?"></textarea>
+              </div>
+              <div class="col-12">
+                <button class="btn btn--inverse" type="submit"><i class="fas fa-paper-plane btn__icon"></i><span class="btn__text">Send message</span></button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-top">
+    <div class="container">
       <div class="grid">
         <div class="col-2_md-3_sm-12 sm-margin-20">
           <img src="{{ "/assets/images/logo-white.svg" | relative_url }}" alt="Baltic Athletics Logo" />

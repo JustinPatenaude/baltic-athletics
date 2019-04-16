@@ -12,97 +12,139 @@ layout: default
   </div>
 </div>
 <div class="page__content">
-  <div class="container margin-50">
-    <div class="grid-center">
-      <div class="col-12">
-        <div class="page__title-wrapper">
-          <img class="page__title-img" src="{{ '/assets/images/title-products.svg' | relative_url }}" />
-          <h3 class="page__title">Products</h3>
-        </div>
-      </div>
-      <div class="col-12">
-        <ul>
-          {% for product in page.products %}
-            <li>{{ product }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="container margin-50">
-    <div class="grid-center">
-      <div class="col-12">
-        <div class="page__title-wrapper">
-          <img class="page__title-img" src="{{ '/assets/images/title-photos.svg' | relative_url }}" />
-          <h3 class="page__title">Photos</h3>
-        </div>
-      </div>
-      {% for photo in page.photos %}
-        <div class="col-3">
-          <a href="{{ photo | prepend: site.mediaUrl }}" class="category__photo-wrapper">
-            <img class="category__photo" src="{{ photo | prepend: site.mediaUrl }}" />
-          </a>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-  <div class="container">
-    <div class="grid-center">
-      <div class="col-12">
-        <div class="page__title-wrapper">
-          <img class="page__title-img" src="{{ '/assets/images/title-suppliers.svg' | relative_url }}" />
-          <h3 class="page__title">Suppliers</h3>
-        </div>
-      </div>
-      {% assign strippedPermalink = page.permalink | remove: '"' | remove_first: '/' | append: '.md' %}
-      {% assign supplierPages = site.pages | where: 'layout', "supplier" %}
-      {% assign supplierPages = supplierPages | where_exp: 'supplier', "supplier.categories contains strippedPermalink" %}
-      {% for supplier in supplierPages %}
-        <div class="col-6">
-          <div class="supplier__wrapper">
-            <div class="grid">
-              <div class="col-4">
-                <img class="supplier__logo" src="{{ supplier.logo | prepend: site.mediaUrl }}" />
-              </div>
-              <div class="col-8">
-                <h3 class="supplier__title">{{ supplier.title }}</h3>
-                {% if supplier.website.size > 0 %}
-                  <div class="supplier__section">
-                    <div class="supplier__section-icon">
-                      <i class="fal fa-globe"></i>
-                    </div>
-                    <a class="supplier__section-website" href="{{ supplier.website }}" target="_blank" >{{ supplier.website }}</a>
-                  </div>
-                {% endif %}
-                {% if supplier.pdfs.size > 0 %}
-                  <div class="supplier__section">
-                    <div class="supplier__section-icon">
-                      <i class="fal fa-file-pdf"></i>
-                    </div>
-                    <ul class="supplier__pdfs">
-                      {% for pdf in supplier.pdfs %}
-                        <li class="supplier__pdf">
-                          <a href="{{ pdf | prepend: site.mediaUrl }}" target="_blank" >{{ pdf }}</a>
-                        </li>
-                      {% endfor %}
-                    </ul>
-                  </div>
-                {% endif %}
-                {% if supplier.info.size > 0 %}
-                  <div class="supplier__section">
-                    <div class="supplier__section-icon">
-                      <i class="fal fa-info-circle"></i>
-                    </div>
-                    <div class="markdown">
-                      {{ supplier.info | markdownify }}
-                    </div>
-                  </div>
-                {% endif %}
+  {% if page.products.size > 0 %}
+    <div class="container margin-60">
+      <div class="grid-center">
+        <div class="col-8_lg-10_md-12">
+
+          <div class="page__title-wrapper cf">
+            <div class="page__title-img-wrapper">
+              <img class="page__title-img" src="{{ '/assets/images/title-products.svg' | relative_url }}" />
+            </div>
+            <h2 class="page__title">Products</h2>
+          </div>
+
+          <div class="grid">
+            <div class="col-6_sm-12 sm-margin-10">
+              <p>Here are the products we offer for {{ page.title }}.</p>
+              <div class="sm-hide">
+                <p>Finding the right products for your specific needs is what we do best. Email us your request and we’ll get back to you within 48 hours.</p>
+                <a class="btn" href="{{ "/contact-us" | relative_url }}"><i class="btn__icon fal fa-envelope"></i> <span class="btn__text">Contact Us</span></a>
               </div>
             </div>
+            <div class="col-6_sm-12 sm-margin-20">
+              <div class="table table--6">
+                <div class="grid-noGutter">
+                  {% for product in page.products %}
+                  <div class="col-6 table__cell">
+                    <div class="table__cell-inner">
+                      {{ product }}
+                    </div>
+                  </div>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+            <div class="col-12 sm-show">
+              <p>Finding the right products for your specific needs is what we do best. Email us your request and we’ll get back to you within 48 hours.</p>
+              <a class="btn" href="{{ "/contact-us" | relative_url }}"><i class="btn__icon fal fa-envelope"></i> <span class="btn__text">Contact Us</span></a>
+            </div>
           </div>
+
         </div>
-      {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+  {% if page.photos.size > 0 %}
+  <div class="container margin-60">
+    <div class="grid-center">
+      <div class="col-8_lg-10_md-12">
+
+        <div class="page__title-wrapper cf">
+          <div class="page__title-img-wrapper">
+            <img class="page__title-img" src="{{ '/assets/images/title-photos.svg' | relative_url }}" />
+          </div>
+          <h2 class="page__title">Photos</h2>
+        </div>
+
+        <div class="grid">
+          {% for photo in page.photos %}
+            <div class="col-3">
+              <a href="{{ photo | prepend: site.mediaUrl }}" class="category__photo-wrapper">
+                <img class="category__photo" src="{{ photo | prepend: site.mediaUrl }}" />
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+
+      </div>
+      
     </div>
   </div>
+  {% endif %}
+  {% assign strippedPermalink = page.permalink | remove: '"' | remove_first: '/' | append: '.md' %}
+  {% assign supplierPages = site.pages | where: 'layout', "supplier" %}
+  {% assign supplierPages = supplierPages | where_exp: 'supplier', "supplier.categories contains strippedPermalink" %}
+  {% if supplierPages.size > 0 %}
+    <div class="container">
+      <div class="grid-center">
+        <div class="col-8_lg-10_md-12">
+
+          <div class="page__title-wrapper cf">
+            <div class="page__title-img-wrapper">
+              <img class="page__title-img" src="{{ '/assets/images/title-suppliers.svg' | relative_url }}" />
+            </div>
+            <h2 class="page__title">Suppliers</h2>
+          </div>
+
+          <div class="grid masonry">
+            {% for supplier in supplierPages %}
+              <div class="col-6">
+
+                <div class="supplier__wrapper">
+                  <div class="supplier__logo-wrapper">
+                    <img class="supplier__logo" src="{{ supplier.logo | prepend: site.mediaUrl }}" />
+                  </div>
+                  {% if supplier.website.size > 0 %}
+                    <div class="supplier__section">
+                      <div class="supplier__section-icon">
+                        <i class="fal fa-globe"></i>
+                      </div>
+                      <a class="supplier__section-website" href="{{ supplier.website }}" target="_blank" >{{ supplier.website }}</a>
+                    </div>
+                  {% endif %}
+                  {% if supplier.pdfs.size > 0 %}
+                    <div class="supplier__section">
+                      <div class="supplier__section-icon">
+                        <i class="fal fa-file-pdf"></i>
+                      </div>
+                      <ul class="supplier__pdfs">
+                        {% for pdf in supplier.pdfs %}
+                          <li class="supplier__pdf">
+                            <a href="{{ pdf | prepend: site.mediaUrl }}" target="_blank" >{{ pdf }}</a>
+                          </li>
+                        {% endfor %}
+                      </ul>
+                    </div>
+                  {% endif %}
+                  {% if supplier.info.size > 0 %}
+                    <div class="supplier__section">
+                      <div class="supplier__section-icon">
+                        <i class="fal fa-info-circle"></i>
+                      </div>
+                      <div class="markdown">
+                        {{ supplier.info | markdownify }}
+                      </div>
+                    </div>
+                  {% endif %}
+                </div>
+
+              </div>
+            {% endfor %}
+          </div>
+
+        </div>
+      </div>
+    </div>
+  {% endif %}
 </div>

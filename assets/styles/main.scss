@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 12px;
   line-height: 1.8em;
-  font-weight: 700;
+  font-weight: 400;
 }
 h1, .h1 {
   font-size: 32px;
@@ -96,6 +96,9 @@ p {
 input, textarea, button {
   font-family: $fontOne;
 }
+.white-text {
+  color: #fff;
+}
 .nav-opened {
   .wrapper {
     transform: translate(-200px, 0);
@@ -131,8 +134,7 @@ input, textarea, button {
   padding: 8px 16px;
   font-size: 14px;
   line-height: 22px;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-weight: 400;
   text-decoration: none;
   color: #fff;
   background-color: $colorBlue;
@@ -151,6 +153,10 @@ input, textarea, button {
       background-color: $colorBlueDark;
     }
   }
+}
+.btn__icon {
+  display: inline-block;
+  margin-right: 5px;
 }
 .label {
   display: block;
@@ -189,6 +195,43 @@ input, textarea, button {
   min-height: 200px;
   max-width: 100%;
 }
+.label-wire {
+  display: none;
+}
+.input-wire__text {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid rgba(255,255,255,0.75);
+  border-radius: 4px;
+  transition: border-color 0.2s ease-in-out;
+  &:focus, &:active {
+    border-color: #fff;
+    outline: 0;
+  }
+}
+.input-wire__text::placeholder {
+  color: rgba(255,255,255,0.75);
+}
+.table {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  &.table--6 {
+    .table__cell:nth-of-type(2n+1){
+      .table__cell-inner {
+        border-right: 1px solid $colorGreyLighter;
+      }
+    }
+  }
+}
+.table__cell-inner {
+  padding: 11px 15px;
+  border-bottom: 1px solid $colorGreyLighter;
+}
 
 /*======================
   HELPERS
@@ -222,7 +265,13 @@ input, textarea, button {
 .margin-50 {
   margin-bottom: 50px;
 }
+.margin-60 {
+  margin-bottom: 60px;
+}
 @media only screen and (max-width: 768px) {
+  .sm-margin-10 {
+    margin-bottom: 10px;
+  }
   .sm-margin-20 {
     margin-bottom: 20px;
   }
@@ -266,6 +315,8 @@ input, textarea, button {
   }
   &.nav__item--has-sub {
     position: relative;
+    font-weight: 700;
+    text-transform: uppercase;
     &:hover, &.active {
       .sub-nav__wrapper {
         display: block;
@@ -588,36 +639,31 @@ input, textarea, button {
   color: #fff;
 }
 .page__title-wrapper {
+  margin-bottom: 10px;
+}
+.page__title-img-wrapper {
   position: relative;
-  display: inline-block;
-  margin-bottom: 30px;
-  padding: 0 20px 0 0;
-  background-color: $colorBlue;
-  &:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 100%;
-    z-index: 1;
-    width: 100vw;
-    height: 50px;
-    background-color: $colorBlue;
-  }
+  display: block;
+  float: left;
+  width: 35px;
+  height: 50px;
+  margin-right: 10px;
 }
 .page__title-img {
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 20px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  transform: translate(0, -50%);
 }
 .page__title {
-  display: inline-block;
-  vertical-align: top;
+  display: block;
+  float: left;
   margin-bottom: 0;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 50px;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #fff;
+  font-weight: 400;
 }
 .page__content {
   padding-top: 50px;
@@ -635,9 +681,6 @@ input, textarea, button {
   }
   .page__title-wrapper {
     width: 100%;
-  }
-  .page__title {
-    font-size: 16px;
   }
 }
 
@@ -727,7 +770,7 @@ input, textarea, button {
   }
 }
 .supplier__logo {
-  width: 100%;
+  max-width: 100%;
 }
 .supplier__title {
   margin-bottom: 20px;

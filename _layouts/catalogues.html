@@ -30,19 +30,21 @@ layout: default
     <div class="category">
       <div class="container">
         <div class="grid-center">
-          <div class="col-12">
-            <div class="page__title-wrapper">
+          <div class="col-10_md-12">
+            <div class="page__title-wrapper cf">
               {% assign catalogueHandle = catalogue.title | slugify %}
               {% capture catalogueImageUrl %}/assets/images/title-{{ catalogueHandle }}.svg{% endcapture %}
-              <img class="page__title-img" src="{{ catalogueImageUrl | relative_url }}" />
-              <h3 class="page__title">{{ catalogue.title }}</h3>
+              <div class="page__title-img-wrapper">
+                <img class="page__title-img" src="{{ catalogueImageUrl | relative_url }}" />
+              </div>
+              <h2 class="page__title">{{ catalogue.title }}</h2>
             </div>
           </div>
         </div>
       </div>
       <div class="container">
         <div class="grid-center">
-          <div class="col-12">
+          <div class="col-10_md-12">
             <div class="grid">
               {% for item in catalogue.sub-categories %}
                 {% assign itemHandle = item | slugify %}
