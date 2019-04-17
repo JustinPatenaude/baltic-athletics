@@ -85,6 +85,10 @@ hr {
 a {
   text-decoration: none;
   color: $colorBlue;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    color: $colorDark;
+  }
 }
 p {
   a {
@@ -98,6 +102,9 @@ input, textarea, button {
 }
 .white-text {
   color: #fff;
+}
+.opacity-70 {
+  opacity: 0.7;
 }
 .nav-opened {
   .wrapper {
@@ -614,9 +621,27 @@ input, textarea, button {
   }
 }
 .footer-bottom {
+  padding: 20px 0;
   background-color: $colorBlueDark;
 }
-.copyright {
+.footer-bottom__logo {
+  display: inline-block;
+  vertical-align: top;
+}
+.footer-bottom__logo-two {
+  display: inline-block;
+  vertical-align: top;
+  margin: 5.5px 0;
+}
+.footer-bottom__divider {
+  display: inline-block;
+  vertical-align: top;
+  height: 30px;
+  width: 1px;
+  margin: 14px 30px;
+  background-color: rgba(255,255,255,0.25);
+}
+.footer-bottom__text {
   margin: 0;
   font-size: 12px;
   line-height: 34px;
@@ -769,8 +794,12 @@ input, textarea, button {
     box-shadow: 0 0 30px rgba(0,0,0,0.25);
   }
 }
+.supplier__logo-wrapper {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
 .supplier__logo {
-  max-width: 100%;
+  width: 100%;
 }
 .supplier__title {
   margin-bottom: 20px;
@@ -778,7 +807,8 @@ input, textarea, button {
 }
 .supplier__section {
   position: relative;
-  padding-left: 35px;
+  padding-left: 40px;
+  margin-bottom: 20px;
   p {
     line-height: 24px;
   }
@@ -788,12 +818,24 @@ input, textarea, button {
   top: 0;
   left: 0;
   z-index: 5;
+  width: 35px;
   font-size: 24px;
+  text-align: center;
 }
 .supplier__section-website {
   display: block;
   font-size: 16px;
   line-height: 24px;
+}
+.supplier__pdf {
+  
+}
+.supplier__pdf-link {
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 /*======================

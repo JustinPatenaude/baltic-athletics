@@ -11,3 +11,74 @@ layout: default
     </div>
   </div>
 </div>
+<div class="container">
+  <div class="grid-center">
+    <div class="col-10_md-12">
+      <div class="search">
+        <form class="search__form category__search-form">
+          <div class="input__wrapper search__input-wrapper cf">
+            <input class="input__text search__input" type="text" placeholder="What are you looking for?" />
+            <button class="btn search__btn"><i class="fal fa-search"></i><span class="search__btn-text sm-hide"> Search</span></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="suppliers__all">
+  <div class="container">
+    <div class="grid-center">
+      <div class="col-10_md-12">
+
+        {% assign supplierPages = site.pages | where: 'layout', "supplier" %}
+        <div class="grid">
+          {% for supplier in supplierPages %}
+            <div class="col-4_md-6_sm-12 sm-margin-20">
+              <div class="supplier__wrapper">
+                <div class="supplier__logo-wrapper">
+                  <img class="supplier__logo" src="{{ supplier.logo | prepend: site.mediaUrl }}" />
+                </div>
+                {% if supplier.website.size > 0 %}
+                  <div class="supplier__section">
+                    <div class="supplier__section-icon">
+                      <i class="fal fa-globe"></i>
+                    </div>
+                    <a class="supplier__section-website" href="{{ supplier.website }}" target="_blank" >{{ supplier.website }}</a>
+                  </div>
+                {% endif %}
+                {% if supplier.pdfs.size > 0 %}
+                  <div class="supplier__section">
+                    <div class="supplier__section-icon">
+                      <i class="fal fa-file-pdf"></i>
+                    </div>
+                    <ul class="supplier__pdfs">
+                      {% for pdf in supplier.pdfs %}
+                        <li class="supplier__pdf">
+                          <a class="supplier__pdf-link" href="{{ pdf | prepend: site.mediaUrl }}" target="_blank" >{{ pdf | remove_first: "/" }}</a>
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                {% endif %}
+                {% if supplier.info.size > 0 %}
+                  <div class="supplier__section">
+                    <div class="supplier__section-icon">
+                      <i class="fal fa-info-circle"></i>
+                    </div>
+                    <div class="markdown">
+                      {{ supplier.info | markdownify }}
+                    </div>
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="categories__empty hide text-center">
+  <p>Oops, it looks like we don't have any categories containing your search. Reset or try a different search query!</p>
+</div>

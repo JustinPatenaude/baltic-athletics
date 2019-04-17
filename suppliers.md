@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: suppliers
 title: Suppliers
 permalink: "/suppliers/"
 
