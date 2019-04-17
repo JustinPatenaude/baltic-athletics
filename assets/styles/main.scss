@@ -239,6 +239,11 @@ input, textarea, button {
   padding: 11px 15px;
   border-bottom: 1px solid $colorGreyLighter;
 }
+.rte {
+  p {
+    color: $colorGrey;
+  }
+}
 
 /*======================
   HELPERS
@@ -402,6 +407,7 @@ input, textarea, button {
   overflow: hidden;
   transition: all .2s ease-in-out;
   &:hover, &.active {
+    color: #fff;
     background-color: $colorBlueDark;
   }
   .svg-inline--fa {
@@ -785,7 +791,7 @@ input, textarea, button {
 .supplier__wrapper {
   display: block;
   margin-bottom: $gutter;
-  padding: 20px;
+  padding: 20px 20px 0 20px;
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 0 0 30px rgba(0,0,0,0.10);
@@ -802,13 +808,13 @@ input, textarea, button {
   width: 100%;
 }
 .supplier__title {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   line-height: 1.2em;
 }
 .supplier__section {
   position: relative;
   padding-left: 40px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   p {
     line-height: 24px;
   }
@@ -826,9 +832,6 @@ input, textarea, button {
   display: block;
   font-size: 16px;
   line-height: 24px;
-}
-.supplier__pdf {
-  
 }
 .supplier__pdf-link {
   display: block;

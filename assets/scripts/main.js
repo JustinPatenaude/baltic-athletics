@@ -49,6 +49,32 @@ $(document).ready(function(){
   });
 
   /* ==========================
+     SUPPLIER SEARCH
+  ========================== */
+  $('.supplier__search-form .search__input').on('keyup', function(e){
+    var inputtedValue = e.target.value;
+    $('.supplier[data-title]').each(function(){
+      var title = $(this).text().toLowerCase();
+      if(title.indexOf(inputtedValue) < 0){
+        $(this).hide();
+      } else {
+        $(this).show();
+      }
+    });
+  });
+
+  /* ==========================
+     MASONRY
+  ========================== */
+  Macy({
+    container: '#macy',
+    trueOrder: false,
+    waitForImages: false,
+    columns: 4,
+    margin: 20
+  });
+
+  /* ==========================
      RESPONSIVE MENU
   ========================== */
   // if($(window).width() > 768){

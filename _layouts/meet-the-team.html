@@ -15,19 +15,19 @@ layout: default
   <div class="grid-center">
     <div class="col-8_md-12 rte">
       {% for teamMember in page.team-members reversed %}
-        <div class="grid-middle margin-30">
+        <div class="grid-middle margin-30 rte">
           {% assign forloopModulo = forloop.index | modulo: 2 %}
           {% if forloopModulo > 0 %}
             <div class="col-4_xs-6 sm-margin-30">
               <img class="image__block rounded" src="{{ teamMember.photo | prepend: site.mediaUrl }}" />
             </div>
             <div class="col-8_sm-12">
-              <h2 class="h5">{{ teamMember.name }}</h2>
+              <h2 class="h4">{{ teamMember.name }}</h2>
               {{ teamMember.bio | markdownify }}
             </div>
           {% else %}
             <div class="col-8_sm-12">
-              <h2 class="h5">{{ teamMember.name }}</h2>
+              <h2 class="h4">{{ teamMember.name }}</h2>
               {{ teamMember.bio | markdownify }}
             </div>
             <div class="col-4_xs-6_sm-first sm-margin-30">

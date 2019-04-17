@@ -15,7 +15,7 @@ layout: default
   <div class="grid-center">
     <div class="col-10_md-12">
       <div class="search">
-        <form class="search__form category__search-form">
+        <form class="search__form supplier__search-form">
           <div class="input__wrapper search__input-wrapper cf">
             <input class="input__text search__input" type="text" placeholder="What are you looking for?" />
             <button class="btn search__btn"><i class="fal fa-search"></i><span class="search__btn-text sm-hide"> Search</span></button>
@@ -31,9 +31,9 @@ layout: default
       <div class="col-10_md-12">
 
         {% assign supplierPages = site.pages | where: 'layout', "supplier" %}
-        <div class="grid">
+        <div class="macy">
           {% for supplier in supplierPages %}
-            <div class="col-4_md-6_sm-12 sm-margin-20">
+            <div class="macy__item sm-margin-20 supplier" data-title="{{ supplier.title }}">
               <div class="supplier__wrapper">
                 <div class="supplier__logo-wrapper">
                   <img class="supplier__logo" src="{{ supplier.logo | prepend: site.mediaUrl }}" />
