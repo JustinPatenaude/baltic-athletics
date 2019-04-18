@@ -66,12 +66,17 @@ $(document).ready(function(){
   /* ==========================
      MASONRY
   ========================== */
-  Macy({
-    container: '#macy',
+  var macyInstance = Macy({
+    container: '#suppliers',
     trueOrder: false,
     waitForImages: false,
-    columns: 4,
+    columns: 3,
     margin: 20
+  });
+
+  macyInstance.on(macyInstance.constants.EVENT_IMAGE_COMPLETE, function (ctx) {
+    $('.suppliers__all').removeClass('fade-out').addClass('fade-in');
+    $('.suppliers__loading').removeClass('fade-in').addClass('fade-out');
   });
 
   /* ==========================

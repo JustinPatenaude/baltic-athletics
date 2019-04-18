@@ -244,6 +244,9 @@ input, textarea, button {
     color: $colorGrey;
   }
 }
+.relative {
+  position: relative;
+}
 
 /*======================
   HELPERS
@@ -788,6 +791,25 @@ input, textarea, button {
     max-height: 102%;
   }
 }
+.fade-in {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.loading {
+  display: inline-block;
+  text-align: center;
+}
+.suppliers__loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+}
 .supplier__wrapper {
   display: block;
   margin-bottom: $gutter;
@@ -830,8 +852,12 @@ input, textarea, button {
 }
 .supplier__section-website {
   display: block;
+  width: 100%;
   font-size: 16px;
   line-height: 24px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .supplier__pdf-link {
   display: block;
@@ -871,7 +897,7 @@ input, textarea, button {
 }
 .search__input {
   float: left;
-  width: calc(100% - 116px);
+  width: calc(100% - 106px);
   padding-top: 13px;
   padding-bottom: 13px;
   border: 2px solid #fff;
