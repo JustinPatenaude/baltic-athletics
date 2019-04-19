@@ -35,6 +35,24 @@ fields:
   type: image_gallery
   config: {}
   label: Photos
+- name: images
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: Image
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Images
 - type: list
   label: Suppliers
   name: suppliers
