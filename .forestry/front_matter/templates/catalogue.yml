@@ -32,10 +32,6 @@ fields:
     source:
       type: documents
 - name: photos
-  type: image_gallery
-  config: {}
-  label: Photos
-- name: images
   type: field_group_list
   fields:
   - name: title
@@ -43,16 +39,16 @@ fields:
     config:
       required: false
     label: Title
-  - name: image
+  - name: photo
     type: file
     config:
       maxSize: 250
-    label: Image
+    label: Photo
   config:
     min: 
     max: 
     labelField: 
-  label: Images
+  label: Photos
 - type: list
   label: Suppliers
   name: suppliers
