@@ -49,6 +49,37 @@ $(document).ready(function(){
   });
 
   /* ==========================
+     SUPPLIER SEARCH
+  ========================== */
+  $('.supplier__search-form .search__input').on('keyup', function(e){
+    var inputtedValue = e.target.value;
+    $('.supplier[data-title]').each(function(){
+      var title = $(this).text().toLowerCase();
+      if(title.indexOf(inputtedValue) < 0){
+        $(this).hide();
+      } else {
+        $(this).show();
+      }
+    });
+  });
+
+  /* ==========================
+     MASONRY
+  ========================== */
+  var macyInstance = Macy({
+    container: '#suppliers',
+    trueOrder: false,
+    waitForImages: false,
+    columns: 3,
+    margin: 20
+  });
+
+  macyInstance.on(macyInstance.constants.EVENT_IMAGE_COMPLETE, function (ctx) {
+    $('.suppliers__all').removeClass('fade-out').addClass('fade-in');
+    $('.suppliers__loading').removeClass('fade-in').addClass('fade-out');
+  });
+
+  /* ==========================
      RESPONSIVE MENU
   ========================== */
   // if($(window).width() > 768){
