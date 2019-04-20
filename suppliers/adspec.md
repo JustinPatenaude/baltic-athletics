@@ -1,12 +1,15 @@
 ---
 layout: supplier
 permalink: "/suppliers/adspec"
-categories: []
+categories:
+- catalogues/canopies.md
+- catalogues/banners.md
 title: Adspec
-logo: ''
-website: ''
-pdfs: []
+logo: "/adspec-logo.png"
+website: http://adspecimages.com/
+pdfs:
+- "/admiral-2016.pdf"
 info: ''
-date: 2019-03-29 17:15:29 -0500
+date: 2019-03-29 22:15:29 +0000
 
 ---
