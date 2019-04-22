@@ -20,7 +20,7 @@ categories:
 - catalogues/ultimate.md
 - catalogues/volleyball.md
 title: Augusta Sportswear
-logo: ''
+logo: "/augusta-sportswear-logo.png"
 website: http://www.augustasportswear.com/
 pdfs:
 - "/augusta-football-2017.pdf"
