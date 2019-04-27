@@ -1,12 +1,15 @@
 ---
 layout: supplier
 permalink: "/suppliers/dr-hockey"
-categories: []
+categories:
+- catalogues/floor-hockey.md
+- catalogues/hockey.md
+- catalogues/ringette.md
 title: D&R Hockey
-logo: ''
+logo: "/dr-hockey-logo.jpeg"
 website: ''
 pdfs: []
 info: ''
-date: 2019-03-29 17:22:21 -0500
+date: 2019-03-29 22:22:21 +0000
 
 ---
