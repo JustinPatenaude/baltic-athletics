@@ -1,12 +1,14 @@
 ---
 layout: supplier
 permalink: "/suppliers/cramer-sports-medicine"
-categories: []
+categories:
+- catalogues/trainer-supplies.md
 title: Cramer Sports Medicine
-logo: ''
-website: ''
-pdfs: []
+logo: "/cramer-sports-logo.jpg"
+website: https://www.cramersportsmed.com/
+pdfs:
+- "/cramer-sports-medicine-2015.pdf"
 info: ''
-date: 2019-03-29 17:21:56 -0500
+date: 2019-03-29 22:21:56 +0000
 
 ---
