@@ -49,6 +49,7 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/faber-snowshoes.md
 - suppliers/edgewood-matting.md
 - suppliers/dynamic-team-sports.md
 - suppliers/dyenomite.md
@@ -66,7 +67,6 @@ pages:
 - suppliers/powertek.md
 - suppliers/pear-sox.md
 - suppliers/novelty-printers.md
-- suppliers/faber-snowshoes.md
 - suppliers/technosport.md
 - suppliers/spalding.md
 - suppliers/martini-promotions.md

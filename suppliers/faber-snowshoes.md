@@ -1,12 +1,14 @@
 ---
 layout: supplier
-permalink: "/suppliers/faber-snowshoes"
-categories: []
-title: Faber Snowshoes
-logo: ''
-website: ''
-pdfs: []
+permalink: "/suppliers/faber"
+categories:
+- catalogues/snowshoes.md
+title: Faber
+logo: "/faber-logo.png"
+website: https://www.fabersnowshoes.com/
+pdfs:
+- "/faber-2017.pdf"
 info: ''
-date: 2019-03-29 17:25:59 -0500
+date: '2019-03-29T22:25:59.000+00:00'
 
 ---
