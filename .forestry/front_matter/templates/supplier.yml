@@ -49,6 +49,7 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/powertek.md
 - suppliers/salming.md
 - suppliers/starline.md
 - suppliers/toba-sportswear.md
@@ -70,7 +71,6 @@ pages:
 - suppliers/lowry.md
 - suppliers/bauer.md
 - suppliers/by-group.md
-- suppliers/powertek.md
 - suppliers/pear-sox.md
 - suppliers/novelty-printers.md
 - suppliers/technosport.md
