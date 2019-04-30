@@ -1,12 +1,18 @@
 ---
 layout: supplier
 permalink: "/suppliers/campus-crew"
-categories: []
+categories:
+- catalogues/hats.md
+- catalogues/jackets.md
+- catalogues/pants.md
+- catalogues/shirts.md
+- catalogues/shorts.md
 title: Campus Crew
-logo: ''
+logo: "/campus-crew-logo.jpg"
 website: ''
-pdfs: []
+pdfs:
+- "/campus-crew-2017.pdf"
 info: ''
-date: 2019-03-29 17:20:54 -0500
+date: 2019-03-29 22:20:54 +0000
 
 ---

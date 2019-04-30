@@ -1,12 +1,16 @@
 ---
 layout: supplier
 permalink: "/suppliers/d-gel"
-categories: []
+categories:
+- catalogues/floor-hockey.md
+- catalogues/hockey.md
+- catalogues/ringette.md
 title: D-GEL
-logo: ''
-website: ''
-pdfs: []
+logo: "/d-gel-logo.png"
+website: http://www.d-gel.com/
+pdfs:
+- "/d-gel-2016.pdf"
 info: ''
-date: 2019-03-29 17:22:35 -0500
+date: 2019-03-29 22:22:35 +0000
 
 ---

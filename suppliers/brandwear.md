@@ -1,12 +1,19 @@
 ---
 layout: supplier
 permalink: "/suppliers/brandwear"
-categories: []
+categories:
+- catalogues/bags.md
+- catalogues/hats.md
+- catalogues/jackets.md
+- catalogues/pants.md
+- catalogues/shirts.md
+- catalogues/shorts.md
 title: Brandwear
-logo: ''
-website: ''
-pdfs: []
+logo: "/brandwear-logo.png"
+website: http://www.brandwear.ca/
+pdfs:
+- "/brandwear-2018.pdf"
 info: ''
-date: 2019-03-29 17:20:31 -0500
+date: 2019-03-29 22:20:31 +0000
 
 ---

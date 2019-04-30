@@ -1,12 +1,14 @@
 ---
 layout: supplier
 permalink: "/suppliers/bauer"
-categories: []
+categories:
+- catalogues/floor-hockey.md
 title: Bauer
-logo: ''
+logo: "/bauer-logo.png"
 website: ''
-pdfs: []
+pdfs:
+- "/bauer-street-hockey-goalie-equipment.pdf"
 info: ''
-date: 2019-03-29 17:18:22 -0500
+date: 2019-03-29 22:18:22 +0000
 
 ---
