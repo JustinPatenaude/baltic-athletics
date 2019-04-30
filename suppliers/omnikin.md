@@ -1,12 +1,13 @@
 ---
 layout: supplier
 permalink: "/suppliers/omnikin"
-categories: []
+categories:
+- catalogues/misc.md
 title: Omnikin
-logo: ''
+logo: "/omnikin-logo.png"
 website: ''
 pdfs: []
 info: ''
-date: 2019-03-29 17:31:17 -0500
+date: '2019-03-29T22:31:17.000+00:00'
 
 ---
