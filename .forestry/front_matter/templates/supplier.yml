@@ -49,6 +49,7 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/edgewood-matting.md
 - suppliers/dynamic-team-sports.md
 - suppliers/dyenomite.md
 - suppliers/dom-sports.md
@@ -70,7 +71,6 @@ pages:
 - suppliers/spalding.md
 - suppliers/martini-promotions.md
 - suppliers/mikasa.md
-- suppliers/edgewood-matting.md
 - suppliers/york.md
 - suppliers/forum.md
 - suppliers/the-ultimate-disc-golf-store.md
