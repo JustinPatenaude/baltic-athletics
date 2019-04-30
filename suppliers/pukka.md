@@ -1,12 +1,13 @@
 ---
 layout: supplier
 permalink: "/suppliers/pukka"
-categories: []
+categories:
+- catalogues/hats.md
 title: Pukka
-logo: ''
-website: ''
+logo: "/pukka-logo.jpg"
+website: https://www.pukkainc.com/
 pdfs: []
 info: ''
-date: 2019-03-29 17:32:17 -0500
+date: '2019-03-29T22:32:17.000+00:00'
 
 ---
