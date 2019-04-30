@@ -1,12 +1,13 @@
 ---
 layout: supplier
 permalink: "/suppliers/yonex"
-categories: []
+categories:
+- catalogues/badminton.md
 title: Yonex
-logo: ''
+logo: "/yonex-logo.jpg"
 website: ''
 pdfs: []
 info: ''
-date: 2019-03-29 17:38:49 -0500
+date: '2019-03-29T22:38:49.000+00:00'
 
 ---
