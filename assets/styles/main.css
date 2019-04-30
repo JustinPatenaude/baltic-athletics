@@ -3048,7 +3048,7 @@ input, textarea, button {
 
 .supplier__logo-wrapper {
   max-width: 200px;
-  margin-bottom: 20px; }
+  margin: 0 auto 20px auto; }
 
 .supplier__logo {
   width: 100%; }
@@ -3065,7 +3065,8 @@ input, textarea, button {
     line-height: 24px; }
   .supplier__section .markdown a {
     display: inline-block;
-    width: 100%;
+    vertical-align: top;
+    max-width: 100%;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden; }
