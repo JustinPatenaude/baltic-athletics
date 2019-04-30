@@ -1,12 +1,16 @@
 ---
 layout: supplier
 permalink: "/suppliers/hot-chillys"
-categories: []
+categories:
+- catalogues/hats.md
+- catalogues/jackets.md
+- catalogues/pants.md
+- catalogues/shirts.md
 title: Hot Chillys
-logo: ''
-website: ''
+logo: "/hot-chillys-logo.png"
+website: https://www.hotchillys.com/
 pdfs: []
 info: ''
-date: 2019-03-29 17:28:38 -0500
+date: '2019-03-29T22:28:38.000+00:00'
 
 ---
