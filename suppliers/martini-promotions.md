@@ -16,9 +16,10 @@ categories:
 - catalogues/towels.md
 - catalogues/travel.md
 title: Martini Promotions
-logo: ''
-website: ''
-pdfs: []
+logo: "/martini-logo.png"
+website: https://www.martinivispak.com/en_ca
+pdfs:
+- "/2019-martini-new-products.pdf"
 info: ''
 date: '2019-03-29T22:30:06.000+00:00'
 
