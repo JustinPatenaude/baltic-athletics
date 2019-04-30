@@ -49,6 +49,7 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/dyenomite.md
 - suppliers/dom-sports.md
 - suppliers/eletto.md
 - suppliers/diadora.md
@@ -63,7 +64,6 @@ pages:
 - suppliers/powertek.md
 - suppliers/pear-sox.md
 - suppliers/novelty-printers.md
-- suppliers/dyenomite.md
 - suppliers/faber-snowshoes.md
 - suppliers/technosport.md
 - suppliers/spalding.md
