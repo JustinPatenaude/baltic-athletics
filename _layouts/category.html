@@ -97,10 +97,22 @@ layout: default
             <h2 class="page__title">Suppliers</h2>
           </div>
 
-          <div id="suppliers">
-            {% for supplier in supplierPages %}
-              {% include supplier-grid.html %}
-            {% endfor %}
+          <div class="relative">
+
+            <div class="suppliers__loading fade-in text-center">
+              <div class="loading">
+                <h5>Loading suppliers...</h5>
+              </div>
+            </div>
+
+            <div class="suppliers__all fade-out">
+              <div id="suppliers-2">
+                {% for supplier in supplierPages %}
+                  {% include supplier-grid.html %}
+                {% endfor %}
+              </div>
+            </div>
+
           </div>
 
         </div>
