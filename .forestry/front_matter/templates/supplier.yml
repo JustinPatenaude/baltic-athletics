@@ -49,6 +49,7 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/dynamic-team-sports.md
 - suppliers/dyenomite.md
 - suppliers/dom-sports.md
 - suppliers/eletto.md
@@ -98,7 +99,6 @@ pages:
 - suppliers/fiel.md
 - suppliers/farpost-goals.md
 - suppliers/exel-sports.md
-- suppliers/dynamic-team-sports.md
 - suppliers/d-gel.md
 - suppliers/d-r-hockey.md
 - suppliers/cramer-sports-medicine.md
