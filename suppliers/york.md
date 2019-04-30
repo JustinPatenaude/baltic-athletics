@@ -1,12 +1,13 @@
 ---
 layout: supplier
 permalink: "/suppliers/york"
-categories: []
+categories:
+- catalogues/weight-lifting.md
 title: York
-logo: ''
-website: ''
+logo: "/york-logo.png"
+website: https://yorkbarbell.com/
 pdfs: []
 info: ''
-date: 2019-03-29 17:39:00 -0500
+date: '2019-03-29T22:39:00.000+00:00'
 
 ---
