@@ -1,7 +1,8 @@
 ---
 layout: supplier
 permalink: "/suppliers/the-ultimate-disc-golf-store"
-categories: []
+categories:
+- catalogues/disc-golf.md
 title: The Ultimate Disc Golf Store
 logo: "/udgs-logo.jpg"
 website: https://www.ultimatediscgolfstore.ca/
