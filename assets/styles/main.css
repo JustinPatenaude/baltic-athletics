@@ -3063,6 +3063,12 @@ input, textarea, button {
   padding-bottom: 20px; }
   .supplier__section p {
     line-height: 24px; }
+  .supplier__section .markdown a {
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden; }
 
 .supplier__section-icon {
   position: absolute;
