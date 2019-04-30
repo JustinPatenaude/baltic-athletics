@@ -1,12 +1,17 @@
 ---
 layout: supplier
 permalink: "/suppliers/russell-athletic"
-categories: []
+categories:
+- catalogues/football.md
+- catalogues/jerseys.md
+- catalogues/shirts.md
+- catalogues/pants.md
 title: Russell Athletic
-logo: ''
-website: ''
-pdfs: []
+logo: "/russell-logo.png"
+website: https://www.russellathletic.com/
+pdfs:
+- "/2019-russell-catalogue.pdf"
 info: ''
-date: 2019-03-29 17:32:33 -0500
+date: '2019-03-29T22:32:33.000+00:00'
 
 ---
