@@ -1,12 +1,25 @@
 ---
 layout: supplier
 permalink: "/suppliers/martini-promotions"
-categories: []
+categories:
+- catalogues/apparel.md
+- catalogues/auto.md
+- catalogues/bags.md
+- catalogues/blankets.md
+- catalogues/eyewear.md
+- catalogues/home.md
+- catalogues/lanyards.md
+- catalogues/plush-novelties.md
+- catalogues/pets.md
+- catalogues/tech-items.md
+- catalogues/tissues.md
+- catalogues/towels.md
+- catalogues/travel.md
 title: Martini Promotions
 logo: ''
 website: ''
 pdfs: []
 info: ''
-date: 2019-03-29 17:30:06 -0500
+date: '2019-03-29T22:30:06.000+00:00'
 
 ---
