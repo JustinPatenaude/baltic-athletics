@@ -1,12 +1,18 @@
 ---
 layout: supplier
 permalink: "/suppliers/spalding"
-categories: []
+categories:
+- catalogues/baseball.md
+- catalogues/basketball.md
+- catalogues/football.md
+- catalogues/inflators-essentials.md
+- catalogues/misc.md
+- catalogues/volleyball.md
 title: Spalding
-logo: ''
+logo: "/spalding-logo.png"
 website: ''
 pdfs: []
 info: ''
-date: 2019-03-29 17:34:07 -0500
+date: '2019-03-29T22:34:07.000+00:00'
 
 ---
