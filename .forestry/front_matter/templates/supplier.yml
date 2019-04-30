@@ -49,6 +49,7 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/wilson.md
 - suppliers/forum.md
 - suppliers/yonex.md
 - suppliers/york.md
@@ -76,7 +77,6 @@ pages:
 - suppliers/mikasa.md
 - suppliers/the-ultimate-disc-golf-store.md
 - suppliers/kobe-sportswear.md
-- suppliers/wilson.md
 - suppliers/ulhsport.md
 - suppliers/trimark.md
 - suppliers/starline.md

@@ -1,12 +1,16 @@
 ---
 layout: supplier
 permalink: "/suppliers/wilson"
-categories: []
+categories:
+- catalogues/basketball.md
+- catalogues/football.md
+- catalogues/soccer.md
+- catalogues/volleyball.md
 title: Wilson
-logo: ''
+logo: "/wilson-logo.png"
 website: ''
 pdfs: []
 info: ''
-date: 2019-03-29 17:38:38 -0500
+date: '2019-03-29T22:38:38.000+00:00'
 
 ---
