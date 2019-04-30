@@ -1,12 +1,14 @@
 ---
 layout: supplier
 permalink: "/suppliers/diadora"
-categories: []
+categories:
+- catalogues/soccer.md
 title: Diadora
-logo: ''
-website: ''
-pdfs: []
+logo: "/diadora-logo.jpg"
+website: http://www.diadora.com/en/
+pdfs:
+- "/diadora-soccer-spring-2016.pdf"
 info: ''
-date: 2019-03-29 17:24:20 -0500
+date: '2019-03-29T22:24:20.000+00:00'
 
 ---

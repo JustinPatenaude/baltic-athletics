@@ -49,13 +49,13 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/diadora.md
 - suppliers/canadawide-sports.md
 - suppliers/atf-sports.md
 - suppliers/alleson.md
 - suppliers/monsens-sporting-goods-limited.md
 - suppliers/lowry.md
 - suppliers/toba-sportswear.md
-- suppliers/diadora.md
 - suppliers/bauer.md
 - suppliers/by-group.md
 - suppliers/powertek.md
