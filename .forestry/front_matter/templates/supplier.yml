@@ -49,6 +49,7 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/eletto.md
 - suppliers/diadora.md
 - suppliers/canadawide-sports.md
 - suppliers/atf-sports.md
