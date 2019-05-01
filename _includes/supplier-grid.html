@@ -4,38 +4,6 @@
     <div class="supplier__logo-wrapper">
       <img class="supplier__logo" src="{{ supplier.logo | prepend: site.mediaUrl }}" />
     </div>
-    {% if supplier.website.size > 0 %}
-      <div class="supplier__section">
-        <div class="supplier__section-icon">
-          <i class="fal fa-globe"></i>
-        </div>
-        <a class="supplier__section-website" href="{{ supplier.website }}" target="_blank" title="{{ supplier.website }}">{{ supplier.website }}</a>
-      </div>
-    {% endif %}
-    {% if supplier.pdfs.size > 0 %}
-      <div class="supplier__section">
-        <div class="supplier__section-icon">
-          <i class="fal fa-file-pdf"></i>
-        </div>
-        <ul class="supplier__pdfs">
-          {% for pdf in supplier.pdfs %}
-            <li class="supplier__pdf">
-              <a class="supplier__pdf-link" href="{{ pdf | prepend: site.mediaUrl }}" target="_blank" title="{{ pdf | remove_first: "/" }}">{{ pdf | remove_first: "/" }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    {% endif %}
-    {% if supplier.info.size > 0 %}
-      <div class="supplier__section">
-        <div class="supplier__section-icon">
-          <i class="fal fa-info-circle"></i>
-        </div>
-        <div class="markdown">
-          {{ supplier.info | markdownify }}
-        </div>
-      </div>
-    {% endif %}
   </div>
 
 </div>

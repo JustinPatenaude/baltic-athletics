@@ -813,7 +813,7 @@ input, textarea, button {
 .supplier__wrapper {
   display: block;
   margin-bottom: $gutter;
-  padding: 20px 20px 0 20px;
+  padding: 20px;
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 0 0 30px rgba(0,0,0,0.10);
@@ -821,10 +821,6 @@ input, textarea, button {
   &:hover {
     box-shadow: 0 0 30px rgba(0,0,0,0.25);
   }
-}
-.supplier__logo-wrapper {
-  max-width: 200px;
-  margin: 0 auto 20px auto;
 }
 .supplier__logo {
   width: 100%;

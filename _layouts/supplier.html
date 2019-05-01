@@ -14,7 +14,38 @@ layout: default
 <div class="container page__content">
   <div class="grid-center">
     <div class="col-8_md-12 rte">
-      {{ content }}
+      {% if page.website.size > 0 %}
+        <div class="supplier__section">
+          <div class="supplier__section-icon">
+            <i class="fal fa-globe"></i>
+          </div>
+          <a class="supplier__section-website" href="{{ page.website }}" target="_blank" title="{{ page.website }}">{{ page.website }}</a>
+        </div>
+      {% endif %}
+      {% if page.pdfs.size > 0 %}
+        <div class="supplier__section">
+          <div class="supplier__section-icon">
+            <i class="fal fa-file-pdf"></i>
+          </div>
+          <ul class="supplier__pdfs">
+            {% for pdf in page.pdfs %}
+              <li class="supplier__pdf">
+                <a class="supplier__pdf-link" href="{{ pdf | prepend: site.mediaUrl }}" target="_blank" title="{{ pdf | remove_first: "/" }}">{{ pdf | remove_first: "/" }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+      {% if page.info.size > 0 %}
+        <div class="supplier__section">
+          <div class="supplier__section-icon">
+            <i class="fal fa-info-circle"></i>
+          </div>
+          <div class="markdown">
+            {{ page.info | markdownify }}
+          </div>
+        </div>
+      {% endif %}
     </div>
   </div>
 </div>
