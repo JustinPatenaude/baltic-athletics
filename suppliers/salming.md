@@ -1,12 +1,13 @@
 ---
 layout: supplier
 permalink: "/suppliers/salming"
-categories: []
+categories:
+- catalogues/floor-hockey.md
 title: Salming
-logo: ''
+logo: "/salming-logo.png"
 website: ''
 pdfs: []
 info: ''
-date: 2019-03-29 17:33:17 -0500
+date: '2019-03-29T22:33:17.000+00:00'
 
 ---

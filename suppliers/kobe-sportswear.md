@@ -1,12 +1,22 @@
 ---
 layout: supplier
 permalink: "/suppliers/kobe-sportswear"
-categories: []
+categories:
+- catalogues/basketball.md
+- catalogues/baseball.md
+- catalogues/hockey.md
+- catalogues/jackets.md
+- catalogues/jerseys.md
+- catalogues/pants.md
+- catalogues/shirts.md
+- catalogues/shorts.md
 title: Kobe Sportswear
-logo: ''
-website: ''
-pdfs: []
+logo: "/kobe-logo.jpg"
+website: http://kobesportswear.com/
+pdfs:
+- "/2019-kobe-baseball-catalogue.pdf"
+- "/2019-kobe-catalogue.pdf"
 info: ''
-date: 2019-03-29 17:29:05 -0500
+date: '2019-03-29T22:29:05.000+00:00'
 
 ---

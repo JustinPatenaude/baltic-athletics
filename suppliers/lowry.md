@@ -1,12 +1,16 @@
 ---
 layout: supplier
 permalink: "/suppliers/lowry"
-categories: []
+categories:
+- catalogues/floor-hockey.md
+- catalogues/hockey.md
+- catalogues/lacrosse.md
 title: Lowry
-logo: ''
-website: ''
-pdfs: []
+logo: "/lowry-logo.png"
+website: http://lowrysports.com/
+pdfs:
+- "/2018-lowry's-catalogue.pdf"
 info: ''
-date: 2019-03-29 17:29:52 -0500
+date: '2019-03-29T22:29:52.000+00:00'
 
 ---
