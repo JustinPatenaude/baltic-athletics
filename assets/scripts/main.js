@@ -30,30 +30,30 @@ $(document).ready(function(){
   /* ==========================
      MASONRY
   ========================== */
-  var macyColumns = 1;
-  var macyContainer = '#suppliers';
-  if($('#suppliers-2').length){
-    console.log('suppliers 2');
-    macyColumns = 2;
-    macyContainer = '#suppliers-2';
-  } else if($('#suppliers-3').length){
-    console.log('suppliers 3');
-    macyColumns = 3;
-    macyContainer = '#suppliers-3';
-  }
-  console.log('macyColumns', macyColumns);
-  var macyInstance = Macy({
-    container: macyContainer,
-    trueOrder: false,
-    waitForImages: false,
-    columns: macyColumns,
-    margin: 20
-  });
+  // var macyColumns = 1;
+  // var macyContainer = '#suppliers';
+  // if($('#suppliers-2').length){
+  //   console.log('suppliers 2');
+  //   macyColumns = 2;
+  //   macyContainer = '#suppliers-2';
+  // } else if($('#suppliers-3').length){
+  //   console.log('suppliers 3');
+  //   macyColumns = 3;
+  //   macyContainer = '#suppliers-3';
+  // }
+  // console.log('macyColumns', macyColumns);
+  // var macyInstance = Macy({
+  //   container: macyContainer,
+  //   trueOrder: false,
+  //   waitForImages: false,
+  //   columns: macyColumns,
+  //   margin: 20
+  // });
 
-  macyInstance.on(macyInstance.constants.EVENT_IMAGE_COMPLETE, function (ctx) {
-    $('.suppliers__all').removeClass('fade-out').addClass('fade-in');
-    $('.suppliers__loading').removeClass('fade-in').addClass('fade-out');
-  });
+  // macyInstance.on(macyInstance.constants.EVENT_IMAGE_COMPLETE, function (ctx) {
+  //   $('.suppliers__all').removeClass('fade-out').addClass('fade-in');
+  //   $('.suppliers__loading').removeClass('fade-in').addClass('fade-out');
+  // });
 
   /* ==========================
      CATALOGUE SEARCH
@@ -82,14 +82,14 @@ $(document).ready(function(){
   $('.supplier__search-form .search__input').on('keyup', function(e){
     var inputtedValue = e.target.value;
     $('.supplier[data-title]').each(function(){
-      var title = $(this).text().toLowerCase();
+      var title = $(this).attr('data-title').toLowerCase();
+      console.log(title, inputtedValue);
       if(title.indexOf(inputtedValue) < 0){
         $(this).hide();
       } else {
         $(this).show();
       }
     });
-    macyInstance.recalculate();
   });
 
 

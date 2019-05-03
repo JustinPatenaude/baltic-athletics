@@ -48,7 +48,7 @@ layout: default
             <div class="grid">
               {% for item in catalogue.sub-categories %}
                 {% assign itemHandle = item | slugify %}
-                {% capture itemImageUrl %}/assets/images/{{ catalogueHandle }}-{{ itemHandle }}.svg{% endcapture %}
+                {% capture itemImageUrl %}/assets/images/category-{{ itemHandle }}.svg{% endcapture %}
                 <div class="col-2_lg-3_md-4_xs-6 catalogue__category-wrapper">
                   {% capture itemLink %}/catalogues/{{ itemHandle }}{% endcapture %}
                   <a href="{{ itemLink | relative_url }}" class="catalogue__category">

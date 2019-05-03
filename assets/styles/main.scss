@@ -811,9 +811,11 @@ input, textarea, button {
   width: 100%;
 }
 .supplier__wrapper {
+  position: relative;
   display: block;
+  width: 100%;
   margin-bottom: $gutter;
-  padding: 20px;
+  padding-bottom: 50%;
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 0 0 30px rgba(0,0,0,0.10);
@@ -823,7 +825,13 @@ input, textarea, button {
   }
 }
 .supplier__logo {
-  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+  max-width: calc(100% - 40px);
+  max-height: calc(100% - 40px);
+  transform: translate(-50%, -50%);
 }
 .supplier__title {
   padding-bottom: 20px;

@@ -11,41 +11,107 @@ layout: default
     </div>
   </div>
 </div>
-<div class="container page__content">
-  <div class="grid-center">
-    <div class="col-8_md-12 rte">
-      {% if page.website.size > 0 %}
-        <div class="supplier__section">
-          <div class="supplier__section-icon">
-            <i class="fal fa-globe"></i>
+<div class="page__content">
+  {% if page.website.size > 0 %}
+    <div class="container margin-60">
+      <div class="grid-center">
+        <div class="col-8_lg-10_md-12">
+
+          <div class="page__title-wrapper cf">
+            <div class="page__title-img-wrapper">
+              <img class="page__title-img" src="{{ '/assets/images/title-website.svg' | relative_url }}" />
+            </div>
+            <h2 class="page__title">Website</h2>
           </div>
-          <a class="supplier__section-website" href="{{ page.website }}" target="_blank" title="{{ page.website }}">{{ page.website }}</a>
+          <div class="page__section">
+            <a class="supplier__section-website" href="{{ page.website }}" target="_blank" title="{{ page.website }}">{{ page.website }}</a>
+          </div>
+
         </div>
-      {% endif %}
-      {% if page.pdfs.size > 0 %}
-        <div class="supplier__section">
-          <div class="supplier__section-icon">
-            <i class="fal fa-file-pdf"></i>
-          </div>
-          <ul class="supplier__pdfs">
-            {% for pdf in page.pdfs %}
-              <li class="supplier__pdf">
-                <a class="supplier__pdf-link" href="{{ pdf | prepend: site.mediaUrl }}" target="_blank" title="{{ pdf | remove_first: "/" }}">{{ pdf | remove_first: "/" }}</a>
-              </li>
-            {% endfor %}
-          </ul>
-        </div>
-      {% endif %}
-      {% if page.info.size > 0 %}
-        <div class="supplier__section">
-          <div class="supplier__section-icon">
-            <i class="fal fa-info-circle"></i>
-          </div>
-          <div class="markdown">
-            {{ page.info | markdownify }}
-          </div>
-        </div>
-      {% endif %}
+      </div>
     </div>
-  </div>
+  {% endif %}
+  {% if page.pdfs.size > 0 %}
+    <div class="container margin-60">
+      <div class="grid-center">
+        <div class="col-8_lg-10_md-12">
+
+          <div class="page__title-wrapper cf">
+            <div class="page__title-img-wrapper">
+              <img class="page__title-img" src="{{ '/assets/images/title-pdfs.svg' | relative_url }}" />
+            </div>
+            <h2 class="page__title">PDF Catalogues</h2>
+          </div>
+          <div class="page__section">
+            <ul class="supplier__pdfs">
+              {% for pdf in page.pdfs %}
+                <li class="supplier__pdf">
+                  <a class="supplier__pdf-link" href="{{ pdf | prepend: site.mediaUrl }}" target="_blank" title="{{ pdf | remove_first: "/" }}">{{ pdf | remove_first: "/" }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  {% endif %}
+  {% if page.info.size > 0 %}
+    <div class="container margin-60">
+      <div class="grid-center">
+        <div class="col-8_lg-10_md-12">
+
+          <div class="page__title-wrapper cf">
+            <div class="page__title-img-wrapper">
+              <img class="page__title-img" src="{{ '/assets/images/title-info.svg' | relative_url }}" />
+            </div>
+            <h2 class="page__title">Info</h2>
+          </div>
+          <div class="page__section">
+            <div class="markdown">
+              {{ page.info | markdownify }}
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  {% endif %}
+  
+  {% if page.categories.size > 0 %}
+    <div class="container">
+      <div class="grid-center">
+        <div class="col-8_lg-10_md-12">
+
+          <div class="page__title-wrapper cf">
+            <div class="page__title-img-wrapper">
+              <img class="page__title-img" src="{{ '/assets/images/title-sports.svg' | relative_url }}" />
+            </div>
+            <h2 class="page__title">Categories</h2>
+          </div>
+
+          <div class="grid">
+            {% assign categoryPages = site.pages | where: 'layout', "category" %}
+            {% for category in page.categories %}
+              {% assign categoryHandle = category | remove: "catalogues/" | remove: ".md" %}
+              {% assign categoryPermalink = category | remove: ".md" | prepend: "/" %}
+              {% assign categoryPage = categoryPages | where: 'permalink', categoryPermalink %}
+              {% capture categoryImageUrl %}/assets/images/category-{{ categoryHandle }}.svg{% endcapture %}
+              <div class="col-3_md-4_xs-6 catalogue__category-wrapper">
+                <a href="{{ categoryPermalink | relative_url }}" class="catalogue__category">
+                  <div class="catalogue__category-img-wrapper">
+                    <img class="catalogue__category-img" src="{{ categoryImageUrl | relative_url }}" />
+                  </div>
+                  <div class="catalogue__category-title-wrapper">
+                    <h5 class="catalogue__category-title">{{ categoryPage[0].title }}</h5>
+                  </div>
+                </a>
+              </div>
+            {% endfor %}
+          </div>
+
+        </div>
+      </div>
+    </div>
+  {% endif %}
 </div>
