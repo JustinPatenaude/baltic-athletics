@@ -25,6 +25,10 @@ pdfs:
 - "/360-athletics-2018-COREFX-Catalogue.pdf"
 - "/360-athletics-2018-catalogue.pdf"
 info: ''
-date: 2019-03-29 22:13:46 +0000
+date: '2019-03-29T22:13:46.000+00:00'
+catalogues:
+- title: 360 Athletics Catalogue
+  pdf: "/360-athletics-2018-catalogue.pdf"
+  year: 2018
 
 ---
