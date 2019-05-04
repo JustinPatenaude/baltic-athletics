@@ -27,6 +27,12 @@ pdfs:
 info: ''
 date: '2019-03-29T22:13:46.000+00:00'
 catalogues:
+- title: 360 Athletics CFX Bands Sets
+  year: 2018
+  pdf: "/360-athletics-CFX-BANDS-SETS.pdf"
+- title: 360 Athletics COREFX Catalogue
+  year: 2018
+  pdf: "/360-athletics-2018-COREFX-Catalogue.pdf"
 - title: 360 Athletics Catalogue
   pdf: "/360-athletics-2018-catalogue.pdf"
   year: 2018
