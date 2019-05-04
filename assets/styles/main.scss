@@ -873,9 +873,57 @@ input, textarea, button {
   text-overflow: ellipsis;
   overflow: hidden;
 }
+.supplier__pdf-wrapper {
+  margin-bottom: 12px;
+}
+.supplier__pdf {
+  position: relative;
+  display: block;
+  padding-left: 20px;
+  &:hover {
+    .supplier__pdf-icon--default {
+      opacity: 0;
+    }
+    .supplier__pdf-icon--hover {
+      opacity: 1;
+    }
+  }
+}
+.supplier__pdf-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  line-height: 20px;
+  color: $colorDark;
+  transition: all .2s ease-in-out;
+}
+.supplier__pdf-icon--hover {
+  opacity: 0;
+}
+.supplier__pdf-year {
+  display: inline-block;
+  vertical-align: top;
+  margin: 2px 6px 2px 0;
+  padding: 0 5px;
+  font-size: 10px;
+  line-height: 16px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #333;
+  border-radius: 2px;
+}
+.supplier__pdf-title {
+  margin: 0;
+  line-height: 20px;
+  color: $colorDark;
+}
 .supplier__pdf-link {
   display: block;
   width: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  font-style: italic;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
