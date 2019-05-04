@@ -3036,9 +3036,11 @@ input, textarea, button {
   width: 100%; }
 
 .supplier__wrapper {
+  position: relative;
   display: block;
+  width: 100%;
   margin-bottom: 30px;
-  padding: 20px 20px 0 20px;
+  padding-bottom: 50%;
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
@@ -3046,12 +3048,14 @@ input, textarea, button {
   .supplier__wrapper:hover {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.25); }
 
-.supplier__logo-wrapper {
-  max-width: 200px;
-  margin: 0 auto 20px auto; }
-
 .supplier__logo {
-  width: 100%; }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+  max-width: calc(100% - 40px);
+  max-height: calc(100% - 40px);
+  transform: translate(-50%, -50%); }
 
 .supplier__title {
   padding-bottom: 20px;
