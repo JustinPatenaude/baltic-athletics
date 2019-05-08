@@ -1,7 +1,10 @@
 ---
 layout: supplier
 permalink: "/suppliers/kwik-goal"
-categories: []
+categories:
+- catalogues/soccer.md
+- catalogues/nets.md
+- catalogues/posts.md
 title: Kwik Goal
 logo: "/kwik-goal-logo.png"
 website: ''
