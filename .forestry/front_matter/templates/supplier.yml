@@ -72,6 +72,7 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/diadora.md
 - suppliers/by-group.md
 - suppliers/augusta-sportswear.md
 - suppliers/martini-promotions.md
@@ -91,7 +92,6 @@ pages:
 - suppliers/dyenomite.md
 - suppliers/dom-sports.md
 - suppliers/eletto.md
-- suppliers/diadora.md
 - suppliers/canadawide-sports.md
 - suppliers/atf-sports.md
 - suppliers/alleson.md
