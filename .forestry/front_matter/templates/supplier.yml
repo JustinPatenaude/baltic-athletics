@@ -73,6 +73,11 @@ fields:
   default: []
 pages:
 - suppliers/martini-promotions.md
+- suppliers/kobe-sportswear.md
+- suppliers/dynamic-team-sports.md
+- suppliers/diadora.md
+- suppliers/by-group.md
+- suppliers/augusta-sportswear.md
 - suppliers/mikasa.md
 - suppliers/novelty-printers.md
 - suppliers/powertek.md
@@ -85,23 +90,19 @@ pages:
 - suppliers/york.md
 - suppliers/faber-snowshoes.md
 - suppliers/edgewood-matting.md
-- suppliers/dynamic-team-sports.md
 - suppliers/dyenomite.md
 - suppliers/dom-sports.md
 - suppliers/eletto.md
-- suppliers/diadora.md
 - suppliers/canadawide-sports.md
 - suppliers/atf-sports.md
 - suppliers/alleson.md
 - suppliers/monsens-sporting-goods-limited.md
 - suppliers/lowry.md
 - suppliers/bauer.md
-- suppliers/by-group.md
 - suppliers/pear-sox.md
 - suppliers/technosport.md
 - suppliers/spalding.md
 - suppliers/the-ultimate-disc-golf-store.md
-- suppliers/kobe-sportswear.md
 - suppliers/ulhsport.md
 - suppliers/trimark.md
 - suppliers/stackhouse-athletic.md
@@ -127,7 +128,6 @@ pages:
 - suppliers/campus-crew.md
 - suppliers/brandwear.md
 - suppliers/black-knight.md
-- suppliers/augusta-sportswear.md
 - suppliers/alphabroder.md
 - suppliers/ajm-international.md
 - suppliers/adspec.md
