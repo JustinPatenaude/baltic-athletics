@@ -1,12 +1,14 @@
 ---
 layout: supplier
 permalink: "/suppliers/get-xposed"
-categories: []
+categories:
+- catalogues/drinkware.md
 title: Get Xposed
 logo: ''
-website: ''
+website: http://www.getxposed.ca/
 pdfs: []
 info: ''
-date: 2019-03-29 17:27:42 -0500
+date: '2019-03-29T22:27:42.000+00:00'
+catalogues: []
 
 ---
