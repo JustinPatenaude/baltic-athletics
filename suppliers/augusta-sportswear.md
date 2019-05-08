@@ -26,6 +26,13 @@ pdfs:
 - "/augusta-football-2017.pdf"
 - "/augusta-basketball-2017.pdf"
 info: ''
-date: 2019-03-29 22:18:11 +0000
+date: '2019-03-29T22:18:11.000+00:00'
+catalogues:
+- title: Augusta Basketball
+  pdf: "/augusta-basketball-2017.pdf"
+  year: 2017
+- title: Augusta Football
+  pdf: "/augusta-football-2017.pdf"
+  year: 2017
 
 ---
