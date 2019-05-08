@@ -72,12 +72,12 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/martini-promotions.md
 - suppliers/kobe-sportswear.md
 - suppliers/dynamic-team-sports.md
 - suppliers/diadora.md
 - suppliers/by-group.md
 - suppliers/augusta-sportswear.md
-- suppliers/martini-promotions.md
 - suppliers/mikasa.md
 - suppliers/novelty-printers.md
 - suppliers/powertek.md
