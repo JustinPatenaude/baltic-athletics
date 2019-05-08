@@ -72,6 +72,10 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/lowry.md
+- suppliers/cramer-sports-medicine.md
+- suppliers/fox-40.md
+- suppliers/ajm-international.md
 - suppliers/martini-promotions.md
 - suppliers/kobe-sportswear.md
 - suppliers/dynamic-team-sports.md
@@ -97,7 +101,6 @@ pages:
 - suppliers/atf-sports.md
 - suppliers/alleson.md
 - suppliers/monsens-sporting-goods-limited.md
-- suppliers/lowry.md
 - suppliers/bauer.md
 - suppliers/pear-sox.md
 - suppliers/technosport.md
@@ -117,19 +120,16 @@ pages:
 - suppliers/high-5-sportswear.md
 - suppliers/get-xposed.md
 - suppliers/gemsport.md
-- suppliers/fox-40.md
 - suppliers/fiel.md
 - suppliers/farpost-goals.md
 - suppliers/exel-sports.md
 - suppliers/d-gel.md
 - suppliers/d-r-hockey.md
-- suppliers/cramer-sports-medicine.md
 - suppliers/champion-sports.md
 - suppliers/campus-crew.md
 - suppliers/brandwear.md
 - suppliers/black-knight.md
 - suppliers/alphabroder.md
-- suppliers/ajm-international.md
 - suppliers/adspec.md
 - suppliers/admiral.md
 - suppliers/360-athletics.md
