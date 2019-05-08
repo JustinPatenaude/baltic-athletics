@@ -879,7 +879,8 @@ input, textarea, button {
 .supplier__pdf {
   position: relative;
   display: block;
-  padding-left: 20px;
+  margin-bottom: 12px;
+  padding-left: 32px;
   &:hover {
     .supplier__pdf-icon--default {
       opacity: 0;
@@ -894,7 +895,7 @@ input, textarea, button {
   top: 0;
   left: 0;
   z-index: 2;
-  line-height: 20px;
+  font-size: 32px;
   color: $colorDark;
   transition: all .2s ease-in-out;
 }
@@ -926,6 +927,7 @@ input, textarea, button {
   font-style: italic;
   white-space: nowrap;
   text-overflow: ellipsis;
+  color: $colorGrey;
   overflow: hidden;
 }
 
