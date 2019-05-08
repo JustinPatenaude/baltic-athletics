@@ -13,6 +13,10 @@ website: ''
 pdfs:
 - "/campus-crew-2017.pdf"
 info: ''
-date: 2019-03-29 22:20:54 +0000
+date: '2019-03-29T22:20:54.000+00:00'
+catalogues:
+- title: Campus Crew Catalogue
+  pdf: "/campus-crew-2017.pdf"
+  year: 2017
 
 ---
