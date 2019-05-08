@@ -72,6 +72,7 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/dynamic-team-sports.md
 - suppliers/diadora.md
 - suppliers/by-group.md
 - suppliers/augusta-sportswear.md
@@ -88,7 +89,6 @@ pages:
 - suppliers/york.md
 - suppliers/faber-snowshoes.md
 - suppliers/edgewood-matting.md
-- suppliers/dynamic-team-sports.md
 - suppliers/dyenomite.md
 - suppliers/dom-sports.md
 - suppliers/eletto.md
