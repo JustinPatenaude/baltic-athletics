@@ -72,6 +72,7 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/kamazu.md
 - suppliers/jaypro.md
 - suppliers/inaria.md
 - suppliers/hussey-seating.md
