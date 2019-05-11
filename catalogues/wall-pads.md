@@ -5,7 +5,6 @@ title: Wall Pads
 products:
 - Custom Shapes
 - Customized Pads
-- Post Pads
 - Removable Pads
 - Permanent Pads
 photos: []
