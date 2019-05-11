@@ -3,6 +3,12 @@ layout: category
 permalink: "/catalogues/football"
 title: Football
 products:
+- Endzone Pylons
+- Pylons
+- Yardage Markers
+- Linesman Marker Sets
+- Post Padding
+- Football Uprights
 - Uniforms
 - Mouthguards
 - Belts w/ Flags
