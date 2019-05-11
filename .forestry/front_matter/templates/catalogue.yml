@@ -61,6 +61,7 @@ fields:
       file: _data/suppliers.yml
       path: suppliers
 pages:
+- catalogues/scorekeeping-tables.md
 - catalogues/ringette.md
 - catalogues/orienteering.md
 - catalogues/hockey.md
@@ -89,10 +90,8 @@ pages:
 - catalogues/lacrosse.md
 - catalogues/towels.md
 - catalogues/gift-sets.md
-- catalogues/scorekeeping-tables.md
 - catalogues/pets.md
 - catalogues/safety.md
-- catalogues/signage.md
 - catalogues/tech-items.md
 - catalogues/plush-novelties.md
 - catalogues/eyewear.md
