@@ -49,17 +49,6 @@ fields:
     max: 
     labelField: 
   label: Photos
-- type: list
-  label: Suppliers
-  name: suppliers
-  description: Suppliers that offer products in this category
-  config:
-    use_select: true
-    source:
-      type: pages
-      section: suppliers
-      file: _data/suppliers.yml
-      path: suppliers
 pages:
 - catalogues/seating.md
 - catalogues/inflators-essentials.md
