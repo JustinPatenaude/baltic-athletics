@@ -2,9 +2,11 @@
 layout: category
 permalink: "/catalogues/ultimate"
 title: Ultimate
-products: []
+products:
+- Uniforms
+- Discs
 photos: []
 suppliers: []
-date: 2019-03-29 18:04:56 -0500
+date: '2019-03-29T23:04:56.000+00:00'
 
 ---
