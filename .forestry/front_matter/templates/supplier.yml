@@ -72,6 +72,7 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/under-armour.md
 - suppliers/lolimpin.md
 - suppliers/kamazu.md
 - suppliers/jaypro.md
