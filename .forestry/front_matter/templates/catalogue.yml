@@ -61,6 +61,7 @@ fields:
       file: _data/suppliers.yml
       path: suppliers
 pages:
+- catalogues/floor-hockey.md
 - catalogues/dividers.md
 - catalogues/cross-country-skiing.md
 - catalogues/inflators-essentials.md
@@ -79,7 +80,6 @@ pages:
 - catalogues/notebooks.md
 - catalogues/volleyball.md
 - catalogues/golf.md
-- catalogues/floor-hockey.md
 - catalogues/officials-equipment.md
 - catalogues/tennis.md
 - catalogues/orienteering.md
