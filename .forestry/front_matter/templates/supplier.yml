@@ -72,6 +72,7 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/hussey-seating.md
 - suppliers/barbarian.md
 - suppliers/eletto.md
 - suppliers/lowry.md
