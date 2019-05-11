@@ -2,9 +2,15 @@
 layout: category
 permalink: "/catalogues/boxing"
 title: Boxing
-products: []
+products:
+- Training Aids
+- Mouthguards
+- Heavy Bags
+- Speed Bags
+- Rings
+- Gloves
 photos: []
 suppliers: []
-date: 2019-03-29 17:56:16 -0500
+date: '2019-03-29T22:56:16.000+00:00'
 
 ---
