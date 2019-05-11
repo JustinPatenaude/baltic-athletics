@@ -61,6 +61,7 @@ fields:
       file: _data/suppliers.yml
       path: suppliers
 pages:
+- catalogues/hockey.md
 - catalogues/football.md
 - catalogues/floor-hockey.md
 - catalogues/dividers.md
@@ -87,7 +88,6 @@ pages:
 - catalogues/first-aid.md
 - catalogues/lacrosse.md
 - catalogues/towels.md
-- catalogues/hockey.md
 - catalogues/gift-sets.md
 - catalogues/scorekeeping-tables.md
 - catalogues/pets.md
