@@ -2,9 +2,13 @@
 layout: category
 permalink: "/catalogues/table-tennis"
 title: Table Tennis
-products: []
+products:
+- Nets
+- Paddles/Bats
+- Balls
+- Tables
 photos: []
 suppliers: []
-date: 2019-03-29 18:04:03 -0500
+date: '2019-03-29T23:04:03.000+00:00'
 
 ---

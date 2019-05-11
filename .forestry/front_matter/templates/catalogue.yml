@@ -61,6 +61,7 @@ fields:
       file: _data/suppliers.yml
       path: suppliers
 pages:
+- catalogues/table-tennis.md
 - catalogues/scorekeeping-tables.md
 - catalogues/ringette.md
 - catalogues/orienteering.md
@@ -103,7 +104,6 @@ pages:
 - catalogues/pants.md
 - catalogues/banners.md
 - catalogues/apparel.md
-- catalogues/table-tennis.md
 - catalogues/beach-volleyball.md
 - catalogues/baseball.md
 - catalogues/snowshoes.md
