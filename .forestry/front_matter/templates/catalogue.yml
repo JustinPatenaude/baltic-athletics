@@ -61,6 +61,7 @@ fields:
       file: _data/suppliers.yml
       path: suppliers
 pages:
+- catalogues/orienteering.md
 - catalogues/hockey.md
 - catalogues/football.md
 - catalogues/floor-hockey.md
@@ -84,7 +85,6 @@ pages:
 - catalogues/golf.md
 - catalogues/officials-equipment.md
 - catalogues/tennis.md
-- catalogues/orienteering.md
 - catalogues/first-aid.md
 - catalogues/lacrosse.md
 - catalogues/towels.md
