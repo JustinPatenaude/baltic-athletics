@@ -2,9 +2,10 @@
 layout: category
 permalink: "/catalogues/water-polo"
 title: Water Polo
-products: []
+products:
+- Balls
 photos: []
 suppliers: []
-date: 2019-03-29 18:05:20 -0500
+date: '2019-03-29T23:05:20.000+00:00'
 
 ---

@@ -3,12 +3,12 @@ layout: category
 permalink: "/catalogues/protective-padding"
 title: Protective Padding
 products:
+- Crash Mats
 - Stage Padding
 - Football Stepover Bags
 - Football/Rugby Blocking Shields
 - Custom Shapes
 - Scoretable w/ Protective Padding
-- High Jump Crash Mats
 - Football/Soccer Posts Pads
 - Volleyball Post Pads
 - Exercise Mats
