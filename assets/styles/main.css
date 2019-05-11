@@ -3075,6 +3075,10 @@ input, textarea, button {
     text-overflow: ellipsis;
     overflow: hidden; }
 
+.supplier__section-logo {
+  display: block;
+  width: 100%; }
+
 .supplier__section-icon {
   position: absolute;
   top: 0;
