@@ -3,6 +3,9 @@ layout: category
 permalink: "/catalogues/hockey"
 title: Hockey
 products:
+- Goalie Equipment
+- First Aid Kits
+- Water Bottles
 - Spectator Protection Netting
 - Arena Divider Pads
 - Coaching Equipment
