@@ -2,9 +2,11 @@
 layout: category
 permalink: "/catalogues/officials-equipment"
 title: Officials Equipment
-products: []
+products:
+- Officials Apparel
+- Whistles
 photos: []
 suppliers: []
-date: 2019-03-29 18:02:12 -0500
+date: '2019-03-29T23:02:12.000+00:00'
 
 ---

@@ -2,9 +2,13 @@
 layout: category
 permalink: "/catalogues/marine-supplies"
 title: Marine Suppliers
-products: []
+products:
+- Lifesaving Equipment
+- Horns
+- First Aid Kits
+- Whistles
 photos: []
 suppliers: []
-date: 2019-03-29 18:01:54 -0500
+date: '2019-03-29T23:01:54.000+00:00'
 
 ---

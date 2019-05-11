@@ -2,9 +2,16 @@
 layout: category
 permalink: "/catalogues/posts"
 title: Posts
-products: []
+products:
+- Beach Volleyball
+- Volleyball
+- Tennis
+- Badminton
+- Soccer
+- Football
+- Basketball
 photos: []
 suppliers: []
-date: 2019-03-29 18:08:11 -0500
+date: '2019-03-29T23:08:11.000+00:00'
 
 ---

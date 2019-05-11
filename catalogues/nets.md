@@ -2,9 +2,19 @@
 layout: category
 permalink: "/catalogues/nets"
 title: Nets
-products: []
+products:
+- Futsal
+- Tennis
+- Beach Volleyball
+- Badminton
+- Volleyball
+- Basketball
+- Lacrosse
+- Floor Hockey
+- Hockey
+- Soccer
 photos: []
 suppliers: []
-date: 2019-03-29 18:07:41 -0500
+date: '2019-03-29T23:07:41.000+00:00'
 
 ---

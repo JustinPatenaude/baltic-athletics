@@ -2,9 +2,17 @@
 layout: category
 permalink: "/catalogues/weight-lifting"
 title: Weight Lifting
-products: []
+products:
+- Rubber Flooring
+- Weight Lifting Plates
+- Bars
+- Kettlebells
+- Belts
+- Chalk
+- Barbells
+- Dumbells
 photos: []
 suppliers: []
-date: 2019-03-29 18:05:37 -0500
+date: '2019-03-29T23:05:37.000+00:00'
 
 ---

@@ -2,9 +2,13 @@
 layout: category
 permalink: "/catalogues/wall-pads"
 title: Wall Pads
-products: []
+products:
+- Custom Shapes
+- Customized Pads
+- Removable Pads
+- Permanent Pads
 photos: []
 suppliers: []
-date: 2019-03-29 18:08:48 -0500
+date: '2019-03-29T23:08:48.000+00:00'
 
 ---

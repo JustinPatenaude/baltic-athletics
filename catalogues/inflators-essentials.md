@@ -1,10 +1,13 @@
 ---
 layout: category
-permalink: "/catalogues/inflators-essentials"
-title: Inflators / Essentials
-products: []
+permalink: "/catalogues/inflators"
+title: Inflators
+products:
+- Needles
+- Hand/Foot Pumps
+- Electric Inflators
 photos: []
 suppliers: []
-date: 2019-03-29 18:07:33 -0500
+date: '2019-03-29T23:07:33.000+00:00'
 
 ---

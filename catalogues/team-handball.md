@@ -2,9 +2,12 @@
 layout: category
 permalink: "/catalogues/team-handball"
 title: Team Handball
-products: []
+products:
+- Goals
+- Uniforms
+- Balls
 photos: []
 suppliers: []
-date: 2019-03-29 18:04:16 -0500
+date: '2019-03-29T23:04:16.000+00:00'
 
 ---

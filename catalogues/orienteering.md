@@ -2,9 +2,13 @@
 layout: category
 permalink: "/catalogues/orienteering"
 title: Orienteering
-products: []
+products:
+- Compasses
+- Punches
+- Punch Cards
+- Flags
 photos: []
 suppliers: []
-date: 2019-03-29 18:02:26 -0500
+date: '2019-03-29T23:02:26.000+00:00'
 
 ---
