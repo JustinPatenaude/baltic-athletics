@@ -2,9 +2,13 @@
 layout: category
 permalink: "/catalogues/beach-volleyball"
 title: Beach Volleyball
-products: []
+products:
+- Boundary Markers
+- Nets
+- Posts
+- Volleyballs
 photos: []
 suppliers: []
-date: 2019-03-29 17:55:40 -0500
+date: '2019-03-29T22:55:40.000+00:00'
 
 ---
