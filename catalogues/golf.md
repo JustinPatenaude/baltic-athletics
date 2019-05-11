@@ -3,6 +3,7 @@ layout: category
 permalink: "/catalogues/golf"
 title: Golf
 products:
+- Bags
 - Customized Golf Balls
 - Driving Mats
 - Practice Balls
