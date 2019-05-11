@@ -3,6 +3,7 @@ layout: category
 permalink: "/catalogues/snowshoes"
 title: Snowshoes
 products:
+- Poles
 - Snowshoes
 photos: []
 suppliers: []
