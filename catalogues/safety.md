@@ -3,6 +3,8 @@ layout: category
 permalink: "/catalogues/safety"
 title: Safety
 products:
+- Lifesaving Equipment
+- Whistles
 - Mouthguards
 - First Aid Kits
 photos: []
