@@ -61,6 +61,7 @@ fields:
       file: _data/suppliers.yml
       path: suppliers
 pages:
+- catalogues/ringette.md
 - catalogues/orienteering.md
 - catalogues/hockey.md
 - catalogues/football.md
@@ -107,7 +108,6 @@ pages:
 - catalogues/beach-volleyball.md
 - catalogues/baseball.md
 - catalogues/snowshoes.md
-- catalogues/ringette.md
 - catalogues/wind-flags.md
 - catalogues/umbrellas.md
 - catalogues/auto.md
