@@ -7,6 +7,5 @@ logo: ''
 website: ''
 catalogues: []
 info: ''
-published: false
 
 ---
