@@ -2,9 +2,14 @@
 layout: category
 permalink: "/catalogues/futsal"
 title: Futsal
-products: []
+products:
+- Goal Keeper Clothing
+- Protective Equipment
+- Uniforms
+- Goals
+- Futsal Balls
 photos: []
 suppliers: []
-date: 2019-03-29 18:00:26 -0500
+date: '2019-03-29T23:00:26.000+00:00'
 
 ---
