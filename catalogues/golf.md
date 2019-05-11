@@ -2,9 +2,14 @@
 layout: category
 permalink: "/catalogues/golf"
 title: Golf
-products: []
+products:
+- Customized Golf Balls
+- Driving Mats
+- Practice Balls
+- Clubs
+- Polo Shirts
 photos: []
 suppliers: []
-date: 2019-03-29 18:00:11 -0500
+date: '2019-03-29T23:00:11.000+00:00'
 
 ---
