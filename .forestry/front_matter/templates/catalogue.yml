@@ -61,6 +61,7 @@ fields:
       file: _data/suppliers.yml
       path: suppliers
 pages:
+- catalogues/cross-country-skiing.md
 - catalogues/inflators-essentials.md
 - catalogues/blankets.md
 - catalogues/futsal.md
@@ -86,7 +87,6 @@ pages:
 - catalogues/lacrosse.md
 - catalogues/towels.md
 - catalogues/hockey.md
-- catalogues/cross-country-skiing.md
 - catalogues/gift-sets.md
 - catalogues/scorekeeping-tables.md
 - catalogues/pets.md
