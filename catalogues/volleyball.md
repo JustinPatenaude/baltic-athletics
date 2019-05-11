@@ -3,6 +3,7 @@ layout: category
 permalink: "/catalogues/volleyball"
 title: Volleyball
 products:
+- Coaching Supplies
 - Antennas & Pockets
 - Referee Stands
 - Coaching Aids
