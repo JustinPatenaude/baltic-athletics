@@ -2,7 +2,9 @@
 layout: category
 permalink: "/catalogues/disc-golf"
 title: Disc Golf
-products: []
+products:
+- Disc Catchers
+- Discs
 photos: []
 suppliers: []
 
