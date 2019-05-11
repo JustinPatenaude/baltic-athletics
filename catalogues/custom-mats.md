@@ -1,8 +1,9 @@
 ---
 layout: category
-permalink: "/catalogues/custom-mats"
-title: Custom Mats
+permalink: "/catalogues/protective-padding"
+title: Protective Padding
 products:
+- Stage Padding
 - Football Stepover Bags
 - Football/Rugby Blocking Shields
 - Custom Shapes
