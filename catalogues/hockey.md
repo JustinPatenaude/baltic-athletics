@@ -3,6 +3,7 @@ layout: category
 permalink: "/catalogues/hockey"
 title: Hockey
 products:
+- Spectator Protection Netting
 - Arena Divider Pads
 - Coaching Equipment
 - Cones
