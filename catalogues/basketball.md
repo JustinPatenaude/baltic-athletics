@@ -2,9 +2,15 @@
 layout: category
 permalink: "/catalogues/basketball"
 title: Basketball
-products: []
+products:
+- Portable Systems
+- Frameworks
+- Backboards
+- Nets
+- Uniforms
+- Basketballs
 photos: []
 suppliers: []
-date: 2019-03-29 17:55:10 -0500
+date: '2019-03-29T22:55:10.000+00:00'
 
 ---
