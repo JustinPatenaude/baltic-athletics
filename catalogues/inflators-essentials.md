@@ -1,10 +1,10 @@
 ---
 layout: category
-permalink: "/catalogues/inflators-essentials"
-title: Inflators / Essentials
+permalink: "/catalogues/inflators"
+title: Inflators
 products: []
 photos: []
 suppliers: []
-date: 2019-03-29 18:07:33 -0500
+date: '2019-03-29T23:07:33.000+00:00'
 
 ---
