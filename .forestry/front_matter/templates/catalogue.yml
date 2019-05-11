@@ -61,6 +61,7 @@ fields:
       file: _data/suppliers.yml
       path: suppliers
 pages:
+- catalogues/track-field.md
 - catalogues/team-handball.md
 - catalogues/table-tennis.md
 - catalogues/scorekeeping-tables.md
@@ -114,7 +115,6 @@ pages:
 - catalogues/nets.md
 - catalogues/table-covers.md
 - catalogues/jackets.md
-- catalogues/track-field.md
 - catalogues/tissues.md
 - catalogues/boxing.md
 - catalogues/water-polo.md
