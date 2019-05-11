@@ -124,7 +124,7 @@ layout: default
               {% assign categoryPermalink = category | remove: ".md" | prepend: "/" %}
               {% assign categoryPage = categoryPages | where: 'permalink', categoryPermalink %}
               {% capture categoryImageUrl %}/assets/images/category-{{ categoryHandle }}.svg{% endcapture %}
-              <div class="col-3_md-4_xs-6 catalogue__category-wrapper">
+              <div class="col-3_sm-4 catalogue__category-wrapper">
                 <a href="{{ categoryPermalink | relative_url }}" class="catalogue__category">
                   <div class="catalogue__category-img-wrapper">
                     <img class="catalogue__category-img" src="{{ categoryImageUrl | relative_url }}" />

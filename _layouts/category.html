@@ -99,16 +99,12 @@ layout: default
 
           <div class="relative">
 
-            <div class="suppliers__loading fade-in text-center">
-              <div class="loading">
-                <h5>Loading suppliers...</h5>
-              </div>
-            </div>
-
-            <div class="suppliers__all fade-out">
-              <div id="suppliers-2">
+            <div class="suppliers__all">
+              <div class="grid">
                 {% for supplier in supplierPages %}
-                  {% include supplier-grid.html %}
+                  <div class="col-4_md-6_sm-12">
+                    {% include supplier-grid.html %}
+                  </div>
                 {% endfor %}
               </div>
             </div>
