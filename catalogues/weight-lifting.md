@@ -3,6 +3,9 @@ layout: category
 permalink: "/catalogues/weight-lifting"
 title: Weight Lifting
 products:
+- Rubber Flooring
+- Weight Lifting Plates
+- Bars
 - Kettlebells
 - Belts
 - Chalk
