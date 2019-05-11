@@ -6,7 +6,6 @@ products:
 - Coaching Supplies
 - Antennas & Pockets
 - Referee Stands
-- Coaching Aids
 - Ball Hammocks
 - Knee Pads
 - Uniforms
