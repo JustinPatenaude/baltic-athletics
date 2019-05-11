@@ -3,6 +3,7 @@ layout: category
 permalink: "/catalogues/football"
 title: Football
 products:
+- Uniforms
 - Mouthguards
 - Belts w/ Flags
 - Footballs
