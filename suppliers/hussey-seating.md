@@ -1,7 +1,8 @@
 ---
 layout: supplier
 permalink: "/suppliers/hussey-seating"
-categories: []
+categories:
+- catalogues/seating.md
 title: Hussey Seating
 logo: ''
 website: ''
