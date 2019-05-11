@@ -3,6 +3,8 @@ layout: category
 permalink: "/catalogues/hockey"
 title: Hockey
 products:
+- Helmet Masks
+- Helmets
 - Goalie Equipment
 - First Aid Kits
 - Water Bottles
