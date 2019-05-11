@@ -61,6 +61,7 @@ fields:
       file: _data/suppliers.yml
       path: suppliers
 pages:
+- catalogues/seating.md
 - catalogues/inflators-essentials.md
 - catalogues/track-field.md
 - catalogues/team-handball.md
