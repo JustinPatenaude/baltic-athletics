@@ -3,6 +3,9 @@ layout: category
 permalink: "/catalogues/track-field"
 title: Track & Field
 products:
+- Banners
+- Awards
+- Ribbons
 - Clothing
 - Uniforms
 - Pole Vault Standards
