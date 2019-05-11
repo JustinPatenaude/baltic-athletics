@@ -2,9 +2,13 @@
 layout: category
 permalink: "/catalogues/lacrosse"
 title: Lacrosse
-products: []
+products:
+- Goals
+- Balls
+- Soft Lacrosse Sticks
+- Game Sticks
 photos: []
 suppliers: []
-date: 2019-03-29 18:01:07 -0500
+date: '2019-03-29T23:01:07.000+00:00'
 
 ---
