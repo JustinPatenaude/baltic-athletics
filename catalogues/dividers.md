@@ -2,9 +2,12 @@
 layout: category
 permalink: "/catalogues/dividers"
 title: Dividers
-products: []
+products:
+- Archery Curtains
+- Walk/Draw Curtains
+- Rolldown Curtains
 photos: []
 suppliers: []
-date: 2019-03-29 18:07:09 -0500
+date: '2019-03-29T23:07:09.000+00:00'
 
 ---

@@ -61,6 +61,7 @@ fields:
       file: _data/suppliers.yml
       path: suppliers
 pages:
+- catalogues/dividers.md
 - catalogues/cross-country-skiing.md
 - catalogues/inflators-essentials.md
 - catalogues/blankets.md
@@ -108,7 +109,6 @@ pages:
 - catalogues/baseball.md
 - catalogues/snowshoes.md
 - catalogues/ringette.md
-- catalogues/dividers.md
 - catalogues/wind-flags.md
 - catalogues/umbrellas.md
 - catalogues/auto.md
