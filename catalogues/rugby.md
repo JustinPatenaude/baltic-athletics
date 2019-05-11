@@ -2,9 +2,13 @@
 layout: category
 permalink: "/catalogues/rugby"
 title: Rugby
-products: []
+products:
+- Mouthguards
+- Blocking Pads
+- Balls
+- Uniforms
 photos: []
 suppliers: []
-date: 2019-03-29 18:02:50 -0500
+date: '2019-03-29T23:02:50.000+00:00'
 
 ---
