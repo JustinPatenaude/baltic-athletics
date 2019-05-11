@@ -61,6 +61,7 @@ fields:
       file: _data/suppliers.yml
       path: suppliers
 pages:
+- catalogues/football.md
 - catalogues/floor-hockey.md
 - catalogues/dividers.md
 - catalogues/cross-country-skiing.md
@@ -103,7 +104,6 @@ pages:
 - catalogues/pants.md
 - catalogues/banners.md
 - catalogues/apparel.md
-- catalogues/football.md
 - catalogues/table-tennis.md
 - catalogues/beach-volleyball.md
 - catalogues/baseball.md
