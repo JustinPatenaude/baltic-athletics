@@ -8,12 +8,14 @@ sections:
   label: Pages
   create: all
 - type: directory
-  path: catagories
+  path: catalogues
   label: Categories
   create: documents
   match: "**/*"
   exclude: "**/index.md"
   new_doc_ext: md
+  templates:
+  - catalogue
 - type: heading
   label: Lists
 - type: document
