@@ -1,5 +1,5 @@
 ---
-layout: catalogues
-title: Catalogues
-permalink: "/catalogues/"
+layout: catalogue
+title: Catalogue
+permalink: "/catalogue/"
 ---

@@ -1,5 +1,5 @@
 ---
-catalogues:
+categories:
 - title: Sports
   sub-categories:
   - Archery
@@ -14,16 +14,19 @@ catalogues:
   - Floor Hockey
   - Football
   - Golf
+  - Field Marking
   - Futsal
   - Hockey
   - Lacrosse
   - Marine Supplies
   - Officials Equipment
   - Orienteering
+  - Pickleball
   - Ringette
   - Rugby
   - Snowshoes
   - Soccer
+  - Softball
   - Table Tennis
   - Team Handball
   - Tennis
@@ -42,17 +45,20 @@ catalogues:
   - Shirts
   - Shorts
   - Sweaters
-- title: Gym Equipment
+- title: Equipment
   sub-categories:
+  - Coaching Supplies
   - Dividers
   - Inflators / Essentials
   - Nets
   - Misc.
   - PE Playground
   - Posts
+  - Protective Padding
   - Score Boards
   - Scorekeeping Tables
   - Trainer Supplies
+  - Training Supplies
   - Wall Pads
 - title: Promotional Items
   sub-categories:
