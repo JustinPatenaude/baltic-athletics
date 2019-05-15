@@ -8,23 +8,12 @@ sections:
   label: Pages
   create: all
 - type: directory
-  path: catalogues
-  label: Catalogues
+  path: catagories
+  label: Categories
   create: documents
   match: "**/*"
   exclude: "**/index.md"
   new_doc_ext: md
-  templates:
-  - catalogue
-- type: directory
-  path: suppliers
-  label: Suppliers
-  create: documents
-  match: "**/*"
-  exclude: "**/index.md"
-  new_doc_ext: md
-  templates:
-  - supplier
 - type: heading
   label: Lists
 - type: document
