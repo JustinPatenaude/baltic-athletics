@@ -8,22 +8,28 @@ sections:
   label: Pages
   create: all
 - type: directory
+  path: suppliers
+  label: Suppliers
+  create: documents
+  match: "**/*"
+  exclude: "**/index.md"
+  new_doc_ext: ".md"
+  templates:
+  - supplier
+- type: directory
   path: catalogues
   label: Categories
   create: documents
   match: "**/*"
   exclude: "**/index.md"
-  new_doc_ext: md
+  new_doc_ext: ".md"
   templates:
   - catalogue
 - type: heading
   label: Lists
 - type: document
-  path: _data/suppliers.yml
-  label: Supplier list
-- type: document
-  path: _data/catalogues.yml
-  label: Catalogue list
+  path: _data/categories.yml
+  label: Category list
 upload_dir: ''
 public_path: ''
 front_matter_path: ''
