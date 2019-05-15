@@ -1,9 +1,9 @@
 ---
 layout: supplier
-permalink: "/suppliers/under-armour"
+permalink: "/suppliers/champion"
 categories: []
-title: Under Armour
-logo: "/logo-under-armour.png"
+title: Champion
+logo: ''
 website: ''
 catalogues: []
 info: Call for selection and availability.

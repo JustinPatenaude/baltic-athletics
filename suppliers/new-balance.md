@@ -1,9 +1,9 @@
 ---
 layout: supplier
-permalink: "/suppliers/under-armour"
+permalink: "/suppliers/new-balance"
 categories: []
-title: Under Armour
-logo: "/logo-under-armour.png"
+title: New Balance
+logo: ''
 website: ''
 catalogues: []
 info: Call for selection and availability.

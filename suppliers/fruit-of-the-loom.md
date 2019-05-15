@@ -1,9 +1,9 @@
 ---
 layout: supplier
-permalink: "/suppliers/under-armour"
+permalink: "/suppliers/fruit-of-the-loom"
 categories: []
-title: Under Armour
-logo: "/logo-under-armour.png"
+title: Fruit of the Loom
+logo: ''
 website: ''
 catalogues: []
 info: Call for selection and availability.

@@ -1,9 +1,9 @@
 ---
 layout: supplier
-permalink: "/suppliers/under-armour"
+permalink: "/suppliers/puma"
 categories: []
-title: Under Armour
-logo: "/logo-under-armour.png"
+title: Puma
+logo: ''
 website: ''
 catalogues: []
 info: Call for selection and availability.
