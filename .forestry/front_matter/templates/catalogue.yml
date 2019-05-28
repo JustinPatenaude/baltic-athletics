@@ -71,7 +71,6 @@ pages:
 - catalogues/gift-sets.md
 - catalogues/towels.md
 - catalogues/cross-country-skiing.md
-- catalogues/hockey.md
 - catalogues/scorekeeping-tables.md
 - catalogues/hats.md
 - catalogues/writing-materials.md
@@ -79,7 +78,6 @@ pages:
 - catalogues/food-gifts.md
 - catalogues/auto.md
 - catalogues/pants.md
-- catalogues/trainer-supplies.md
 - catalogues/eyewear.md
 - catalogues/tech-items.md
 - catalogues/pets.md
@@ -150,6 +148,7 @@ pages:
 - catalogues/softball.md
 - catalogues/scoreboards.md
 - catalogues/pickleball.md
+- catalogues/hockey.md
 - catalogues/field-marking.md
 - catalogues/coaching.md
 - catalogues/training-supplies.md
