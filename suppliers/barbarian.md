@@ -8,7 +8,7 @@ categories:
 - catalogues/jerseys.md
 - catalogues/rugby.md
 title: Barbarian
-logo: ''
+logo: "/barbarian-logo.png"
 website: ''
 catalogues: []
 info: ''

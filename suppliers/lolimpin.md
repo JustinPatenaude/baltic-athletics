@@ -13,7 +13,7 @@ categories:
 - catalogues/basketball.md
 - catalogues/badminton.md
 title: Lolimpin
-logo: ''
+logo: "/lolimpin-logo.png"
 website: ''
 catalogues: []
 info: ''

@@ -4,7 +4,7 @@ permalink: "/suppliers/kamazu"
 categories:
 - catalogues/hockey.md
 title: Kamazu
-logo: ''
+logo: "/kamazu-logo.jpg"
 website: ''
 catalogues: []
 info: ''
