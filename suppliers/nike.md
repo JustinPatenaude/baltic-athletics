@@ -6,6 +6,6 @@ title: Nike
 logo: ''
 website: ''
 catalogues: []
-info: Call for selection and availability.
+info: Call or email for selection and availability.
 
 ---
