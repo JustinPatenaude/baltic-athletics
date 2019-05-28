@@ -72,5 +72,6 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/dominion-regalia.md
 - suppliers/canada-sportswear.md
 - suppliers/catalyst-group-brands.md
