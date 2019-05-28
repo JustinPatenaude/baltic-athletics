@@ -6,7 +6,7 @@ categories:
 - catalogues/jerseys.md
 - catalogues/soccer.md
 title: Inaria
-logo: ''
+logo: "/inaria-logo.jpeg"
 website: ''
 catalogues: []
 info: ''
