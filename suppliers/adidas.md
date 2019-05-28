@@ -3,9 +3,9 @@ layout: supplier
 permalink: "/suppliers/adidas"
 categories: []
 title: Adidas
-logo: ''
+logo: "/adidas-logo.png"
 website: ''
 catalogues: []
-info: Call for selection and availability.
+info: Call or email for selection and availability.
 
 ---
