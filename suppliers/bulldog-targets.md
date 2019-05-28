@@ -1,7 +1,8 @@
 ---
 layout: supplier
 permalink: "/suppliers/bulldog-targets"
-categories: []
+categories:
+- catalogues/archery.md
 title: Bulldog Targets
 logo: "/bulldog-targets-logo.png"
 website: ''
