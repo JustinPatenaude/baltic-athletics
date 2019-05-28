@@ -71,3 +71,5 @@ fields:
       section: catalogues
       file: _data/catalogues.yml
   default: []
+pages:
+- suppliers/canada-sportswear.md
