@@ -3,7 +3,7 @@ layout: supplier
 permalink: "/suppliers/canada-sportswear"
 categories: []
 title: Canada Sportswear
-logo: ''
+logo: "/canada-sportswear-logo.png"
 website: ''
 catalogues: []
 info: ''
