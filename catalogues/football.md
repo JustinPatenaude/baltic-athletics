@@ -3,6 +3,7 @@ layout: category
 permalink: "/catalogues/football"
 title: Football
 products:
+- Helmet Decals
 - Endzone Pylons
 - Pylons
 - Yardage Markers
