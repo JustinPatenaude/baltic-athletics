@@ -1,9 +1,0 @@
-<div class="col-4_sm-6_xs-12 supplier" data-title="{{ supplier.title }}">
-  {% assign supplierHandle = supplier.title | slugify %}
-  {% capture supplierLink %}/suppliers/{{ supplierHandle }}{% endcapture %}
-  <a href="{{ supplierLink | relative_url }}" class="supplier__wrapper">
-    <div class="supplier__logo-wrapper">
-      <img class="supplier__logo" src="{{ supplier.logo | prepend: site.mediaUrl }}" />
-    </div>
-  </a>
-</div>

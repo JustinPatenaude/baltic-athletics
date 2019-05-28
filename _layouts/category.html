@@ -33,11 +33,11 @@ layout: default
               </div>
             </div>
             <div class="col-6_sm-12 sm-margin-20">
-              <div class="table table--6">
+              <div class="table category__table table--6">
                 <div class="grid-noGutter">
                   {% for product in page.products %}
                   <div class="col-6 table__cell">
-                    <div class="table__cell-inner">
+                    <div class="table__cell-inner" title="{{ product }}">
                       {{ product }}
                     </div>
                   </div>

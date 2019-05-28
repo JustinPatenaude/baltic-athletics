@@ -792,6 +792,14 @@ input, textarea, button {
     max-height: 102%;
   }
 }
+.category__table {
+  .table__cell-inner {
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}
 .fade-in {
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
