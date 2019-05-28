@@ -3,9 +3,9 @@ layout: supplier
 permalink: "/suppliers/new-balance"
 categories: []
 title: New Balance
-logo: ''
+logo: "/new-balance-logo.png"
 website: ''
 catalogues: []
-info: Call for selection and availability.
+info: Call or email for selection and availability.
 
 ---
