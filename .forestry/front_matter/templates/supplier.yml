@@ -72,6 +72,7 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/sherdale.md
 - suppliers/dominion-regalia.md
 - suppliers/salming-1.md
 - suppliers/richlu.md
