@@ -3,9 +3,9 @@ layout: supplier
 permalink: "/suppliers/stormtech"
 categories: []
 title: Stormtech
-logo: ''
+logo: "/stormtech-logo.png"
 website: ''
 catalogues: []
-info: Call for selection and availability.
+info: Call or email for selection and availability.
 
 ---
