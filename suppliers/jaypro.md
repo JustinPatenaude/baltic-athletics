@@ -15,7 +15,7 @@ categories:
 - catalogues/baseball.md
 - catalogues/soccer.md
 title: Jaypro
-logo: ''
+logo: "/jaypro-sports-logo.png"
 website: ''
 catalogues: []
 info: ''
