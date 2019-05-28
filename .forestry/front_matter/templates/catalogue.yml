@@ -51,7 +51,6 @@ fields:
   label: Photos
 pages:
 - catalogues/track-field.md
-- catalogues/football.md
 - catalogues/floor-hockey.md
 - catalogues/misc.md
 - catalogues/volleyball.md
@@ -152,6 +151,7 @@ pages:
 - catalogues/field-marking.md
 - catalogues/coaching.md
 - catalogues/training-supplies.md
+- catalogues/football.md
 - catalogues/scorekeeping-tables.md
 - catalogues/basketball.md
 - catalogues/cross-country-skiing.md
@@ -182,7 +182,6 @@ pages:
 - catalogues/plush-novelties.md
 - catalogues/lanyards.md
 - catalogues/writing-materials.md
-- catalogues/trainer-supplies.md
 - catalogues/hats.md
 - catalogues/pants.md
 - catalogues/eyewear.md

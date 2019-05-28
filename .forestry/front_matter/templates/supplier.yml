@@ -71,20 +71,3 @@ fields:
       section: catalogues
       file: _data/catalogues.yml
   default: []
-pages:
-- suppliers/whiteridge.md
-- suppliers/sherdale.md
-- suppliers/dominion-regalia.md
-- suppliers/spieth-canada.md
-- suppliers/salming-1.md
-- suppliers/richlu.md
-- suppliers/canada-sportswear.md
-- suppliers/sklz.md
-- suppliers/projoy.md
-- suppliers/catalyst-group-brands.md
-- suppliers/eletto-1.md
-- suppliers/hub-pen.md
-- suppliers/stahls.md
-- suppliers/freeman.md
-- suppliers/bella-canvas-1.md
-- suppliers/bulldog-targets.md
