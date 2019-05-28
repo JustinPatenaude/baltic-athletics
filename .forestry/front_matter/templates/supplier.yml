@@ -72,6 +72,7 @@ fields:
       file: _data/catalogues.yml
   default: []
 pages:
+- suppliers/whiteridge.md
 - suppliers/sherdale.md
 - suppliers/dominion-regalia.md
 - suppliers/spieth-canada.md
