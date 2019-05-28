@@ -3,9 +3,9 @@ layout: supplier
 permalink: "/suppliers/jerzees"
 categories: []
 title: Jerzees
-logo: ''
+logo: "/jerzees-logo.jpg"
 website: ''
 catalogues: []
-info: Call for selection and availability.
+info: Call or email for selection and availability.
 
 ---
