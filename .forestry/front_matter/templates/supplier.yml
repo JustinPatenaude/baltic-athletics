@@ -73,6 +73,7 @@ fields:
   default: []
 pages:
 - suppliers/dominion-regalia.md
+- suppliers/richlu.md
 - suppliers/canada-sportswear.md
 - suppliers/sklz.md
 - suppliers/projoy.md
