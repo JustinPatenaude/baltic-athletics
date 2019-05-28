@@ -3,9 +3,9 @@ layout: supplier
 permalink: "/suppliers/champion"
 categories: []
 title: Champion
-logo: ''
+logo: "/champion-logo.png"
 website: ''
 catalogues: []
-info: Call for selection and availability.
+info: Call or email for selection and availability.
 
 ---
