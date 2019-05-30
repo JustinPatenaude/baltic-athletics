@@ -9,8 +9,10 @@ categories:
 - catalogues/jackets.md
 title: Canada Sportswear
 logo: "/canada-sportswear-logo.png"
-website: ''
-catalogues: []
+website: http://www.canadasportswear.com/
+catalogues:
+- title: Canada Sportswear Catalogue
+  year: 2019
 info: ''
 
 ---
