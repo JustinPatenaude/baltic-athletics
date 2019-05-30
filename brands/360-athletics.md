@@ -1,6 +1,9 @@
 ---
 layout: brand
 categories:
+- catalogues/health-fitness.md
+- catalogues/eyewear.md
+- catalogues/storage-solutions.md
 - catalogues/pinnies.md
 - catalogues/field-marking.md
 - catalogues/coaching.md
