@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/suppliers/dominion-regalia"
+permalink: "/brands/dominion-regalia"
 categories: []
 title: Dominion Regalia
 logo: "/dominion-regalia.png"

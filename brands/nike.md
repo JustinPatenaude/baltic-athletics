@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/suppliers/nike"
+permalink: "/brands/nike"
 categories: []
 title: Nike
 logo: "/nike-logo.png"

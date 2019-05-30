@@ -1,16 +1,16 @@
 ---
 layout: brand
-permalink: "/suppliers/sp-apparel-inc"
+permalink: "/brands/sp-apparel-inc"
 categories:
-- catalogues/baseball.md
-- catalogues/basketball.md
-- catalogues/football.md
-- catalogues/hockey.md
-- catalogues/jerseys.md
-- catalogues/lacrosse.md
-- catalogues/pants.md
-- catalogues/shirts.md
-- catalogues/soccer.md
+- catalogue/baseball.md
+- catalogue/basketball.md
+- catalogue/football.md
+- catalogue/hockey.md
+- catalogue/jerseys.md
+- catalogue/lacrosse.md
+- catalogue/pants.md
+- catalogue/shirts.md
+- catalogue/soccer.md
 title: SP Apparel Inc.
 logo: "/sp-logo.png"
 website: https://www.spapparel.com/en/home/

@@ -1,10 +1,10 @@
 ---
 layout: brand
-permalink: "/suppliers/lowry"
+permalink: "/brands/lowry"
 categories:
-- catalogues/floor-hockey.md
-- catalogues/hockey.md
-- catalogues/lacrosse.md
+- catalogue/floor-hockey.md
+- catalogue/hockey.md
+- catalogue/lacrosse.md
 title: Lowry
 logo: "/lowry-logo.png"
 website: http://lowrysports.com/

@@ -1,9 +1,9 @@
 ---
 layout: brand
-permalink: "/suppliers/farpost-goals"
+permalink: "/brands/farpost-goals"
 categories:
-- catalogues/nets.md
-- catalogues/soccer.md
+- catalogue/nets.md
+- catalogue/soccer.md
 title: Farpost Goals
 logo: "/farpost-logo.png"
 website: http://farpostgoals.com/

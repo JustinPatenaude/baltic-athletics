@@ -1,16 +1,16 @@
 ---
 layout: brand
-permalink: "/suppliers/mikasa"
+permalink: "/brands/mikasa"
 categories:
-- catalogues/basketball.md
-- catalogues/beach-volleyball.md
-- catalogues/football.md
-- catalogues/inflators-essentials.md
-- catalogues/pe-playground.md
-- catalogues/rugby.md
-- catalogues/soccer.md
-- catalogues/volleyball.md
-- catalogues/water-polo.md
+- catalogue/basketball.md
+- catalogue/beach-volleyball.md
+- catalogue/football.md
+- catalogue/inflators-essentials.md
+- catalogue/pe-playground.md
+- catalogue/rugby.md
+- catalogue/soccer.md
+- catalogue/volleyball.md
+- catalogue/water-polo.md
 title: Mikasa
 logo: "/mikasa-logo.png"
 website: https://mikasasports.com/

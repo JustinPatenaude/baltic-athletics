@@ -1,9 +1,9 @@
 ---
 layout: brand
-permalink: "/suppliers/exel-sports"
+permalink: "/brands/exel-sports"
 categories:
-- catalogues/floor-hockey.md
-- catalogues/hockey.md
+- catalogue/floor-hockey.md
+- catalogue/hockey.md
 title: Exel Sports
 logo: "/exel-sports-logo.jpg"
 website: http://www.exelsports.com/

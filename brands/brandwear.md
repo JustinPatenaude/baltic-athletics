@@ -1,13 +1,13 @@
 ---
 layout: brand
-permalink: "/suppliers/brandwear"
+permalink: "/brands/brandwear"
 categories:
-- catalogues/bags.md
-- catalogues/hats.md
-- catalogues/jackets.md
-- catalogues/pants.md
-- catalogues/shirts.md
-- catalogues/shorts.md
+- catalogue/bags.md
+- catalogue/hats.md
+- catalogue/jackets.md
+- catalogue/pants.md
+- catalogue/shirts.md
+- catalogue/shorts.md
 title: Brandwear
 logo: "/brandwear-logo.png"
 website: http://www.brandwear.ca/

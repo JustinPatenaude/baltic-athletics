@@ -1,11 +1,11 @@
 ---
 layout: brand
-permalink: "/suppliers/wilson"
+permalink: "/brands/wilson"
 categories:
-- catalogues/basketball.md
-- catalogues/football.md
-- catalogues/soccer.md
-- catalogues/volleyball.md
+- catalogue/basketball.md
+- catalogue/football.md
+- catalogue/soccer.md
+- catalogue/volleyball.md
 title: Wilson
 logo: "/wilson-logo.png"
 website: ''

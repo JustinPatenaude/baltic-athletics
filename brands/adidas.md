@@ -1,8 +1,8 @@
 ---
 layout: brand
-permalink: "/suppliers/adidas"
+permalink: "/brands/adidas"
 categories:
-- catalogues/soccer.md
+- catalogue/soccer.md
 title: Adidas
 logo: "/adidas-logo.png"
 website: ''

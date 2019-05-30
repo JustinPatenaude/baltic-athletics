@@ -1,8 +1,8 @@
 ---
 layout: brand
-permalink: "/suppliers/salming"
+permalink: "/brands/salming"
 categories:
-- catalogues/floor-hockey.md
+- catalogue/floor-hockey.md
 title: Salming
 logo: "/salming-logo.png"
 website: ''

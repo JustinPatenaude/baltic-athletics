@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/suppliers/fruit-of-the-loom"
+permalink: "/brands/fruit-of-the-loom"
 categories: []
 title: Fruit of the Loom
 logo: "/fruit-of-the-loom.jpg"

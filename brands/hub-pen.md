@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/suppliers/hub-pen"
+permalink: "/brands/hub-pen"
 categories: []
 title: Hub Pen
 logo: "/hub-pen-logo.png"

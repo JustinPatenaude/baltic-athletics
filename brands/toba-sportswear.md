@@ -1,13 +1,13 @@
 ---
 layout: brand
-permalink: "/suppliers/toba-sportswear"
+permalink: "/brands/toba-sportswear"
 categories:
-- catalogues/hats.md
-- catalogues/jackets.md
-- catalogues/pants.md
-- catalogues/shirts.md
-- catalogues/shorts.md
-- catalogues/sweaters.md
+- catalogue/hats.md
+- catalogue/jackets.md
+- catalogue/pants.md
+- catalogue/shirts.md
+- catalogue/shorts.md
+- catalogue/sweaters.md
 title: Toba Sportswear
 logo: "/toba-logo.jpg"
 website: https://logoactivewear.com/toba-catalogue/

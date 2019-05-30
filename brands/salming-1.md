@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/suppliers/salming"
+permalink: "/brands/salming"
 categories: []
 title: Salming
 logo: "/salming-logo.jpg"

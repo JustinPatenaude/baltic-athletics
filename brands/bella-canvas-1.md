@@ -1,11 +1,11 @@
 ---
 layout: brand
-permalink: "/suppliers/bella-canvas"
+permalink: "/brands/bella-canvas"
 categories:
-- catalogues/hoodies.md
-- catalogues/shirts.md
-- catalogues/jackets.md
-- catalogues/pants.md
+- catalogue/hoodies.md
+- catalogue/shirts.md
+- catalogue/jackets.md
+- catalogue/pants.md
 title: Bella+Canvas
 logo: "/bella-and-canvas-logo.jpeg"
 website: ''

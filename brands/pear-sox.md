@@ -1,12 +1,12 @@
 ---
 layout: brand
-permalink: "/suppliers/pear-sox"
+permalink: "/brands/pear-sox"
 categories:
-- catalogues/baseball.md
-- catalogues/basketball.md
-- catalogues/football.md
-- catalogues/hockey.md
-- catalogues/soccer.md
+- catalogue/baseball.md
+- catalogue/basketball.md
+- catalogue/football.md
+- catalogue/hockey.md
+- catalogue/soccer.md
 title: Pear Sox
 logo: "/pearsox-logo.jpg"
 website: https://www.pearsox.com/

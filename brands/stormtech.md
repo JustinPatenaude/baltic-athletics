@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/suppliers/stormtech"
+permalink: "/brands/stormtech"
 categories: []
 title: Stormtech
 logo: "/stormtech-logo.png"

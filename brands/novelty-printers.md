@@ -1,21 +1,21 @@
 ---
 layout: brand
-permalink: "/suppliers/novelty-printers"
+permalink: "/brands/novelty-printers"
 categories:
-- catalogues/auto.md
-- catalogues/banners.md
-- catalogues/custom-mats.md
-- catalogues/drinkware.md
-- catalogues/games.md
-- catalogues/golf.md
-- catalogues/health-fitness.md
-- catalogues/hockey.md
-- catalogues/home.md
-- catalogues/plush-novelties.md
-- catalogues/pets.md
-- catalogues/ringette.md
-- catalogues/tech-items.md
-- catalogues/towels.md
+- catalogue/auto.md
+- catalogue/banners.md
+- catalogue/custom-mats.md
+- catalogue/drinkware.md
+- catalogue/games.md
+- catalogue/golf.md
+- catalogue/health-fitness.md
+- catalogue/hockey.md
+- catalogue/home.md
+- catalogue/plush-novelties.md
+- catalogue/pets.md
+- catalogue/ringette.md
+- catalogue/tech-items.md
+- catalogue/towels.md
 title: Novelty Printers
 logo: "/novelty-logo.png"
 website: https://www.noveltyprinters.com/

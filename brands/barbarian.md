@@ -1,11 +1,11 @@
 ---
 layout: brand
-permalink: "/suppliers/barbarian"
+permalink: "/brands/barbarian"
 categories:
-- catalogues/sweaters.md
-- catalogues/shorts.md
-- catalogues/jerseys.md
-- catalogues/rugby.md
+- catalogue/sweaters.md
+- catalogue/shorts.md
+- catalogue/jerseys.md
+- catalogue/rugby.md
 title: Barbarian
 logo: "/barbarian-logo.png"
 website: ''

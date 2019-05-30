@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/suppliers/under-armour"
+permalink: "/brands/under-armour"
 categories: []
 title: Under Armour
 logo: "/logo-under-armour.png"

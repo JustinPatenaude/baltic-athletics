@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/suppliers/whiteridge"
+permalink: "/brands/whiteridge"
 categories: []
 title: Whiteridge
 logo: "/whiteridge-logo.png"

@@ -1,13 +1,13 @@
 ---
 layout: brand
-permalink: "/suppliers/spalding"
+permalink: "/brands/spalding"
 categories:
-- catalogues/baseball.md
-- catalogues/basketball.md
-- catalogues/football.md
-- catalogues/inflators-essentials.md
-- catalogues/misc.md
-- catalogues/volleyball.md
+- catalogue/baseball.md
+- catalogue/basketball.md
+- catalogue/football.md
+- catalogue/inflators-essentials.md
+- catalogue/misc.md
+- catalogue/volleyball.md
 title: Spalding
 logo: "/spalding-logo.png"
 website: ''

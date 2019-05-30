@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/suppliers/stahls"
+permalink: "/brands/stahls"
 categories: []
 title: Stahls
 logo: "/stahls-logo.png"

@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/suppliers/richlu"
+permalink: "/brands/richlu"
 categories: []
 title: Richlu
 logo: "/richlu-logo.png"

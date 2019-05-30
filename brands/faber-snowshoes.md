@@ -1,8 +1,8 @@
 ---
 layout: brand
-permalink: "/suppliers/faber"
+permalink: "/brands/faber"
 categories:
-- catalogues/snowshoes.md
+- catalogue/snowshoes.md
 title: Faber
 logo: "/faber-logo.png"
 website: https://www.fabersnowshoes.com/

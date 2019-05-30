@@ -1,13 +1,13 @@
 ---
 layout: brand
-permalink: "/suppliers/alphabroder"
+permalink: "/brands/alphabroder"
 categories:
-- catalogues/sweaters.md
-- catalogues/jackets.md
-- catalogues/jerseys.md
-- catalogues/pants.md
-- catalogues/shirts.md
-- catalogues/shorts.md
+- catalogue/sweaters.md
+- catalogue/jackets.md
+- catalogue/jerseys.md
+- catalogue/pants.md
+- catalogue/shirts.md
+- catalogue/shorts.md
 title: Alphabroder
 logo: "/alphabroder-logo.jpg"
 website: https://www.alphabroder.ca/

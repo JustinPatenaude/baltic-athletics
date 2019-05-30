@@ -1,7 +1,7 @@
 ---
 layout: brand
 title: Court-1
-permalink: "/suppliers/court-1"
+permalink: "/brands/court-1"
 logo: "/court-1-logo.jpg"
 website: ''
 pdfs: []
@@ -25,15 +25,15 @@ info: |-
   * Gym floor protective covers
 date: 2019-03-29 03:29:10 +0000
 categories:
-- catalogues/archery.md
-- catalogues/badminton.md
-- catalogues/basketball.md
-- catalogues/floor-hockey.md
-- catalogues/hockey.md
-- catalogues/lacrosse.md
-- catalogues/misc.md
-- catalogues/team-handball.md
-- catalogues/tennis.md
-- catalogues/volleyball.md
+- catalogue/archery.md
+- catalogue/badminton.md
+- catalogue/basketball.md
+- catalogue/floor-hockey.md
+- catalogue/hockey.md
+- catalogue/lacrosse.md
+- catalogue/misc.md
+- catalogue/team-handball.md
+- catalogue/tennis.md
+- catalogue/volleyball.md
 
 ---

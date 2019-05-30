@@ -1,8 +1,8 @@
 ---
 layout: brand
-permalink: "/suppliers/yonex"
+permalink: "/brands/yonex"
 categories:
-- catalogues/badminton.md
+- catalogue/badminton.md
 title: Yonex
 logo: "/yonex-logo.jpg"
 website: ''

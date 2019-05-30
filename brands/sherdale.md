@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/suppliers/sherdale"
+permalink: "/brands/sherdale"
 categories: []
 title: Sherdale
 logo: ''

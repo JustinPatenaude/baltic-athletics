@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/suppliers/freeman"
+permalink: "/brands/freeman"
 categories: []
 title: Freeman
 logo: ''

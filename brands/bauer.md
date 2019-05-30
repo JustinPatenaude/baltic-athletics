@@ -1,8 +1,8 @@
 ---
 layout: brand
-permalink: "/suppliers/bauer"
+permalink: "/brands/bauer"
 categories:
-- catalogues/floor-hockey.md
+- catalogue/floor-hockey.md
 title: Bauer
 logo: "/bauer-logo.png"
 website: ''

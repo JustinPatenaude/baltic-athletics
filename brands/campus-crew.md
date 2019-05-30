@@ -1,12 +1,12 @@
 ---
 layout: brand
-permalink: "/suppliers/campus-crew"
+permalink: "/brands/campus-crew"
 categories:
-- catalogues/hats.md
-- catalogues/jackets.md
-- catalogues/pants.md
-- catalogues/shirts.md
-- catalogues/shorts.md
+- catalogue/hats.md
+- catalogue/jackets.md
+- catalogue/pants.md
+- catalogue/shirts.md
+- catalogue/shorts.md
 title: Campus Crew
 logo: "/campus-crew-logo.jpg"
 website: ''

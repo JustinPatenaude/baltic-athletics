@@ -1,13 +1,13 @@
 ---
 layout: brand
-permalink: "/suppliers/fox-40"
+permalink: "/brands/fox-40"
 categories:
-- catalogues/first-aid.md
-- catalogues/marine-suppliers.md
-- catalogues/misc.md
-- catalogues/officials-equipment.md
-- catalogues/safety.md
-- catalogues/trainer-supplies.md
+- catalogue/first-aid.md
+- catalogue/marine-suppliers.md
+- catalogue/misc.md
+- catalogue/officials-equipment.md
+- catalogue/safety.md
+- catalogue/trainer-supplies.md
 title: Fox 40
 logo: "/fox40-logo.png"
 website: http://www.fox40world.com/

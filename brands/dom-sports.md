@@ -1,9 +1,9 @@
 ---
 layout: brand
-permalink: "/suppliers/dom-sports"
+permalink: "/brands/dom-sports"
 categories:
-- catalogues/floor-hockey.md
-- catalogues/nets.md
+- catalogue/floor-hockey.md
+- catalogue/nets.md
 title: Dom Sports
 logo: "/dom-sports-logo.jpg"
 website: http://www.domsports.com/

@@ -1,10 +1,10 @@
 ---
 layout: brand
-permalink: "/suppliers/d-gel"
+permalink: "/brands/d-gel"
 categories:
-- catalogues/floor-hockey.md
-- catalogues/hockey.md
-- catalogues/ringette.md
+- catalogue/floor-hockey.md
+- catalogue/hockey.md
+- catalogue/ringette.md
 title: D-GEL
 logo: "/d-gel-logo.png"
 website: http://www.d-gel.com/

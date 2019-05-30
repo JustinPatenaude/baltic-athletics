@@ -120,7 +120,7 @@ layout: default
           <div class="grid">
             {% assign categoryPages = site.pages | where: 'layout', "category" %}
             {% for category in page.categories %}
-              {% assign categoryHandle = category | remove: "catalogues/" | remove: ".md" %}
+              {% assign categoryHandle = category | remove: "catalogue/" | remove: ".md" %}
               {% assign categoryPermalink = category | remove: ".md" | prepend: "/" %}
               {% assign categoryPage = categoryPages | where: 'permalink', categoryPermalink %}
               {% capture categoryImageUrl %}/assets/images/category-{{ categoryHandle }}.svg{% endcapture %}

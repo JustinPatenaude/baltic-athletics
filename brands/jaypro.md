@@ -1,19 +1,19 @@
 ---
 layout: brand
-permalink: "/suppliers/jaypro"
+permalink: "/brands/jaypro"
 categories:
-- catalogues/tennis.md
-- catalogues/nets.md
-- catalogues/track-field.md
-- catalogues/seating.md
-- catalogues/pe-playground.md
-- catalogues/lacrosse.md
-- catalogues/football.md
-- catalogues/track-field.md
-- catalogues/volleyball.md
-- catalogues/basketball.md
-- catalogues/baseball.md
-- catalogues/soccer.md
+- catalogue/tennis.md
+- catalogue/nets.md
+- catalogue/track-field.md
+- catalogue/seating.md
+- catalogue/pe-playground.md
+- catalogue/lacrosse.md
+- catalogue/football.md
+- catalogue/track-field.md
+- catalogue/volleyball.md
+- catalogue/basketball.md
+- catalogue/baseball.md
+- catalogue/soccer.md
 title: Jaypro
 logo: "/jaypro-sports-logo.png"
 website: ''

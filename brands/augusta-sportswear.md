@@ -1,24 +1,24 @@
 ---
 layout: brand
-permalink: "/suppliers/augusta-sportswear"
+permalink: "/brands/augusta-sportswear"
 categories:
-- catalogues/bags.md
-- catalogues/baseball.md
-- catalogues/basketball.md
-- catalogues/beach-volleyball.md
-- catalogues/football.md
-- catalogues/hats.md
-- catalogues/jackets.md
-- catalogues/jerseys.md
-- catalogues/pants.md
-- catalogues/shirts.md
-- catalogues/shorts.md
-- catalogues/soccer.md
-- catalogues/team-handball.md
-- catalogues/tennis.md
-- catalogues/track-field.md
-- catalogues/ultimate.md
-- catalogues/volleyball.md
+- catalogue/bags.md
+- catalogue/baseball.md
+- catalogue/basketball.md
+- catalogue/beach-volleyball.md
+- catalogue/football.md
+- catalogue/hats.md
+- catalogue/jackets.md
+- catalogue/jerseys.md
+- catalogue/pants.md
+- catalogue/shirts.md
+- catalogue/shorts.md
+- catalogue/soccer.md
+- catalogue/team-handball.md
+- catalogue/tennis.md
+- catalogue/track-field.md
+- catalogue/ultimate.md
+- catalogue/volleyball.md
 title: Augusta Sportswear
 logo: "/augusta-sportswear-logo.png"
 website: http://www.augustasportswear.com/

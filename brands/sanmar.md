@@ -1,12 +1,12 @@
 ---
 layout: brand
-permalink: "/suppliers/sanmar"
+permalink: "/brands/sanmar"
 categories:
-- catalogues/jackets.md
-- catalogues/jerseys.md
-- catalogues/pants.md
-- catalogues/shirts.md
-- catalogues/shorts.md
+- catalogue/jackets.md
+- catalogue/jerseys.md
+- catalogue/pants.md
+- catalogue/shirts.md
+- catalogue/shorts.md
 title: Sanmar
 logo: "/sanmar-atc.jpg"
 website: https://www.sanmarcanada.com/

@@ -1,8 +1,8 @@
 ---
 layout: brand
-permalink: "/suppliers/cramer-sports-medicine"
+permalink: "/brands/cramer-sports-medicine"
 categories:
-- catalogues/trainer-supplies.md
+- catalogue/trainer-supplies.md
 title: Cramer Sports Medicine
 logo: "/cramer-sports-logo.jpg"
 website: https://www.cramersportsmed.com/

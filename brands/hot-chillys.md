@@ -1,11 +1,11 @@
 ---
 layout: brand
-permalink: "/suppliers/hot-chillys"
+permalink: "/brands/hot-chillys"
 categories:
-- catalogues/hats.md
-- catalogues/jackets.md
-- catalogues/pants.md
-- catalogues/shirts.md
+- catalogue/hats.md
+- catalogue/jackets.md
+- catalogue/pants.md
+- catalogue/shirts.md
 title: Hot Chillys
 logo: "/hot-chillys-logo.png"
 website: https://www.hotchillys.com/

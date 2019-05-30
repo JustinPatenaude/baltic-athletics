@@ -1,10 +1,10 @@
 ---
 layout: brand
-permalink: "/suppliers/canadawide-sports"
+permalink: "/brands/canadawide-sports"
 categories:
-- catalogues/baseball.md
-- catalogues/hockey.md
-- catalogues/soccer.md
+- catalogue/baseball.md
+- catalogue/hockey.md
+- catalogue/soccer.md
 title: Canadawide Sports
 logo: "/canadawide-sports-logo.png"
 website: https://canadawidesports.com/

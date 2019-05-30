@@ -1,8 +1,8 @@
 ---
 layout: brand
-permalink: "/suppliers/monsens-sporting-goods-limited"
+permalink: "/brands/monsens-sporting-goods-limited"
 categories:
-- catalogues/archery.md
+- catalogue/archery.md
 title: Monsens Sporting Goods Limited
 logo: "/monsens-logo.png"
 website: http://www.monsens.ca/

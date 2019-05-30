@@ -1,10 +1,10 @@
 ---
 layout: brand
-permalink: "/suppliers/inaria"
+permalink: "/brands/inaria"
 categories:
-- catalogues/futsal.md
-- catalogues/jerseys.md
-- catalogues/soccer.md
+- catalogue/futsal.md
+- catalogue/jerseys.md
+- catalogue/soccer.md
 title: Inaria
 logo: "/inaria-logo.jpeg"
 website: ''

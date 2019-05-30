@@ -1,8 +1,8 @@
 ---
 layout: brand
-permalink: "/suppliers/york"
+permalink: "/brands/york"
 categories:
-- catalogues/weight-lifting.md
+- catalogue/weight-lifting.md
 title: York
 logo: "/york-logo.png"
 website: https://yorkbarbell.com/

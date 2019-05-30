@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/suppliers/puma"
+permalink: "/brands/puma"
 categories: []
 title: Puma
 logo: "/puma-logo.png"

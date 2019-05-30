@@ -1,14 +1,14 @@
 ---
 layout: brand
-permalink: "/suppliers/forum"
+permalink: "/brands/forum"
 categories:
-- catalogues/basketball.md
-- catalogues/dividers.md
-- catalogues/nets.md
-- catalogues/posts.md
-- catalogues/soccer.md
-- catalogues/volleyball.md
-- catalogues/wall-pads.md
+- catalogue/basketball.md
+- catalogue/dividers.md
+- catalogue/nets.md
+- catalogue/posts.md
+- catalogue/soccer.md
+- catalogue/volleyball.md
+- catalogue/wall-pads.md
 title: Forum
 logo: "/forum-logo.png"
 website: http://www.forumathletic.ca/

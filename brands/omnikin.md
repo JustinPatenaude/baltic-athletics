@@ -1,8 +1,8 @@
 ---
 layout: brand
-permalink: "/suppliers/omnikin"
+permalink: "/brands/omnikin"
 categories:
-- catalogues/misc.md
+- catalogue/misc.md
 title: Omnikin
 logo: "/omnikin-logo.png"
 website: ''

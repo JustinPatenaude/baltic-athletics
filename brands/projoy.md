@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/suppliers/projoy"
+permalink: "/brands/projoy"
 categories: []
 title: Projoy
 logo: "/projoy-logo.png"

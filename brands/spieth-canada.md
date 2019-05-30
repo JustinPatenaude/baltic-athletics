@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/suppliers/spieth-canada"
+permalink: "/brands/spieth-canada"
 categories: []
 title: Spieth Canada
 logo: "/spieth-canada-logo.jpg"

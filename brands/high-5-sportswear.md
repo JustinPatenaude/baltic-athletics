@@ -1,13 +1,13 @@
 ---
 layout: brand
-permalink: "/suppliers/high-5-sportswear"
+permalink: "/brands/high-5-sportswear"
 categories:
-- catalogues/apparel.md
-- catalogues/baseball.md
-- catalogues/basketball.md
-- catalogues/jerseys.md
-- catalogues/soccer.md
-- catalogues/volleyball.md
+- catalogue/apparel.md
+- catalogue/baseball.md
+- catalogue/basketball.md
+- catalogue/jerseys.md
+- catalogue/soccer.md
+- catalogue/volleyball.md
 title: High 5 Sportswear
 logo: "/high-five-logo.jpg"
 website: http://high5sportswear.ca/

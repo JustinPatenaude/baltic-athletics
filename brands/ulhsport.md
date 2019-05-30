@@ -1,10 +1,10 @@
 ---
 layout: brand
-permalink: "/suppliers/ulhsport"
+permalink: "/brands/ulhsport"
 categories:
-- catalogues/futsal.md
-- catalogues/soccer.md
-- catalogues/team-handball.md
+- catalogue/futsal.md
+- catalogue/soccer.md
+- catalogue/team-handball.md
 title: Ulhsport
 logo: "/uhlsport-logo.jpg"
 website: https://www.uhlsport.com/en/

@@ -1,10 +1,10 @@
 ---
 layout: brand
-permalink: "/suppliers/dynamic-team-sports"
+permalink: "/brands/dynamic-team-sports"
 categories:
-- catalogues/soccer.md
-- catalogues/track-field.md
-- catalogues/volleyball.md
+- catalogue/soccer.md
+- catalogue/track-field.md
+- catalogue/volleyball.md
 title: Dynamic Team Sports
 logo: "/dynamic-team-sports-logo.jpg"
 website: http://dynamicteamsports.com/

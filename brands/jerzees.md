@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/suppliers/jerzees"
+permalink: "/brands/jerzees"
 categories: []
 title: Jerzees
 logo: "/jerzees-logo.jpg"

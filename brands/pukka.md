@@ -1,8 +1,8 @@
 ---
 layout: brand
-permalink: "/suppliers/pukka"
+permalink: "/brands/pukka"
 categories:
-- catalogues/hats.md
+- catalogue/hats.md
 title: Pukka
 logo: "/pukka-logo.jpg"
 website: https://www.pukkainc.com/

@@ -1,11 +1,11 @@
 ---
 layout: brand
-permalink: "/suppliers/atf-sports"
+permalink: "/brands/atf-sports"
 categories:
-- catalogues/martial-arts.md
-- catalogues/boxing.md
-- catalogues/misc.md
-- catalogues/weight-lifting.md
+- catalogue/martial-arts.md
+- catalogue/boxing.md
+- catalogue/misc.md
+- catalogue/weight-lifting.md
 title: ATF Sports
 logo: "/atf-sports-logo.png"
 website: http://www.atfsports.com/

@@ -1,14 +1,14 @@
 ---
 layout: brand
-permalink: "/suppliers/champion-sports"
+permalink: "/brands/champion-sports"
 categories:
-- catalogues/baseball.md
-- catalogues/basketball.md
-- catalogues/lacrosse.md
-- catalogues/misc.md
-- catalogues/pe-playground.md
-- catalogues/soccer.md
-- catalogues/volleyball.md
+- catalogue/baseball.md
+- catalogue/basketball.md
+- catalogue/lacrosse.md
+- catalogue/misc.md
+- catalogue/pe-playground.md
+- catalogue/soccer.md
+- catalogue/volleyball.md
 title: Champion Sports
 logo: "/champion-sports-logo.png"
 website: http://www.championsports.com/

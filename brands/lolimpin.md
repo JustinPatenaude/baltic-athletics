@@ -1,17 +1,17 @@
 ---
 layout: brand
-permalink: "/suppliers/lolimpin"
+permalink: "/brands/lolimpin"
 categories:
-- catalogues/custom-mats.md
-- catalogues/dividers.md
-- catalogues/seating.md
-- catalogues/soccer.md
-- catalogues/volleyball.md
-- catalogues/futsal.md
-- catalogues/football.md
-- catalogues/boxing.md
-- catalogues/basketball.md
-- catalogues/badminton.md
+- catalogue/custom-mats.md
+- catalogue/dividers.md
+- catalogue/seating.md
+- catalogue/soccer.md
+- catalogue/volleyball.md
+- catalogue/futsal.md
+- catalogue/football.md
+- catalogue/boxing.md
+- catalogue/basketball.md
+- catalogue/badminton.md
 title: Lolimpin
 logo: "/lolimpin-logo.png"
 website: ''

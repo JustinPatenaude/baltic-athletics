@@ -1,10 +1,10 @@
 ---
 layout: brand
-permalink: "/suppliers/kwik-goal"
+permalink: "/brands/kwik-goal"
 categories:
-- catalogues/soccer.md
-- catalogues/nets.md
-- catalogues/posts.md
+- catalogue/soccer.md
+- catalogue/nets.md
+- catalogue/posts.md
 title: Kwik Goal
 logo: "/kwik-goal-logo.png"
 website: ''

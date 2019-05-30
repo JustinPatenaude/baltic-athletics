@@ -1,14 +1,14 @@
 ---
 layout: brand
-permalink: "/suppliers/adspec"
+permalink: "/brands/adspec"
 categories:
-- catalogues/banners.md
-- catalogues/canopies.md
-- catalogues/misc.md
-- catalogues/table-covers.md
-- catalogues/track-field.md
-- catalogues/umbrellas.md
-- catalogues/wind-flags.md
+- catalogue/banners.md
+- catalogue/canopies.md
+- catalogue/misc.md
+- catalogue/table-covers.md
+- catalogue/track-field.md
+- catalogue/umbrellas.md
+- catalogue/wind-flags.md
 title: Adspec
 logo: "/adspec-logo.png"
 website: http://adspecimages.com/

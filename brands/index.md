@@ -1,5 +1,5 @@
 ---
 layout: brands
 title: Suppliers
-permalink: "/suppliers/"
+permalink: "/brands/"
 ---

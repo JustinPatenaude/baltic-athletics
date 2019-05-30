@@ -1,11 +1,11 @@
 ---
 layout: brand
-permalink: "/suppliers/russell-athletic"
+permalink: "/brands/russell-athletic"
 categories:
-- catalogues/football.md
-- catalogues/jerseys.md
-- catalogues/shirts.md
-- catalogues/pants.md
+- catalogue/football.md
+- catalogue/jerseys.md
+- catalogue/shirts.md
+- catalogue/pants.md
 title: Russell Athletic
 logo: "/russell-logo.png"
 website: https://www.russellathletic.com/

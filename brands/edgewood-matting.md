@@ -1,9 +1,9 @@
 ---
 layout: brand
-permalink: "/suppliers/edgewood"
+permalink: "/brands/edgewood"
 categories:
-- catalogues/misc.md
-- catalogues/wall-pads.md
+- catalogue/misc.md
+- catalogue/wall-pads.md
 title: Edgewood
 logo: "/edgewood-logo.png"
 website: http://edgewoodgroup.ca/

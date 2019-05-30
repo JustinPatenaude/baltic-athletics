@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/suppliers/new-balance"
+permalink: "/brands/new-balance"
 categories: []
 title: New Balance
 logo: "/new-balance-logo.png"

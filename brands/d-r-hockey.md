@@ -1,10 +1,10 @@
 ---
 layout: brand
-permalink: "/suppliers/dr-hockey"
+permalink: "/brands/dr-hockey"
 categories:
-- catalogues/floor-hockey.md
-- catalogues/hockey.md
-- catalogues/ringette.md
+- catalogue/floor-hockey.md
+- catalogue/hockey.md
+- catalogue/ringette.md
 title: D&R Hockey
 logo: "/dr-hockey-logo.jpeg"
 website: ''

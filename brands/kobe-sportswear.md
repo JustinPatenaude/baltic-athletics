@@ -1,15 +1,15 @@
 ---
 layout: brand
-permalink: "/suppliers/kobe-sportswear"
+permalink: "/brands/kobe-sportswear"
 categories:
-- catalogues/basketball.md
-- catalogues/baseball.md
-- catalogues/hockey.md
-- catalogues/jackets.md
-- catalogues/jerseys.md
-- catalogues/pants.md
-- catalogues/shirts.md
-- catalogues/shorts.md
+- catalogue/basketball.md
+- catalogue/baseball.md
+- catalogue/hockey.md
+- catalogue/jackets.md
+- catalogue/jerseys.md
+- catalogue/pants.md
+- catalogue/shirts.md
+- catalogue/shorts.md
 title: Kobe Sportswear
 logo: "/kobe-logo.jpg"
 website: http://kobesportswear.com/

@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/suppliers/eletto"
+permalink: "/brands/eletto"
 categories: []
 title: Eletto
 logo: "/eletto-logo.png"

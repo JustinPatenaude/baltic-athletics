@@ -1,13 +1,13 @@
 ---
 layout: brand
-permalink: "/suppliers/technosport"
+permalink: "/brands/technosport"
 categories:
-- catalogues/bags-totes-duffels.md
-- catalogues/jackets.md
-- catalogues/jerseys.md
-- catalogues/pants.md
-- catalogues/shirts.md
-- catalogues/shorts.md
+- catalogue/bags-totes-duffels.md
+- catalogue/jackets.md
+- catalogue/jerseys.md
+- catalogue/pants.md
+- catalogue/shirts.md
+- catalogue/shorts.md
 title: Technosport
 logo: "/technosport-logo.png"
 website: https://www.technosport.com/home

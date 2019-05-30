@@ -1,10 +1,10 @@
 ---
 layout: brand
-permalink: "/suppliers/powertek"
+permalink: "/brands/powertek"
 categories:
-- catalogues/bags.md
-- catalogues/floor-hockey.md
-- catalogues/hockey.md
+- catalogue/bags.md
+- catalogue/floor-hockey.md
+- catalogue/hockey.md
 title: Powertek
 logo: "/powertek-logo.png"
 website: http://www.powerteksport.com/

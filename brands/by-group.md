@@ -1,10 +1,10 @@
 ---
 layout: brand
-permalink: "/suppliers/by-group"
+permalink: "/brands/by-group"
 categories:
-- catalogues/boxing.md
-- catalogues/games.md
-- catalogues/table-tennis.md
+- catalogue/boxing.md
+- catalogue/games.md
+- catalogue/table-tennis.md
 title: BY Group
 logo: "/by-group-logo.png"
 website: ''

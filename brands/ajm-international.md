@@ -1,8 +1,8 @@
 ---
 layout: brand
-permalink: "/suppliers/ajm-international"
+permalink: "/brands/ajm-international"
 categories:
-- catalogues/hats.md
+- catalogue/hats.md
 title: AJM International
 logo: "/ajm-international-logo.jpg"
 website: http://ajmintl.com/

@@ -1,10 +1,10 @@
 ---
 layout: brand
-permalink: "/suppliers/trimark"
+permalink: "/brands/trimark"
 categories:
-- catalogues/jackets.md
-- catalogues/pants.md
-- catalogues/shirts.md
+- catalogue/jackets.md
+- catalogue/pants.md
+- catalogue/shirts.md
 title: Trimark
 logo: "/trimark-logo.jpg"
 website: http://www.trimarksportswear.com/cgi-bin/triweb/site.w?location=site-home.w&action=catalog&sponsor=000100&popup=true

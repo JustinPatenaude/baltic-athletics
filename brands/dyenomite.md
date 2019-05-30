@@ -1,12 +1,12 @@
 ---
 layout: brand
-permalink: "/suppliers/dyenomite"
+permalink: "/brands/dyenomite"
 categories:
-- catalogues/bags.md
-- catalogues/hats.md
-- catalogues/shirts.md
-- catalogues/sweaters.md
-- catalogues/towels.md
+- catalogue/bags.md
+- catalogue/hats.md
+- catalogue/shirts.md
+- catalogue/sweaters.md
+- catalogue/towels.md
 title: Dyenomite
 logo: "/dyenomite-logo.png"
 website: http://www.dyenomite.com/

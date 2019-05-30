@@ -1,10 +1,10 @@
 ---
 layout: brand
-permalink: "/suppliers/black-knight"
+permalink: "/brands/black-knight"
 categories:
-- catalogues/squash.md
-- catalogues/racquetball.md
-- catalogues/badminton.md
+- catalogue/squash.md
+- catalogue/racquetball.md
+- catalogue/badminton.md
 title: Black Knight
 logo: "/black-knight-logo.jpg"
 website: http://blackknight.ca/

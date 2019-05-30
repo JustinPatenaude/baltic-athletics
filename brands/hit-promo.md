@@ -1,21 +1,21 @@
 ---
 layout: brand
-permalink: "/suppliers/hit-promo"
+permalink: "/brands/hit-promo"
 categories:
-- catalogues/auto.md
-- catalogues/bags.md
-- catalogues/custom-mats.md
-- catalogues/drinkware.md
-- catalogues/eyewear.md
-- catalogues/food-gifts.md
-- catalogues/home.md
-- catalogues/notebooks.md
-- catalogues/plush-novelties.md
-- catalogues/table-covers.md
-- catalogues/tech-items.md
-- catalogues/tools-lights-keytags.md
-- catalogues/umbrellas.md
-- catalogues/writing-materials.md
+- catalogue/auto.md
+- catalogue/bags.md
+- catalogue/custom-mats.md
+- catalogue/drinkware.md
+- catalogue/eyewear.md
+- catalogue/food-gifts.md
+- catalogue/home.md
+- catalogue/notebooks.md
+- catalogue/plush-novelties.md
+- catalogue/table-covers.md
+- catalogue/tech-items.md
+- catalogue/tools-lights-keytags.md
+- catalogue/umbrellas.md
+- catalogue/writing-materials.md
 title: HIT Promo
 logo: "/hit-logo.png"
 website: https://www.hitpromo.net/

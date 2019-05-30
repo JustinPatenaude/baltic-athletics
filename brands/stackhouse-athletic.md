@@ -1,12 +1,12 @@
 ---
 layout: brand
-permalink: "/suppliers/stackhouse-athletic"
+permalink: "/brands/stackhouse-athletic"
 categories:
-- catalogues/baseball.md
-- catalogues/football.md
-- catalogues/soccer.md
-- catalogues/track-field.md
-- catalogues/volleyball.md
+- catalogue/baseball.md
+- catalogue/football.md
+- catalogue/soccer.md
+- catalogue/track-field.md
+- catalogue/volleyball.md
 title: Stackhouse Athletic
 logo: "/stackhouse-logo.png"
 website: ''

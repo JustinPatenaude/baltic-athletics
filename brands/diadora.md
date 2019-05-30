@@ -1,8 +1,8 @@
 ---
 layout: brand
-permalink: "/suppliers/diadora"
+permalink: "/brands/diadora"
 categories:
-- catalogues/soccer.md
+- catalogue/soccer.md
 title: Diadora
 logo: "/diadora-logo.jpg"
 website: http://www.diadora.com/en/

@@ -1,10 +1,10 @@
 ---
 layout: brand
-permalink: "/suppliers/admiral"
+permalink: "/brands/admiral"
 categories:
-- catalogues/soccer.md
-- catalogues/shorts.md
-- catalogues/jerseys.md
+- catalogue/soccer.md
+- catalogue/shorts.md
+- catalogue/jerseys.md
 title: Admiral
 logo: "/admiral-logo.png"
 website: https://admiral-sports.com/shop/

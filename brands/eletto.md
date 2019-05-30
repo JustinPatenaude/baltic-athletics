@@ -1,10 +1,10 @@
 ---
 layout: brand
-permalink: "/suppliers/eletto"
+permalink: "/brands/eletto"
 categories:
-- catalogues/jerseys.md
-- catalogues/shorts.md
-- catalogues/soccer.md
+- catalogue/jerseys.md
+- catalogue/shorts.md
+- catalogue/soccer.md
 title: Eletto
 logo: "/eletto-logo.jpg"
 website: ''
