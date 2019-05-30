@@ -2,6 +2,8 @@
 layout: brand
 permalink: "/suppliers/black-knight"
 categories:
+- catalogues/squash.md
+- catalogues/racquetball.md
 - catalogues/badminton.md
 title: Black Knight
 logo: "/black-knight-logo.jpg"

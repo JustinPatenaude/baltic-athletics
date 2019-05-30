@@ -4,6 +4,5 @@ permalink: "/catalogues/squash"
 title: Squash
 products: []
 photos: []
-published: false
 
 ---
