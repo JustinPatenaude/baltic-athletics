@@ -5,7 +5,6 @@ categories:
 - catalogues/banners.md
 - catalogues/canopies.md
 - catalogues/misc.md
-- catalogues/signage.md
 - catalogues/table-covers.md
 - catalogues/track-field.md
 - catalogues/umbrellas.md
