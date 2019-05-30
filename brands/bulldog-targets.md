@@ -7,6 +7,6 @@ title: Bulldog Targets
 logo: "/bulldog-targets-logo.png"
 website: ''
 catalogues: []
-info: ''
+info: Contact us for more information
 
 ---
