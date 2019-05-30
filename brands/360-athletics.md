@@ -30,7 +30,7 @@ catalogues:
 - title: 360 Athletics CFX Bands Sets
   year: 2018
   pdf: "/360-athletics-CFX-BANDS-SETS.pdf"
-- title: 360 Athletics COREFX Catalogue
+- title: 360 Athletics COREFX Fitness & Training Catalogue
   year: 2018
   pdf: "/360-athletics-2018-COREFX-Catalogue.pdf"
 - title: 360 Athletics Catalogue
