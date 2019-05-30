@@ -1,6 +1,16 @@
 ---
 layout: brand
 categories:
+- catalogues/pinnies.md
+- catalogues/field-marking.md
+- catalogues/coaching.md
+- catalogues/golf.md
+- catalogues/rhythmic-gymnastics.md
+- catalogues/juggling.md
+- catalogues/softball.md
+- catalogues/pickleball.md
+- catalogues/team-handball.md
+- catalogues/floor-hockey.md
 - catalogues/badminton.md
 - catalogues/baseball.md
 - catalogues/basketball.md
