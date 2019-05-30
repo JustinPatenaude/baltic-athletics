@@ -14,5 +14,6 @@ catalogues:
 - title: Canada Sportswear Catalogue
   year: 2019
 info: ''
+published: false
 
 ---
