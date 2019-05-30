@@ -17,14 +17,14 @@ sections:
   templates:
   - supplier
 - type: directory
-  path: catalogues
+  path: catalogue
   label: Categories
   create: documents
   match: "**/*"
   exclude: "**/index.md"
   new_doc_ext: md
   templates:
-  - catalogue
+  - category
 - type: heading
   label: Lists
 - type: document
