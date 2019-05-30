@@ -1,8 +1,15 @@
 ---
 layout: category
-permalink: "/catalogues/pe-playground"
-title: PE Playground
+permalink: "/catalogues/pe-equipment"
+title: PE Equipment
 products:
+- Balance & Movement
+- Parachute
+- Hoops & Rings
+- Bean Bags & Tossables
+- Paddles & Scoops
+- Ball kits
+- Active Play & Games
 - Dodgeballs
 - Outdoor Balls
 - Tether Balls
