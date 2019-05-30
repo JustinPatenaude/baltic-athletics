@@ -14,8 +14,24 @@ To edit a page such as *About us* or *Contact us*, follow these steps. Click **P
 
 ***
 
-#### 2. Adding a supplier
-Click **Suppliers** in the sidebar and click **Create new > Suppliers** at the top of the page. Add your title, handle and logo and any other content your may need. In the top right of the page, make sure *Draft* is set to **off** and click **Save**.
+#### 2. Adding a brand
+Click **Brands** in the sidebar and click **Create new > Brands** at the top of the page. Add your title, handle and logo and any other content your may need. In the top right of the page, make sure *Draft* is set to **off** and click **Save**.
+
+Field | Use
+--- | ---
+`Title` | `The title of the brand`
+`Permalink` | `This is what the URL will look like. It should be lowercase and dashes converted into spaces. Example: 360 Athletics would be /suppliers/360-athletics`
+`Logo` | `Here you can upload a logo for the brand. When you click 'Add an image' you will be taken to the media section. In the top right of the page you will see an upload button where you will be able to look for the logo on your computer.`
+`Website` | `This is where you can add the website of the brand in question.`
+`Catalogues` | `Upload any PDF catalogues for this brand. When you click 'Add a file' you will be taken to the media section. In the top right of the page you will see an upload button where you will be able to look for the file on your computer.`
+`Info` | `Any extra info you may want to convey to your customers about this brand. Things such as: 'All catalogue prices in USD' or 'Call or email for additional information.'`
+`Categories` | `Here you can assign any Categories to this brand. This list gets populated from the 'Categories' section of the website. If you don't find your Category in the list, you may have to create it in the category section.`
+
+| Field        | Use           |
+| ------------- |:-------------:|
+| col 3 is      | right-aligned |
+| col 2 is      | centered      |
+| zebra stripes | are neat      |
 
 ***
 
