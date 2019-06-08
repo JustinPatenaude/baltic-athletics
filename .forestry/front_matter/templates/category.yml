@@ -50,6 +50,7 @@ fields:
     labelField: 
   label: Photos
 pages:
+- catalogue/gymnastics.md
 - catalogue/curling.md
 - catalogue/bowling.md
 - catalogue/darts.md
