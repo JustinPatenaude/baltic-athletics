@@ -2,6 +2,7 @@
 layout: brand
 permalink: "/brands/hit-promo"
 categories:
+- catalogue/pens.md
 - catalogue/auto.md
 - catalogue/bags.md
 - catalogue/custom-mats.md
@@ -15,7 +16,6 @@ categories:
 - catalogue/tech-items.md
 - catalogue/tools-lights-keytags.md
 - catalogue/umbrellas.md
-- catalogue/writing-materials.md
 title: HIT Promo
 logo: "/hit-logo.png"
 website: https://www.hitpromo.net/
