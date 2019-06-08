@@ -2,7 +2,9 @@
 layout: category
 permalink: "/catalogue/pickleball"
 title: Pickleball
-products: []
+products:
+- Balls
+- Paddles
 photos: []
 
 ---
