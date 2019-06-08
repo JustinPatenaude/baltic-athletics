@@ -50,6 +50,7 @@ fields:
     labelField: 
   label: Photos
 pages:
+- catalogue/chairs.md
 - catalogue/helmet-decals.md
 - catalogue/parkour.md
 - catalogue/gymnastics.md
