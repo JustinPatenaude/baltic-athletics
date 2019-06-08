@@ -68,6 +68,6 @@ fields:
     use_select: true
     source:
       type: pages
-      section: categories
+      section: catalogues
       file: _data/categories.yml
   default: []
