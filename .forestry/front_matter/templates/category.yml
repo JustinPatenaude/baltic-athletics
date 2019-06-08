@@ -50,6 +50,7 @@ fields:
     labelField: 
   label: Photos
 pages:
+- catalogue/bowling.md
 - catalogue/darts.md
 - catalogue/pens.md
 - catalogue/event-planning.md
