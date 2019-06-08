@@ -8,6 +8,7 @@ products:
 - Banners
 - Awards
 - Ribbons
+- Custom ribbons
 - Clothing
 - Uniforms
 - Pole Vault Standards
