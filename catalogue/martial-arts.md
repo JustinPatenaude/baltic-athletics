@@ -2,7 +2,9 @@
 layout: category
 permalink: "/catalogue/martial-arts"
 title: Martial Arts
-products: []
+products:
+- Mouthguards
+- Training equipments
 photos: []
 
 ---
