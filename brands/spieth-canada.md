@@ -2,6 +2,7 @@
 layout: brand
 permalink: "/brands/spieth-canada"
 categories:
+- catalogue/badminton.md
 - catalogue/posts.md
 - catalogue/nets.md
 - catalogue/volleyball.md
