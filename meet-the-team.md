@@ -3,6 +3,12 @@ layout: meet-the-team
 title: Meet the Team
 permalink: "/meet-the-team/"
 team-members:
+- name: Jeffrey Ruus
+  bio: |-
+    Jeffrey assists with the equipment side of the business. He inflates a ton of balls and is our go-to heavy lifter.
+
+    He enjoys gaming, reading books and playing the piano.
+  photo: "/jeffrey.jpg"
 - name: Bill Anderson
   bio: |-
     When it comes to pick ups & drop offs, Bill is our guy! He is always eager & ready to go, and will most likely be the guy to drop off at your location if we are sending something to you.
