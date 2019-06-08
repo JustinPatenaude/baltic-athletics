@@ -1,7 +1,13 @@
 ---
 layout: brand
 permalink: "/brands/spieth-canada"
-categories: []
+categories:
+- catalogue/posts.md
+- catalogue/nets.md
+- catalogue/volleyball.md
+- catalogue/parkour.md
+- catalogue/gymnastics.md
+- catalogue/rhythmic-gymnastics.md
 title: Spieth Canada
 logo: "/spieth-canada-logo.jpg"
 website: ''
