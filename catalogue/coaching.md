@@ -3,8 +3,10 @@ layout: category
 permalink: "/catalogue/coaching"
 title: Coaching
 products:
+- Pylons
+- Cones
 - Whistles
-- White boards
+- Coaching boards
 photos: []
 
 ---
