@@ -15,7 +15,7 @@ sections:
   exclude: "**/index.md"
   new_doc_ext: md
   templates:
-  - supplier
+  - brand
 - type: directory
   path: catalogue
   label: Categories
