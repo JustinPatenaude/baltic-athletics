@@ -21,7 +21,7 @@ fields:
       required: false
     label: Name
     description: If you have received permission to do so, you can add the name of
-      the person who gave the testimonial.
+      the person who gave the testimonial. If left blank, it will say "Anonymous".
   config:
     min: 
     max: 
