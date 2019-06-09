@@ -3,6 +3,13 @@ layout: page
 title: Clearance
 permalink: "/clearance/"
 products:
+- title: Second product
+  image: "/product-02.jpg"
+  price: '75.00'
+  description: Donec consequat diam eros, vitae lobortis est dignissim et. Ut sagittis
+    fringilla mollis. Nam semper iaculis est, a suscipit nibh aliquam sed. Curabitur
+    ut libero id nisl ultricies varius sed in sapien. Nam ultricies quis leo placerat
+    sollicitudin.
 - title: Product title
   image: "/product-01.jpg"
   price: '50.00'
