@@ -30,19 +30,15 @@ sections:
 - type: document
   path: clearance.md
   label: Clearance
-  match: "**/*"
 - type: document
   path: gallery.md
   label: Gallery
-  match: "**/*"
 - type: document
   path: meet-the-team.md
   label: Meet the Team
-  match: "**/*"
 - type: document
   path: testimonials.md
   label: Testimonials
-  match: "**/*"
 - type: heading
   label: Lists
 - type: document
