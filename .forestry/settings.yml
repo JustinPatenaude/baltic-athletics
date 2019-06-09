@@ -7,6 +7,8 @@ sections:
 - type: jekyll-pages
   label: Pages
   create: all
+- type: heading
+  label: Sections
 - type: directory
   path: brands
   label: Brands
@@ -25,6 +27,18 @@ sections:
   new_doc_ext: md
   templates:
   - category
+- type: document
+  path: clearance.md
+  label: Clearance
+- type: document
+  path: gallery.md
+  label: Gallery
+- type: document
+  path: meet-the-team.md
+  label: Meet the Team
+- type: document
+  path: testimonials.md
+  label: Testimonials
 - type: heading
   label: Lists
 - type: document

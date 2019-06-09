@@ -2,6 +2,19 @@
 layout: page
 title: Testimonials
 permalink: "/testimonials/"
+testimonials:
+- testimonial: The orders were all organized and we will be handing them out to students
+    this morning. We couldn't keep the staff from claiming theirs yesterday afternoon,
+    so there are a lot of new pieces of school clothing floating around already. Personally,
+    I'm very happy with my order and I can see that others are as well. A big "thank
+    you" from all of us goes out to you and your company. You guys make this process
+    extremely pain-free.
+  name: ''
+- name: ''
+  testimonial: We received your shipment yesterday for all the Ness gear and the items
+    look great!  Staff and students are very excited to sport their new Ness wear.  We
+    appreciate working with you.  The process has been very easy from ordering right
+    down to distributing items to all students.
 
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc velit eros, consequat sed diam sed, rutrum malesuada erat. Proin convallis ut dui consequat tristique. Duis euismod risus viverra mattis fermentum. Phasellus ultricies, orci et auctor volutpat, tellus magna tincidunt velit, in fermentum purus lectus a mauris. Donec tellus sem, tristique vel ullamcorper at, lacinia ut purus. Morbi condimentum eros eu tellus dignissim, vehicula euismod orci placerat. Cras porttitor diam a nisi sollicitudin dictum. Aenean sodales at est id maximus. In hac habitasse platea dictumst. Maecenas dictum pulvinar purus ac congue. Test.
