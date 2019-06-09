@@ -27,3 +27,5 @@ fields:
     max: 
     labelField: 
   label: Testimonials
+pages:
+- testimonials.md
