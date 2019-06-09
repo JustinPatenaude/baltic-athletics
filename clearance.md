@@ -2,7 +2,15 @@
 layout: page
 title: Clearance
 permalink: "/clearance/"
-products: []
+products:
+- title: Product title
+  image: "/product-01.jpg"
+  price: '50.00'
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a
+    posuere tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+    pulvinar volutpat bibendum. Morbi nec sem malesuada, finibus orci non, iaculis
+    erat. Duis consequat ut augue eget consectetur. Fusce tortor risus, interdum ac
+    bibendum at, rhoncus sed nisl.
 
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc velit eros, consequat sed diam sed, rutrum malesuada erat. Proin convallis ut dui consequat tristique. Duis euismod risus viverra mattis fermentum. Phasellus ultricies, orci et auctor volutpat, tellus magna tincidunt velit, in fermentum purus lectus a mauris. Donec tellus sem, tristique vel ullamcorper at, lacinia ut purus. Morbi condimentum eros eu tellus dignissim, vehicula euismod orci placerat. Cras porttitor diam a nisi sollicitudin dictum. Aenean sodales at est id maximus. In hac habitasse platea dictumst. Maecenas dictum pulvinar purus ac congue. Test.
