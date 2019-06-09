@@ -22,3 +22,5 @@ fields:
     max: 
     labelField: 
   label: Gallery
+pages:
+- gallery.md
