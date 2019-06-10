@@ -14,7 +14,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script defer src="https://pro.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-I3Hhe9TkmlsxzooTtbRzdeLbmkFQE9DVzX/19uTZfHk1zn/uWUyk+a+GyrHyseSq" crossorigin="anonymous"></script>
 
-  {% if jekyll.environment == 'development' and site.google_analytics %}
+  {% if jekyll.environment == 'production' and site.google_analytics %}
     {% include google-analytics.html %}
   {% endif %}
 </head>

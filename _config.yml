@@ -17,9 +17,8 @@ title: Baltic Athletics
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   With over 35 years of experience selling athletic equipment 
-  and clothing, you can be guaranteed expertadvice and authentic 
-  service. We supply quality product for great prices from brand 
-  names such as Mikasa, Spalding, Dynamic, Russell and 360 Athletics.
+  and clothing, you can be guaranteed expert advice and authentic 
+  service.
 baseurl: "/baltic-athletics" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
