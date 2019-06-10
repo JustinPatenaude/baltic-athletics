@@ -61,7 +61,7 @@ build:
   preview_env:
   - JEKYLL_ENV=staging
   publish_env:
-  - JEKYLL_ENV=production
+  - JEKYLL_ENV=development
   preview_output_directory: _site
   output_directory: _site
   instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
