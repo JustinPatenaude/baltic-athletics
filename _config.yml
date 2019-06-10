@@ -24,6 +24,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 mediaUrl: https://d2aasorcg54mje.cloudfront.net
+google_analytics: 141807318-1
 
 # Build settings
 markdown: kramdown
