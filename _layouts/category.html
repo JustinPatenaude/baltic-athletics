@@ -83,9 +83,9 @@ layout: default
   </div>
   {% endif %}
   {% assign strippedPermalink = page.permalink | remove: '"' | remove_first: '/' | append: '.md' %}
-  {% assign supplierPages = site.pages | where: 'layout', "supplier" %}
-  {% assign supplierPages = supplierPages | where_exp: 'supplier', "supplier.categories contains strippedPermalink" %}
-  {% if supplierPages.size > 0 %}
+  {% assign brandPages = site.pages | where: 'layout', "brand" %}
+  {% assign brandPages = brandPages | where_exp: 'brand', "brand.categories contains strippedPermalink" %}
+  {% if brandPages.size > 0 %}
     <div class="container">
       <div class="grid-center">
         <div class="col-8_lg-10_md-12">
@@ -94,15 +94,15 @@ layout: default
             <div class="page__title-img-wrapper">
               <img class="page__title-img" src="{{ '/assets/images/title-suppliers.svg' | relative_url }}" />
             </div>
-            <h2 class="page__title">Suppliers</h2>
+            <h2 class="page__title">Brands</h2>
           </div>
 
           <div class="relative">
 
             <div class="suppliers__all">
               <div class="grid">
-                {% for supplier in supplierPages %}
-                  {% include supplier-grid.html %}
+                {% for brand in brandPages %}
+                  {% include brand-grid.html %}
                 {% endfor %}
               </div>
             </div>

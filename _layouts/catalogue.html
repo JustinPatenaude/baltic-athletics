@@ -46,7 +46,8 @@ layout: default
         <div class="grid-center">
           <div class="col-10_md-12">
             <div class="grid">
-              {% for item in catalogue.sub-categories %}
+              {% assign subCategories = catalogue.sub-categories | sort %}
+              {% for item in subCategories %}
                 {% assign itemHandle = item | slugify %}
                 {% capture itemImageUrl %}/assets/images/category-{{ itemHandle }}.svg{% endcapture %}
                 <div class="col-2_lg-3_md-4_xs-6 catalogue__category-wrapper">

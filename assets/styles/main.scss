@@ -91,6 +91,7 @@ a {
   }
 }
 p {
+  color: $colorGrey;
   a {
     &:hover, &:active, &:focus {
       text-decoration: underline;
@@ -704,6 +705,15 @@ input, textarea, button {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+.page__contact {
+  margin-bottom: 30px;
+  padding: 12px;
+  border: 1px solid #efefef;
+  border-radius: 4px;
+  p {
+    margin-bottom: 0;
+  }
+}
 
 /* RESPONSIVE STYLES FOR HEADER + MOBILE MENU */
 @media only screen and (max-width: 768px) {
@@ -942,6 +952,54 @@ input, textarea, button {
   text-overflow: ellipsis;
   color: $colorGrey;
   overflow: hidden;
+}
+
+/*======================
+  CLEARANCE
+======================*/
+.product {
+  margin-bottom: 30px;
+}
+.product__image-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  background-color: #efefef;
+}
+.product__image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  transform: translate(-50%, -50%);
+}
+
+/*======================
+  TESTIMONIALS
+======================*/
+.testimonial__wrapper {
+  &:last-of-type {
+    .testimonial {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: 0;
+    }
+  }
+}
+.testimonial {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid $colorGreyLighter;
+  p {
+    font-style: italic;
+  }
+}
+.testimonial__name {
+  margin: 0;
+  text-align: right;
 }
 
 /*======================
