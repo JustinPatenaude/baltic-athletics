@@ -2,7 +2,15 @@
 layout: page
 title: Gallery
 permalink: "/gallery/"
-gallery: []
+gallery:
+- title: Wow, a fourth
+  photo: "/archery-03.jpg"
+- title: A third title here
+  photo: "/archery-04.jpg"
+- title: Another title here
+  photo: "/archery-02.jpg"
+- title: This is a title
+  photo: "/archery-01.jpg"
 
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc velit eros, consequat sed diam sed, rutrum malesuada erat. Proin convallis ut dui consequat tristique. Duis euismod risus viverra mattis fermentum. Phasellus ultricies, orci et auctor volutpat, tellus magna tincidunt velit, in fermentum purus lectus a mauris. Donec tellus sem, tristique vel ullamcorper at, lacinia ut purus. Morbi condimentum eros eu tellus dignissim, vehicula euismod orci placerat. Cras porttitor diam a nisi sollicitudin dictum. Aenean sodales at est id maximus. In hac habitasse platea dictumst. Maecenas dictum pulvinar purus ac congue. Test.
