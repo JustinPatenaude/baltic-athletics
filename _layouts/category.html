@@ -70,8 +70,8 @@ layout: default
         <div class="grid">
           {% for photo in page.photos %}
             <div class="col-3">
-              <a href="{{ photo | prepend: site.mediaUrl }}" class="category__photo-wrapper">
-                <img class="category__photo" src="{{ photo | prepend: site.mediaUrl }}" />
+              <a href="{{ photo.photo | prepend: site.mediaUrl }}" class="category__photo-wrapper" title="{{ photo.title }}">
+                <img class="category__photo" src="{{ photo.photo | prepend: site.mediaUrl }}" />
               </a>
             </div>
           {% endfor %}

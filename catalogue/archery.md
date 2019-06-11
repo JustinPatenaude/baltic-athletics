@@ -14,7 +14,6 @@ products:
 - Shafts
 - Shooting Gear
 - Targets
-photos: []
 images:
 - image: "/archery-02.jpg"
   title: '360 Athletics - #18H7F6'
