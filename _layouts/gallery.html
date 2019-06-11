@@ -14,19 +14,27 @@ layout: default
 <div class="gallery page__content">
   <div class="container">
     <div class="grid-center">
-      <div class="col-10_md-12">
+      {% if page.gallery.size > 0 %}
+        <div class="col-10_md-12">
 
-        <div class="grid">
-          {% for image in page.gallery %}
-            <div class="col-4_sm-6_xs-12 margin-30">
-              <a href="{{ image.photo | prepend: site.mediaUrl }}" class="category__photo-wrapper" title="{{ image.title }}">
-                <img class="category__photo" src="{{ image.photo | prepend: site.mediaUrl }}" />
-              </a>
-            </div>
-          {% endfor %}
+          <div class="grid">
+            {% for image in page.gallery %}
+              <div class="col-4_sm-6_xs-12 margin-30">
+                <a href="{{ image.photo | prepend: site.mediaUrl }}" class="category__photo-wrapper" title="{{ image.title }}">
+                  <img class="category__photo" src="{{ image.photo | prepend: site.mediaUrl }}" />
+                </a>
+              </div>
+            {% endfor %}
+          </div>
+
         </div>
-
-      </div>
+      {% else %}
+        <div class="col-8_lg-10_md-12">
+          <div class="page__contact text-center">
+            <p>Oops, doesn't look like we have anything here right now. Check back soon for some great photos of teams and schools enjoying their Baltic uniforms and equipment.</p>
+          </div>
+        </div>
+      {% endif %}
     </div>
   </div>
 </div>
