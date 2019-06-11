@@ -14,10 +14,9 @@ products:
 - Shafts
 - Shooting Gear
 - Targets
-images:
-- image: "/archery-02.jpg"
-  title: '360 Athletics - #18H7F6'
+photos:
 - title: Bullseye Targets
-  image: "/archery-01.jpg"
-
+  photo: "/archery-01.jpg"
+- title: '360 Athletics - #18H7F6'
+  photo: "/archery-02.jpg"
 ---
