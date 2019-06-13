@@ -30,19 +30,21 @@ $(document).ready(function(){
   /* ==========================
      CATALOGUE SEARCH
   ========================== */
-  $('.category__search-form .search__input').on('keyup', function(e){
-    var inputtedValue = e.target.value;
-    $('.catalogue__category-title').each(function(){
-      var title = $(this).text().toLowerCase();
+  $('.category__search-form .search__input').on('keyup input', function(e){
+    var inputtedValue = e.target.value.toLowerCase();
+    var $titleWrapper = $('.page__title-wrapper');
+    var $categoryWrapper = $('.catalogue__category-wrapper');
+    if(inputtedValue.length > 0){
+      $titleWrapper.hide();
+    } else {
+      $titleWrapper.show();
+    }
+    $categoryWrapper.each(function(){
+      var title = $(this).attr('data-category-title');
       if(title.indexOf(inputtedValue) < 0){
-        $(this).closest('.catalogue__category-wrapper').hide();
+        $(this).hide();
       } else {
-        $(this).closest('.catalogue__category-wrapper').show();
-      }
-      if($(this).closest('.category').height() < 81){
-        $(this).closest('.category').hide();
-      } else {
-        $(this).closest('.category').show();
+        $(this).show();
       }
     });
   });
@@ -50,11 +52,11 @@ $(document).ready(function(){
   /* ==========================
      SUPPLIER SEARCH
   ========================== */
-  $('.supplier__search-form .search__input').on('keyup', function(e){
-    var inputtedValue = e.target.value;
-    $('.supplier[data-title]').each(function(){
-      var title = $(this).attr('data-title').toLowerCase();
-      console.log(title, inputtedValue);
+  $('.supplier__search-form .search__input').on('keyup input', function(e){
+    var inputtedValue = e.target.value.toLowerCase();
+    var $brandWrapper = $('.supplier');
+    $brandWrapper.each(function(){
+      var title = $(this).attr('data-title');
       if(title.indexOf(inputtedValue) < 0){
         $(this).hide();
       } else {

@@ -2435,7 +2435,7 @@ input, textarea, button {
   background: rgba(0, 0, 0, 0.5); }
 
 .content {
-  min-height: calc(100vh - 96px); }
+  min-height: calc(100vh - 96px - 423px - 98px); }
 
 .btn {
   display: inline-block;
@@ -2528,6 +2528,9 @@ input, textarea, button {
 
 .rte p {
   color: #666666; }
+.rte ul {
+  list-style-type: disc;
+  list-style-position: inside; }
 
 .relative {
   position: relative; }
@@ -2682,7 +2685,7 @@ input, textarea, button {
   .sub-nav__link:hover, .sub-nav__link.active, .sub-nav__inner .nav__link:hover, .sub-nav__inner .nav__link.active {
     color: #fff;
     background-color: #3A6492; }
-  .sub-nav__link .svg-inline--fa, .sub-nav__inner .nav__link .svg-inline--fa {
+  .sub-nav__link i, .sub-nav__inner .nav__link i {
     margin-right: 10px; }
 
 /*======================
@@ -2787,6 +2790,9 @@ input, textarea, button {
   text-align: right; }
   .home__about-owner p {
     margin-bottom: 0; }
+
+.home__about-photo {
+  border-radius: 4px; }
 
 .home__testimonials-wrapper {
   background-color: #ECECEC; }
