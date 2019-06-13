@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/adidas"
+permalink: "/brands/adidas/"
 categories:
 - catalogue/soccer.md
 title: Adidas

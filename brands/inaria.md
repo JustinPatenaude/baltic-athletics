@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/inaria"
+permalink: "/brands/inaria/"
 categories:
 - catalogue/futsal.md
 - catalogue/jerseys.md

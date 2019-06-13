@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/posts"
+permalink: "/catalogue/posts/"
 title: Posts
 products:
 - Beach Volleyball

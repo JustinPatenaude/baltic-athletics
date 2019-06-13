@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/fox-40"
+permalink: "/brands/fox-40/"
 categories:
 - catalogue/first-aid.md
 - catalogue/marine-suppliers.md

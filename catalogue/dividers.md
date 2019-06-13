@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/dividers"
+permalink: "/catalogue/dividers/"
 title: Dividers
 products:
 - Archery Curtains

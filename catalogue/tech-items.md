@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/tech-items"
+permalink: "/catalogue/tech-items/"
 title: Tech Items
 products: []
 photos: []

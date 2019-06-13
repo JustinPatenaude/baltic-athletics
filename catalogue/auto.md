@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/auto"
+permalink: "/catalogue/auto/"
 title: Auto
 products: []
 photos: []

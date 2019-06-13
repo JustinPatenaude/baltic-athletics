@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/plush-novelties"
+permalink: "/catalogue/plush-novelties/"
 title: Plush & Novelties
 products: []
 photos: []

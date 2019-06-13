@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/wall-pads"
+permalink: "/catalogue/wall-pads/"
 title: Wall Pads
 products:
 - Custom Shapes

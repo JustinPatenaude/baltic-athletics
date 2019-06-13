@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/tissues"
+permalink: "/catalogue/tissues/"
 title: Tissues
 products: []
 photos: []

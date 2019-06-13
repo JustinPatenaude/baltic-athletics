@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/canada-sportswear"
+permalink: "/brands/canada-sportswear/"
 categories:
 - catalogue/track-suits.md
 - catalogue/hoodies.md

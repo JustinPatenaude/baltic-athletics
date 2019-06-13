@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/jaypro"
+permalink: "/brands/jaypro/"
 categories:
 - catalogue/tennis.md
 - catalogue/nets.md

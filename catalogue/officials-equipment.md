@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/officials-equipment"
+permalink: "/catalogue/officials-equipment/"
 title: Officials Equipment
 products:
 - Officials Apparel

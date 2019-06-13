@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/darts"
+permalink: "/catalogue/darts/"
 title: Darts
 products:
 - Uniforms

@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/headwear"
+permalink: "/catalogue/headwear/"
 title: Headwear
 products:
 - Caps

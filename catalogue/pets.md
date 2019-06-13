@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/pets"
+permalink: "/catalogue/pets/"
 title: Pets
 products: []
 photos: []

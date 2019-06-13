@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/weight-lifting"
+permalink: "/catalogue/weight-lifting/"
 title: Weight Lifting
 products:
 - Rubber Flooring

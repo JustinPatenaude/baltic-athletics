@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/martial-arts"
+permalink: "/catalogue/martial-arts/"
 title: Martial Arts
 products:
 - Mouthguards

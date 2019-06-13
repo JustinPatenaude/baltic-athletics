@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/campus-crew"
+permalink: "/brands/campus-crew/"
 categories:
 - catalogue/hats.md
 - catalogue/jackets.md

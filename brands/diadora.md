@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/diadora"
+permalink: "/brands/diadora/"
 categories:
 - catalogue/soccer.md
 title: Diadora

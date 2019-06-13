@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/table-tennis"
+permalink: "/catalogue/table-tennis/"
 title: Table Tennis
 products:
 - Nets

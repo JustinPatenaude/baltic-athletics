@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/baseball"
+permalink: "/catalogue/baseball/"
 title: Baseball
 products:
 - Fielders Masks

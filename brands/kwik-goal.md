@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/kwik-goal"
+permalink: "/brands/kwik-goal/"
 categories:
 - catalogue/soccer.md
 - catalogue/nets.md

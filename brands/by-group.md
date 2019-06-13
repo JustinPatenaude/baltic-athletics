@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/by-group"
+permalink: "/brands/by-group/"
 categories:
 - catalogue/boxing.md
 - catalogue/games.md

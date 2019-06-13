@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/fiel"
+permalink: "/brands/fiel/"
 categories:
 - catalogue/aprons.md
 - catalogue/auto.md

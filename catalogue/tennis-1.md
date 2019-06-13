@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/tennis"
+permalink: "/catalogue/tennis/"
 title: Tennis
 products:
 - tennis balls

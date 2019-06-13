@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/brandwear"
+permalink: "/brands/brandwear/"
 categories:
 - catalogue/bags.md
 - catalogue/hats.md

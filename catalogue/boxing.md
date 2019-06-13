@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/boxing"
+permalink: "/catalogue/boxing/"
 title: Boxing
 products:
 - Training Aids

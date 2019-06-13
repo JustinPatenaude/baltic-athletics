@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/futsal"
+permalink: "/catalogue/futsal/"
 title: Futsal
 products:
 - Goal Keeper Clothing

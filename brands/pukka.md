@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/pukka"
+permalink: "/brands/pukka/"
 categories:
 - catalogue/hats.md
 title: Pukka

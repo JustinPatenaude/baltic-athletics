@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/track-field"
+permalink: "/catalogue/track-field/"
 title: Track & Field
 products:
 - Blanks

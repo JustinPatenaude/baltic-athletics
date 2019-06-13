@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/home"
+permalink: "/catalogue/home/"
 title: Home
 products: []
 photos: []

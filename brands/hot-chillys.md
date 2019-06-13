@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/hot-chillys"
+permalink: "/brands/hot-chillys/"
 categories:
 - catalogue/hats.md
 - catalogue/jackets.md

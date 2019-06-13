@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/dynamic-team-sports"
+permalink: "/brands/dynamic-team-sports/"
 categories:
 - catalogue/soccer.md
 - catalogue/track-field.md

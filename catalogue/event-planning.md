@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/event-planning"
+permalink: "/catalogue/event-planning/"
 title: Event Planning
 products: []
 photos: []

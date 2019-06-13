@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/gildan"
+permalink: "/brands/gildan/"
 categories: []
 title: Gildan
 logo: "/gildan-logo.png"

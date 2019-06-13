@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/orienteering"
+permalink: "/catalogue/orienteering/"
 title: Orienteering
 products:
 - Compasses

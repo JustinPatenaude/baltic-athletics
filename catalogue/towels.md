@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/towels"
+permalink: "/catalogue/towels/"
 title: Towels
 products: []
 photos: []

@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/cross-country-skiing"
+permalink: "/catalogue/cross-country-skiing/"
 title: Cross-Country Skiing
 products:
 - Boots

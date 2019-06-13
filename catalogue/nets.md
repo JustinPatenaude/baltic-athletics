@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/nets"
+permalink: "/catalogue/nets/"
 title: Nets
 products:
 - Futsal

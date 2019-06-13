@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/whiteridge"
+permalink: "/brands/whiteridge/"
 categories:
 - catalogue/luggage.md
 - catalogue/chairs.md

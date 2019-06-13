@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/scorekeeping-tables"
+permalink: "/catalogue/scorekeeping-tables/"
 title: Scorekeeping Tables
 products:
 - Custom Padding

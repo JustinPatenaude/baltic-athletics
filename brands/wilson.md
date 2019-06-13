@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/wilson"
+permalink: "/brands/wilson/"
 categories:
 - catalogue/basketball.md
 - catalogue/football.md

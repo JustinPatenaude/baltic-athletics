@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/training-supplies"
+permalink: "/catalogue/training-supplies/"
 title: Training Supplies
 products:
 - Trainer Equipment

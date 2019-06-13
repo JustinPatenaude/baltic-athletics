@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/first-aid"
+permalink: "/catalogue/first-aid/"
 title: First Aid
 products: []
 photos: []

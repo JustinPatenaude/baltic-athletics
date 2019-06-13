@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/ultimate"
+permalink: "/catalogue/ultimate/"
 title: Ultimate
 products:
 - Uniforms

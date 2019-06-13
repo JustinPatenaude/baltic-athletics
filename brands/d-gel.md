@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/d-gel"
+permalink: "/brands/d-gel/"
 categories:
 - catalogue/floor-hockey.md
 - catalogue/hockey.md

@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/york"
+permalink: "/brands/york/"
 categories:
 - catalogue/weight-lifting.md
 title: York

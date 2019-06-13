@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/forum"
+permalink: "/brands/forum/"
 categories:
 - catalogue/basketball.md
 - catalogue/dividers.md

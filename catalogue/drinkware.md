@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/drinkware"
+permalink: "/catalogue/drinkware/"
 title: Drinkware
 products: []
 photos: []

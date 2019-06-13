@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/hit-promo"
+permalink: "/brands/hit-promo/"
 categories:
 - catalogue/pens.md
 - catalogue/auto.md

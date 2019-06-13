@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/workwear"
+permalink: "/catalogue/workwear/"
 title: Workwear
 products:
 - Quilted Garments

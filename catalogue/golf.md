@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/golf"
+permalink: "/catalogue/golf/"
 title: Golf
 products:
 - Bags

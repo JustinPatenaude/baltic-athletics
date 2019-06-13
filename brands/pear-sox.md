@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/pear-sox"
+permalink: "/brands/pear-sox/"
 categories:
 - catalogue/baseball.md
 - catalogue/basketball.md

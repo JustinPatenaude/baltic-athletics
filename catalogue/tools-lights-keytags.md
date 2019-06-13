@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/tools-lights-keytags"
+permalink: "/catalogue/tools-lights-keytags/"
 title: Tools, Lights & Keytags
 products: []
 photos: []

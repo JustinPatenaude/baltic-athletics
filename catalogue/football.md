@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/football"
+permalink: "/catalogue/football/"
 title: Football
 products:
 - Helmet Decals

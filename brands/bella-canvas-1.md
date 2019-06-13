@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/bella-canvas"
+permalink: "/brands/bella-canvas/"
 categories:
 - catalogue/hoodies.md
 - catalogue/shirts.md

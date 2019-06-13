@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/eyewear"
+permalink: "/catalogue/eyewear/"
 title: Eyewear
 products: []
 photos: []

@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/shirts"
+permalink: "/catalogue/shirts/"
 title: Shirts
 products: []
 photos: []

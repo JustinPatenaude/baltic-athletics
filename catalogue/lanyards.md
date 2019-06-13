@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/lanyards"
+permalink: "/catalogue/lanyards/"
 title: Lanyards
 products: []
 photos: []

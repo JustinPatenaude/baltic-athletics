@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/canadawide-sports"
+permalink: "/brands/canadawide-sports/"
 categories:
 - catalogue/baseball.md
 - catalogue/hockey.md

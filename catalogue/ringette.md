@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/ringette"
+permalink: "/catalogue/ringette/"
 title: Ringette
 products:
 - Helmets w/ Cage

@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/hussey-seating"
+permalink: "/brands/hussey-seating/"
 categories:
 - catalogue/seating.md
 title: Hussey Seating

@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/pinnies"
+permalink: "/catalogue/pinnies/"
 title: Pinnies
 products: []
 photos: []

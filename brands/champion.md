@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/champion"
+permalink: "/brands/champion/"
 categories:
 - catalogue/shirts.md
 - catalogue/hoodies.md

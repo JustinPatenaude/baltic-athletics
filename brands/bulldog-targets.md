@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/bulldog-targets"
+permalink: "/brands/bulldog-targets/"
 categories:
 - catalogue/archery.md
 title: Bulldog Targets

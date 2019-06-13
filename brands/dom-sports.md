@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/dom-sports"
+permalink: "/brands/dom-sports/"
 categories:
 - catalogue/floor-hockey.md
 - catalogue/nets.md

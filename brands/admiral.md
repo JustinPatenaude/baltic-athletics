@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/admiral"
+permalink: "/brands/admiral/"
 categories:
 - catalogue/soccer.md
 - catalogue/shorts.md

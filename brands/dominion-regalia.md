@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/dominion-regalia"
+permalink: "/brands/dominion-regalia/"
 categories:
 - catalogue/track-field.md
 title: Dominion Regalia

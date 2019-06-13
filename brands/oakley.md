@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/oakley"
+permalink: "/brands/oakley/"
 categories: []
 title: Oakley
 logo: "/oakley-logo.png"

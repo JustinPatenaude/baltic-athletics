@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/games"
+permalink: "/catalogue/games/"
 title: Games
 products: []
 photos: []

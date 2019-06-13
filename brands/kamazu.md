@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/kamazu"
+permalink: "/brands/kamazu/"
 categories:
 - catalogue/hockey.md
 title: Kamazu

@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/team-handball"
+permalink: "/catalogue/team-handball/"
 title: Team Handball
 products:
 - Goals

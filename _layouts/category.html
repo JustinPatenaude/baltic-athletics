@@ -82,7 +82,7 @@ layout: default
     </div>
   </div>
   {% endif %}
-  {% assign strippedPermalink = page.permalink | remove: '"' | remove_first: '/' | append: '.md' %}
+  {% assign strippedPermalink = page.permalink | remove: '"' | remove_first: '/' | append: '~~' | remove: '/~~' | append: '.md' %}
   {% assign brandPages = site.pages | where: 'layout', "brand" %}
   {% assign brandPages = brandPages | where_exp: 'brand', "brand.categories contains strippedPermalink" %}
   {% if brandPages.size > 0 %}

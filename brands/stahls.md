@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/stahls"
+permalink: "/brands/stahls/"
 categories:
 - catalogue/helmet-decals.md
 title: Stahls

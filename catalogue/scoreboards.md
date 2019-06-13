@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/scoreboards"
+permalink: "/catalogue/scoreboards/"
 title: Scoreboards
 products:
 - Shot Clocks

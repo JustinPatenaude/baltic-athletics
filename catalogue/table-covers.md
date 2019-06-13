@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/table-covers"
+permalink: "/catalogue/table-covers/"
 title: Table Covers
 products: []
 photos: []

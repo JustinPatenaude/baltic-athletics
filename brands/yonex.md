@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/yonex"
+permalink: "/brands/yonex/"
 categories:
 - catalogue/badminton.md
 title: Yonex

@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/notebooks"
+permalink: "/catalogue/notebooks/"
 title: Notebooks
 products: []
 photos: []

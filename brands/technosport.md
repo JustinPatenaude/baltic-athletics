@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/technosport"
+permalink: "/brands/technosport/"
 categories:
 - catalogue/bags-totes-duffels.md
 - catalogue/jackets.md

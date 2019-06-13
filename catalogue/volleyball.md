@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/volleyball"
+permalink: "/catalogue/volleyball/"
 title: Volleyball
 products:
 - Coaching Supplies

@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/health-fitness"
+permalink: "/catalogue/health-fitness/"
 title: Health & Fitness
 products:
 - Foam Mats

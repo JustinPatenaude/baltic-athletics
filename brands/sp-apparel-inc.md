@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/sp-apparel-inc"
+permalink: "/brands/sp-apparel-inc/"
 categories:
 - catalogue/baseball.md
 - catalogue/basketball.md

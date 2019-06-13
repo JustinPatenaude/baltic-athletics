@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/bauer"
+permalink: "/brands/bauer/"
 categories:
 - catalogue/floor-hockey.md
 title: Bauer

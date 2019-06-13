@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/misc"
+permalink: "/catalogue/misc/"
 title: Misc.
 products: []
 photos: []

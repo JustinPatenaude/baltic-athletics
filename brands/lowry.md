@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/lowry"
+permalink: "/brands/lowry/"
 categories:
 - catalogue/floor-hockey.md
 - catalogue/hockey.md

@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/hub-pen"
+permalink: "/brands/hub-pen/"
 categories:
 - catalogue/pens.md
 - catalogue/writing-materials.md

@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/trimark"
+permalink: "/brands/trimark/"
 categories:
 - catalogue/jackets.md
 - catalogue/pants.md

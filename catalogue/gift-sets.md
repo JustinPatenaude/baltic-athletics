@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/gift-sets"
+permalink: "/catalogue/gift-sets/"
 title: Gift Sets
 products: []
 photos: []

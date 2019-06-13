@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/alphabroder"
+permalink: "/brands/alphabroder/"
 categories:
 - catalogue/sweaters.md
 - catalogue/jackets.md

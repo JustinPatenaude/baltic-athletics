@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/high-5-sportswear"
+permalink: "/brands/high-5-sportswear/"
 categories:
 - catalogue/apparel.md
 - catalogue/baseball.md

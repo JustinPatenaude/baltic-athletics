@@ -135,7 +135,7 @@ input, textarea, button {
   background: rgba(0,0,0,0.5);
 }
 .content {
-  min-height: calc(100vh - 96px);
+  min-height: calc(100vh - 96px - 423px - 98px);
 }
 .btn {
   display: inline-block;
@@ -244,6 +244,10 @@ input, textarea, button {
 .rte {
   p {
     color: $colorGrey;
+  }
+  ul {
+    list-style-type: disc;
+    list-style-position: inside;
   }
 }
 .relative {
@@ -415,7 +419,7 @@ input, textarea, button {
     color: #fff;
     background-color: $colorBlueDark;
   }
-  .svg-inline--fa {
+  i {
     margin-right: 10px;
   }
 }
@@ -537,6 +541,9 @@ input, textarea, button {
   p {
     margin-bottom: 0;
   }
+}
+.home__about-photo {
+  border-radius: 4px;
 }
 .home__testimonials-wrapper {
   background-color: $colorGreyLighter;

@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/inflators"
+permalink: "/catalogue/inflators/"
 title: Inflators
 products:
 - Needles

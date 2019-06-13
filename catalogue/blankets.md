@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/blankets"
+permalink: "/catalogue/blankets/"
 title: Blankets
 products: []
 photos: []

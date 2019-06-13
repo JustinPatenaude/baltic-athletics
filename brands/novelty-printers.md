@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/novelty-printers"
+permalink: "/brands/novelty-printers/"
 categories:
 - catalogue/auto.md
 - catalogue/banners.md

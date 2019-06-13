@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/juggling"
+permalink: "/catalogue/juggling/"
 title: Juggling
 products: []
 photos: []

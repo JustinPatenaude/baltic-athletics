@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/omnikin"
+permalink: "/brands/omnikin/"
 categories:
 - catalogue/misc.md
 title: Omnikin

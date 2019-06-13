@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/badminton"
+permalink: "/catalogue/badminton/"
 title: Badminton
 products:
 - T-Shirts

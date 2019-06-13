@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/chairs"
+permalink: "/catalogue/chairs/"
 title: Chairs
 products:
 - Lawn chairs

@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/rugby"
+permalink: "/catalogue/rugby/"
 title: Rugby
 products:
 - Mouthguards

@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/projoy"
+permalink: "/brands/projoy/"
 categories:
 - catalogue/curling.md
 - catalogue/bowling.md

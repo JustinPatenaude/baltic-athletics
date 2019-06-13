@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/basketball"
+permalink: "/catalogue/basketball/"
 title: Basketball
 products:
 - Portable Systems

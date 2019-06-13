@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/stackhouse-athletic"
+permalink: "/brands/stackhouse-athletic/"
 categories:
 - catalogue/baseball.md
 - catalogue/football.md

@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/martini-promotions"
+permalink: "/brands/martini-promotions/"
 categories:
 - catalogue/apparel.md
 - catalogue/auto.md

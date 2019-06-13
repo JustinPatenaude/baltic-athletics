@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/sweaters"
+permalink: "/catalogue/sweaters/"
 title: Sweaters
 products: []
 photos: []

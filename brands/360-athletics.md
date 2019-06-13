@@ -1,5 +1,6 @@
 ---
 layout: brand
+permalink: "/brands/360-athletics/"
 categories:
 - catalogue/health-fitness.md
 - catalogue/eyewear.md
@@ -30,13 +31,8 @@ categories:
 - catalogue/ultimate.md
 - catalogue/volleyball.md
 title: 360 Athletics
-permalink: "/brands/360-athletics"
 logo: "/360-athletics-logo.jpg"
 website: https://www.360athletics.com/
-pdfs:
-- "/360-athletics-CFX-BANDS-SETS.pdf"
-- "/360-athletics-2018-COREFX-Catalogue.pdf"
-- "/360-athletics-2018-catalogue.pdf"
 info: ''
 date: '2019-03-29T22:13:46.000+00:00'
 catalogues:

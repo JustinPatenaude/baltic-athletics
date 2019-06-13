@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/barbarian"
+permalink: "/brands/barbarian/"
 categories:
 - catalogue/sweaters.md
 - catalogue/shorts.md

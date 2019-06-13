@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/adspec"
+permalink: "/brands/adspec/"
 categories:
 - catalogue/banners.md
 - catalogue/canopies.md

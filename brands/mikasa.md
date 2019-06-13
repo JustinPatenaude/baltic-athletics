@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/mikasa"
+permalink: "/brands/mikasa/"
 categories:
 - catalogue/basketball.md
 - catalogue/beach-volleyball.md

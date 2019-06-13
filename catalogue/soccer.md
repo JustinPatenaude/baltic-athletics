@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/soccer"
+permalink: "/catalogue/soccer/"
 title: Soccer
 products:
 - Linemarkers

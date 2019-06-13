@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/umbrellas"
+permalink: "/catalogue/umbrellas/"
 title: Umbrellas
 products: []
 photos: []

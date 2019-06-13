@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/canopies"
+permalink: "/catalogue/canopies/"
 title: Canopies
 products: []
 photos: []

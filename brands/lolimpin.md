@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/lolimpin"
+permalink: "/brands/lolimpin/"
 categories:
 - catalogue/custom-mats.md
 - catalogue/dividers.md

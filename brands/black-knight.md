@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/black-knight"
+permalink: "/brands/black-knight/"
 categories:
 - catalogue/squash.md
 - catalogue/racquetball.md

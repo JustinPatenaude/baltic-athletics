@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/starline"
+permalink: "/brands/starline/"
 categories:
 - catalogue/bags.md
 - catalogue/blankets.md

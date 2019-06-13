@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/sanmar"
+permalink: "/brands/sanmar/"
 categories:
 - catalogue/jackets.md
 - catalogue/jerseys.md

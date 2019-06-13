@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/hockey"
+permalink: "/catalogue/hockey/"
 title: Hockey
 products:
 - Helmet Decals

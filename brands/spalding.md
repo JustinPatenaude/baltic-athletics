@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/spalding"
+permalink: "/brands/spalding/"
 categories:
 - catalogue/baseball.md
 - catalogue/basketball.md

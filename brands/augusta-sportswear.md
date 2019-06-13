@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/augusta-sportswear"
+permalink: "/brands/augusta-sportswear/"
 categories:
 - catalogue/bags.md
 - catalogue/baseball.md

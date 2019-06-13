@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/toba-sportswear"
+permalink: "/brands/toba-sportswear/"
 categories:
 - catalogue/hats.md
 - catalogue/jackets.md

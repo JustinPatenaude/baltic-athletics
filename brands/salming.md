@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/salming"
+permalink: "/brands/salming/"
 categories:
 - catalogue/squash.md
 - catalogue/floor-hockey.md

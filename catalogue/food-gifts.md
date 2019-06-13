@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/food-gifts"
+permalink: "/catalogue/food-gifts/"
 title: Food Gifts
 products: []
 photos: []

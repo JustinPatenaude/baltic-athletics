@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/pe-equipment"
+permalink: "/catalogue/pe-equipment/"
 title: PE Equipment
 products:
 - Balance & Movement

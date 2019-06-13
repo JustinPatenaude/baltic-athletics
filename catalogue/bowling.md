@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/bowling"
+permalink: "/catalogue/bowling/"
 title: Bowling
 products:
 - Shirts

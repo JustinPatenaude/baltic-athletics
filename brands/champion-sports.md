@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/champion-sports"
+permalink: "/brands/champion-sports/"
 categories:
 - catalogue/baseball.md
 - catalogue/basketball.md

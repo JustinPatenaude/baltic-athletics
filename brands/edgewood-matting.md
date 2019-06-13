@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/edgewood"
+permalink: "/brands/edgewood/"
 categories:
 - catalogue/misc.md
 - catalogue/wall-pads.md

@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/parkour"
+permalink: "/catalogue/parkour/"
 title: Parkour
 products:
 - Course equipment

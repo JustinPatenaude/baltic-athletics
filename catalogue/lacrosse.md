@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/lacrosse"
+permalink: "/catalogue/lacrosse/"
 title: Lacrosse
 products:
 - Goals

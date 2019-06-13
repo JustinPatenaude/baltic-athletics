@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/faber"
+permalink: "/brands/faber/"
 categories:
 - catalogue/snowshoes.md
 title: Faber

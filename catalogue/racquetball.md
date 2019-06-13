@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/racquetball"
+permalink: "/catalogue/racquetball/"
 title: Racquetball
 products: []
 photos: []

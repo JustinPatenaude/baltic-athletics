@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/beach-volleyball"
+permalink: "/catalogue/beach-volleyball/"
 title: Beach Volleyball
 products:
 - Boundary Markers

@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/floor-hockey"
+permalink: "/catalogue/floor-hockey/"
 title: Floor Hockey
 products:
 - Goalie Equipment

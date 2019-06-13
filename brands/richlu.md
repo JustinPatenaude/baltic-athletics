@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/richlu"
+permalink: "/brands/richlu/"
 categories:
 - catalogue/jackets.md
 - catalogue/shirts.md

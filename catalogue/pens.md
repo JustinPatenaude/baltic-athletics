@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/pens"
+permalink: "/catalogue/pens/"
 title: Pens
 products:
 - Custom pens

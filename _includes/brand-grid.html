@@ -1,4 +1,4 @@
-<div class="col-4_sm-6_xs-12 supplier" data-title="{{ brand.title }}">
+<div class="col-4_sm-6_xs-12 supplier" data-title="{{ brand.title | downcase }}">
   {% assign brandHandle = brand.title | slugify %}
   {% capture brandLink %}/brands/{{ brandHandle }}{% endcapture %}
   <a href="{{ brandLink | relative_url }}" class="supplier__wrapper">

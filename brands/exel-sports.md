@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/exel-sports"
+permalink: "/brands/exel-sports/"
 categories:
 - catalogue/floor-hockey.md
 - catalogue/hockey.md

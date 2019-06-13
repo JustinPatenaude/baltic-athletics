@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/ulhsport"
+permalink: "/brands/ulhsport/"
 categories:
 - catalogue/futsal.md
 - catalogue/soccer.md

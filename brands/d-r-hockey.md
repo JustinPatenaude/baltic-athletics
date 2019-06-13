@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/dr-hockey"
+permalink: "/brands/dr-hockey/"
 categories:
 - catalogue/floor-hockey.md
 - catalogue/hockey.md

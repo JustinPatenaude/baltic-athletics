@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/curling"
+permalink: "/catalogue/curling/"
 title: Curling
 products:
 - Uniforms

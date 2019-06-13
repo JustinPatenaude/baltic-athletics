@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/russell-athletic"
+permalink: "/brands/russell-athletic/"
 categories:
 - catalogue/football.md
 - catalogue/jerseys.md

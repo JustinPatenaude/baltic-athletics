@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/disc-golf"
+permalink: "/catalogue/disc-golf/"
 title: Disc Golf
 products:
 - Disc Catchers

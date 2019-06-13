@@ -19,12 +19,13 @@ description: >- # this means to ignore newlines until "baseurl:"
   With over 35 years of experience selling athletic equipment 
   and clothing, you can be guaranteed expert advice and authentic 
   service.
-baseurl: "/baltic-athletics" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://www.balticathletics.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+permalink: pretty
 twitter_username: jekyllrb
 github_username:  jekyll
 mediaUrl: https://d2aasorcg54mje.cloudfront.net
-google_analytics: 141807318-1
+google_analytics: UA-141807318-1
 
 # Build settings
 markdown: kramdown

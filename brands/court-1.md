@@ -1,7 +1,7 @@
 ---
 layout: brand
+permalink: "/brands/court-1/"
 title: Court-1
-permalink: "/brands/court-1"
 logo: "/court-1-logo.jpg"
 website: ''
 pdfs: []

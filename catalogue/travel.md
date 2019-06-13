@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/travel"
+permalink: "/catalogue/travel/"
 title: Travel
 products: []
 photos: []

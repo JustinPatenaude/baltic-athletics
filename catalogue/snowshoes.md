@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/snowshoes"
+permalink: "/catalogue/snowshoes/"
 title: Snowshoes
 products:
 - Poles

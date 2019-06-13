@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/sklz"
+permalink: "/brands/sklz/"
 categories:
 - catalogue/umbrellas.md
 - catalogue/golf.md

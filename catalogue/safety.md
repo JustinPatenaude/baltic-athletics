@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/safety"
+permalink: "/catalogue/safety/"
 title: Safety
 products:
 - Lifesaving Equipment

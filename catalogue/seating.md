@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/seating"
+permalink: "/catalogue/seating/"
 title: Seating
 products:
 - Indoor Tip & Roll Bleachers

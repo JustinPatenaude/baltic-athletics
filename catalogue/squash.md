@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/squash"
+permalink: "/catalogue/squash/"
 title: Squash
 products: []
 photos: []

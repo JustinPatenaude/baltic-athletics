@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/handball"
+permalink: "/catalogue/handball/"
 title: Handball
 products: []
 photos: []

@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/eletto"
+permalink: "/brands/eletto/"
 categories:
 - catalogue/jerseys.md
 - catalogue/shorts.md

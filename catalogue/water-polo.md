@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/water-polo"
+permalink: "/catalogue/water-polo/"
 title: Water Polo
 products:
 - Balls

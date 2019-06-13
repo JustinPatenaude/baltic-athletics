@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/bags-totes-duffels"
+permalink: "/catalogue/bags-totes-duffels/"
 title: Bags / Totes / Duffels
 products: []
 photos: []

@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/monsens-sporting-goods-limited"
+permalink: "/brands/monsens-sporting-goods-limited/"
 categories:
 - catalogue/archery.md
 title: Monsens Sporting Goods Limited

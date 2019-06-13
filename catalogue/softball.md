@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/softball"
+permalink: "/catalogue/softball/"
 title: Softball
 products:
 - Fielders Masks

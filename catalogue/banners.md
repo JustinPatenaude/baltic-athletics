@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/banners"
+permalink: "/catalogue/banners/"
 title: Banners
 products: []
 photos: []

@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/gymnastics"
+permalink: "/catalogue/gymnastics/"
 title: Gymnastics
 products:
 - Uneven bars

@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/kobe-sportswear"
+permalink: "/brands/kobe-sportswear/"
 categories:
 - catalogue/basketball.md
 - catalogue/baseball.md

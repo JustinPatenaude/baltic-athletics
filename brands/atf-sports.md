@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/atf-sports"
+permalink: "/brands/atf-sports/"
 categories:
 - catalogue/martial-arts.md
 - catalogue/boxing.md

@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/aprons"
+permalink: "/catalogue/aprons/"
 title: Aprons
 products: []
 photos: []

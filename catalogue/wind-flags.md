@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/wind-flags"
+permalink: "/catalogue/wind-flags/"
 title: Wind Flags
 products: []
 photos: []

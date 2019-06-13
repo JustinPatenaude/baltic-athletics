@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/dyenomite"
+permalink: "/brands/dyenomite/"
 categories:
 - catalogue/bags.md
 - catalogue/hats.md

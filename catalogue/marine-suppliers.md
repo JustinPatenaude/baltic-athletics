@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/marine-supplies"
+permalink: "/catalogue/marine-supplies/"
 title: Marine Suppliers
 products:
 - Lifesaving Equipment

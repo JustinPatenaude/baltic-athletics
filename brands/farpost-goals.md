@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/farpost-goals"
+permalink: "/brands/farpost-goals/"
 categories:
 - catalogue/nets.md
 - catalogue/soccer.md

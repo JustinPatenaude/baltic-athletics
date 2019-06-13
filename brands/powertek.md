@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/powertek"
+permalink: "/brands/powertek/"
 categories:
 - catalogue/bags.md
 - catalogue/floor-hockey.md

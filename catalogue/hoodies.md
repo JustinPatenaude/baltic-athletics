@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/hoodies"
+permalink: "/catalogue/hoodies/"
 title: Hoodies
 products: []
 photos: []

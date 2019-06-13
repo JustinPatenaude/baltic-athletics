@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/helmet-decals"
+permalink: "/catalogue/helmet-decals/"
 title: Helmet Decals
 products:
 - Goalie helmets

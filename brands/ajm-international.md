@@ -1,6 +1,6 @@
 ---
 layout: brand
-permalink: "/brands/ajm-international"
+permalink: "/brands/ajm-international/"
 categories:
 - catalogue/hats.md
 title: AJM International

@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/pickleball"
+permalink: "/catalogue/pickleball/"
 title: Pickleball
 products:
 - Balls

@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/coaching"
+permalink: "/catalogue/coaching/"
 title: Coaching
 products:
 - Pylons
