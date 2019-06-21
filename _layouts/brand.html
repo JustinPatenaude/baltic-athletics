@@ -14,28 +14,28 @@ layout: default
 <div class="page__content">
   <div class="container margin-60">
     <div class="grid-center">
-      <div class="col-8_lg-10_md-12">
-        <div class="grid">
-          <div class="col-6_sm-12 sm-margin-10">
-            <img class="supplier__section-logo" src="{{ page.logo | prepend: site.mediaUrl }}" alt="{{ page.title }} logo" />
-          </div>
-          {% if page.website.size > 0 %}
-            <div class="col-6_sm-12 sm-margin-20">
-              <div class="page__title-wrapper cf">
-                <div class="page__title-img-wrapper">
-                  <img class="page__title-img" src="{{ '/assets/images/title-website.svg' | relative_url }}" />
-                </div>
-                <h2 class="page__title">Website</h2>
-              </div>
-              <div class="page__section">
-                <a class="supplier__section-website" href="{{ page.website }}" target="_blank" title="{{ page.website }}"><i class="fal fa-external-link"></i> {{ page.website }}</a>
-              </div>
-            </div>
-          {% endif %}
-        </div>
+      <div class="col-12 text-center">
+        <img class="supplier__section-logo" src="{{ page.logo | prepend: site.mediaUrl }}" alt="{{ page.title }} logo" />
       </div>
     </div>
   </div>
+  {% if page.website.size > 0 %}
+    <div class="container margin-60">
+      <div class="grid-center">
+        <div class="col-8_lg-10_md-12">
+          <div class="page__title-wrapper cf">
+            <div class="page__title-img-wrapper">
+              <img class="page__title-img" src="{{ '/assets/images/title-website.svg' | relative_url }}" />
+            </div>
+            <h2 class="page__title">Website</h2>
+          </div>
+          <div class="page__section">
+            <a class="supplier__section-website" href="{{ page.website }}" target="_blank" title="{{ page.website }}"><i class="fal fa-external-link"></i> {{ page.website }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endif %}
   {% if page.catalogues.size > 0 %}
     <div class="container margin-60">
       <div class="grid-center">
@@ -69,7 +69,7 @@ layout: default
                       <div class="supplier__pdf-icon supplier__pdf-icon--hover">
                         <i class="fas fa-file-download"></i>
                       </div>
-                      <h5 class="supplier__pdf-title"><span class="supplier__pdf-year">{{ catalogue.year }}</span>{{ catalogue.title }}</h5>
+                      <h5 class="supplier__pdf-title">{% if catalogue.year > 0 %}<span class="supplier__pdf-year">{{ catalogue.year }}</span>{% endif %}{{ catalogue.title }}</h5>
                       <p class="supplier__pdf-link">{{ catalogue.pdf | remove_first: "/" }}</p>
                     </a>
                   </li>
@@ -121,7 +121,7 @@ layout: default
             {% assign categoryPages = site.pages | where: 'layout', "category" %}
             {% for category in page.categories %}
               {% assign categoryHandle = category | remove: "catalogue/" | remove: ".md" %}
-              {% assign categoryPermalink = category | remove: ".md" | prepend: "/" %}
+              {% assign categoryPermalink = category | remove: ".md" | prepend: "/" | append: "/" %}
               {% assign categoryPage = categoryPages | where: 'permalink', categoryPermalink %}
               {% capture categoryImageUrl %}/assets/images/category-{{ categoryHandle }}.svg{% endcapture %}
               <div class="col-3_sm-4 catalogue__category-wrapper">

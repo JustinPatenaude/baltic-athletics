@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/storage/"
+permalink: "/catalogue/storage-solutions/"
 title: Storage solutions
 products:
 - Racks

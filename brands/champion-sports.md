@@ -6,7 +6,7 @@ categories:
 - catalogue/basketball.md
 - catalogue/lacrosse.md
 - catalogue/misc.md
-- catalogue/pe-playground.md
+- catalogue/pe-equipment.md
 - catalogue/soccer.md
 - catalogue/volleyball.md
 title: Champion Sports

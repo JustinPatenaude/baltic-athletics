@@ -5,8 +5,8 @@ categories:
 - catalogue/basketball.md
 - catalogue/beach-volleyball.md
 - catalogue/football.md
-- catalogue/inflators-essentials.md
-- catalogue/pe-playground.md
+- catalogue/inflators.md
+- catalogue/pe-equipment.md
 - catalogue/rugby.md
 - catalogue/soccer.md
 - catalogue/volleyball.md

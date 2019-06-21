@@ -6,7 +6,7 @@ categories:
 - catalogue/nets.md
 - catalogue/track-field.md
 - catalogue/seating.md
-- catalogue/pe-playground.md
+- catalogue/pe-equipment.md
 - catalogue/lacrosse.md
 - catalogue/football.md
 - catalogue/track-field.md

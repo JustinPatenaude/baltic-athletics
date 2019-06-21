@@ -5,7 +5,7 @@ categories:
 - catalogue/baseball.md
 - catalogue/basketball.md
 - catalogue/football.md
-- catalogue/inflators-essentials.md
+- catalogue/inflators.md
 - catalogue/misc.md
 - catalogue/volleyball.md
 title: Spalding

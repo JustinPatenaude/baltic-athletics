@@ -20,10 +20,10 @@ categories:
 - catalogue/basketball.md
 - catalogue/beach-volleyball.md
 - catalogue/football.md
-- catalogue/inflators-essentials.md
+- catalogue/inflators.md
 - catalogue/lacrosse.md
 - catalogue/nets.md
-- catalogue/pe-playground.md
+- catalogue/pe-equipment.md
 - catalogue/rugby.md
 - catalogue/soccer.md
 - catalogue/table-tennis.md

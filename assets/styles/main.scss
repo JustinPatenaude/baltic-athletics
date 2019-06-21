@@ -204,26 +204,48 @@ input, textarea, button {
   min-height: 200px;
   max-width: 100%;
 }
+.form--white {
+  .label-wire {
+    color: #fff;
+  }
+  .input-wire__text {
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.75);
+    &:focus, &:active {
+      border-color: #fff;
+      outline: 0;
+    }
+  }
+  .input-wire__text::placeholder {
+    color: rgba(255,255,255,0.5);
+  }
+}
 .label-wire {
-  display: none;
+  display: block;
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: $colorDark;
 }
 .input-wire__text {
   display: block;
   width: 100%;
   padding: 8px 12px;
   font-size: 14px;
-  color: #fff;
+  color: $colorDark;
   background-color: transparent;
-  border: 1px solid rgba(255,255,255,0.75);
+  border: 1px solid rgba(102,102,102,0.50);
   border-radius: 4px;
   transition: border-color 0.2s ease-in-out;
   &:focus, &:active {
-    border-color: #fff;
+    border-color: rgba(102,102,102,1);
     outline: 0;
   }
 }
 .input-wire__text::placeholder {
-  color: rgba(255,255,255,0.75);
+  color: rgba(102,102,102,0.75);
 }
 .table {
   background-color: #fff;
@@ -665,6 +687,15 @@ input, textarea, button {
   line-height: 34px;
   color: #fff;
 }
+@media only screen and (max-width: 360px) {
+  .footer-bottom__logo,
+  .footer-bottom__logo-two {
+    width: 90px;
+  }
+  .footer-bottom__divider {
+    margin: 8px 30px;
+  }
+}
 
 /*======================
   PAGES
@@ -882,8 +913,8 @@ input, textarea, button {
   }
 }
 .supplier__section-logo {
-  display: block;
-  width: 100%;
+  display: inline-block;
+  width: 320px;
 }
 .supplier__section-icon {
   position: absolute;
