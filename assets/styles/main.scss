@@ -17,6 +17,7 @@ $colorGreyLighter: #ECECEC;
 $colorGreyLight: #CCCCCC;
 $colorGrey: #666666;
 $colorDark: #333333;
+$error: #a22020;
 
 $gutter: 30px;
 
@@ -203,6 +204,26 @@ input, textarea, button {
 .input__textarea {
   min-height: 200px;
   max-width: 100%;
+}
+.input-error {
+  .label-wire {
+    color: $error!important;
+  }
+  .input-wire__text {
+    border-color: $error!important;
+  }
+}
+.input-error-message {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  padding: 7px 10px;
+  font-size: 14px;
+  color: $error!important;
+  @media screen and (max-width: 768px) {
+    display: block;
+    padding-left: 0;
+  }
 }
 .form--white {
   .label-wire {

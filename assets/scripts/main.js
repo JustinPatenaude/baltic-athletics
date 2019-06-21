@@ -77,6 +77,37 @@ $(document).ready(function(){
 
 
   /* ==========================
+     FORM VALIDATION
+  ========================== */
+  $('.form-submit').on('click touchstart', function(){
+    console.log('hello');
+    var currentCount = 0;
+    var theForm = $(this).closest('form');
+    var requiredCount = theForm.find('.required').length;
+    var formButton = $(this);
+    theForm.find('.required').each(function(){
+      var inputWrapper = $(this).closest('.input-wrapper');
+      if($(this).val().length > 0){
+        inputWrapper.removeClass('input-error');
+        currentCount++;
+      } else {
+        inputWrapper.addClass('input-error');
+        if(theForm.find('.input-error-message').length == 0){
+          formButton.after('<p class="input-error-message">Please enter all required fields before submitting.</p>');
+        }
+      }
+    });
+    if(currentCount == requiredCount){
+      theForm.submit();
+    }
+  });
+
+  $('.required').on('focusin', function(){
+    $(this).closest('input-error').removeClass('input-error');
+  });
+
+
+  /* ==========================
      RESPONSIVE MENU
   ========================== */
   // if($(window).width() > 768){
