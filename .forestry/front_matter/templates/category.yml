@@ -50,6 +50,7 @@ fields:
     labelField: 
   label: Photos
 pages:
+- catalogue/inflators.md
 - catalogue/pe-equipment.md
 - catalogue/racquetball.md
 - catalogue/custom-mats.md
@@ -90,11 +91,9 @@ pages:
 - catalogue/blankets.md
 - catalogue/futsal.md
 - catalogue/baseball.md
-- catalogue/inflators.md
 - catalogue/posts.md
 - catalogue/water-polo.md
 - catalogue/tools-lights-keytags.md
-- catalogue/pe-equipment.md
 - catalogue/storage-solutions.md
 - catalogue/rhythmic-gymnastics.md
 - catalogue/coaching.md
@@ -178,7 +177,6 @@ pages:
 - catalogue/lacrosse.md
 - catalogue/baseball.md
 - catalogue/nets.md
-- catalogue/inflators.md
 - catalogue/posts.md
 - catalogue/travel.md
 - catalogue/health-fitness.md
