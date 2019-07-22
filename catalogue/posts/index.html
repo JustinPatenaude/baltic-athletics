@@ -11,7 +11,7 @@
 
   <link rel="icon" type="image/png" href="/favicon.png" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/styles/main.css">
+  <link rel="stylesheet" href="/assets/styles/main.css?v=1.1">
   <link rel="canonical" href="http://www.balticathletics.com/catalogue/posts/">
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -273,22 +273,40 @@
           <p class="white-text opacity-70">We know our suppliers like the back of our hand. Let us know what you’re looking for and we’ll make sure you get the best products, the best prices and the best service.</p>
         </div>
         <div class="col-6_md-7_sm-12">
-          <form class="footer-form" action="https://formspree.io/justinpatenaude92@gmail.com" method="POST">
+          <form class="footer-form form--white" action="https://formspree.io/info@balticathletics.com" method="POST">
             <div class="grid">
-              <div class="col-6 margin-30">
-                <label class="label-wire" for="first_name">First name</label>
-                <input id="first_name" class="input-wire__text" type="text" name="first_name" placeholder="Email address" />
+              <div class="col-6_xs-12 margin-20">
+                <div class="input-wrapper">
+                  <label class="label-wire" for="name">Name*</label>
+                  <input id="name" class="input-wire__text required" type="text" name="Name" placeholder="Jane Doe" />
+                </div>
               </div>
-              <div class="col-6 margin-30">
-                <label class="label-wire" for="last_name">Last name</label>
-                <input id="last_name" class="input-wire__text" type="text" name="last_name" placeholder="Name" />
+              <div class="col-6_xs-12 margin-20">
+                <div class="input-wrapper">
+                  <label class="label-wire" for="email">Email*</label>
+                  <input id="email" class="input-wire__text required" type="text" name="_replyto" placeholder="jane.doe@email.com" />
+                </div>
               </div>
-              <div class="col-12 margin-30">
-                <label class="label-wire" for="message">Message</label>
-                <textarea id="message" class="input-wire__text input__textarea" name="message" placeholder="How can I help you?"></textarea>
+              <div class="col-6_xs-12 margin-20">
+                <div class="input-wrapper">
+                  <label class="label-wire" for="subject">School or Organization*</label>
+                  <input id="school_or_organization" class="input-wire__text required" type="text" name="School or Organization" placeholder="School or organization name" />
+                </div>
+              </div>
+              <div class="col-6_xs-12 margin-20">
+                <div class="input-wrapper">
+                  <label class="label-wire" for="subject">Subject*</label>
+                  <input id="subject" class="input-wire__text required" type="text" name="_subject" placeholder="Custom jersey inquiry" />
+                </div>
+              </div>
+              <div class="col-12 margin-20">
+                <div class="input-wrapper">
+                  <label class="label-wire" for="message">Message*</label>
+                  <textarea id="message" class="input-wire__text input__textarea required" name="Message" placeholder="Hello, I'm looking for..."></textarea>
+                </div>
               </div>
               <div class="col-12">
-                <button class="btn btn--inverse" type="submit"><i class="fas fa-paper-plane btn__icon"></i><span class="btn__text">Send message</span></button>
+                <div class="btn btn--inverse form-submit"><i class="fas fa-paper-plane btn__icon"></i><span class="btn__text">Send message</span></div>
               </div>
             </div>
           </form>
