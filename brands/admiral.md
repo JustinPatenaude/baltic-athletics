@@ -14,7 +14,7 @@ info: Test
 date: '2019-03-29T22:15:15.000+00:00'
 catalogues:
 - title: 2019 Admiral Catalogue
-  year: ''
+  year: 2019
   pdf: "/2019 Admiral Catalogue.pdf"
 
 ---
