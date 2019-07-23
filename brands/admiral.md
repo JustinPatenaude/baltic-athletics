@@ -10,7 +10,7 @@ logo: "/admiral-logo.png"
 website: https://admiral-sports.com/shop/
 pdfs:
 - "/admiral-2016.pdf"
-info: Test
+info: ''
 date: '2019-03-29T22:15:15.000+00:00'
 catalogues:
 - title: 2019 Admiral Catalogue
