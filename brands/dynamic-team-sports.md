@@ -2,6 +2,26 @@
 layout: brand
 permalink: "/brands/dynamic-team-sports/"
 categories:
+- catalogue/volleyball.md
+- catalogue/ultimate.md
+- catalogue/track-suits.md
+- catalogue/track-field.md
+- catalogue/sweaters.md
+- catalogue/softball.md
+- catalogue/soccer.md
+- catalogue/shorts.md
+- catalogue/shirts.md
+- catalogue/ringette.md
+- catalogue/pants.md
+- catalogue/lacrosse.md
+- catalogue/jerseys.md
+- catalogue/hockey.md
+- catalogue/gymnastics.md
+- catalogue/futsal.md
+- catalogue/football.md
+- catalogue/curling.md
+- catalogue/basketball.md
+- catalogue/baseball.md
 - catalogue/soccer.md
 - catalogue/track-field.md
 - catalogue/volleyball.md
