@@ -22,9 +22,6 @@ categories:
 - catalogue/curling.md
 - catalogue/basketball.md
 - catalogue/baseball.md
-- catalogue/soccer.md
-- catalogue/track-field.md
-- catalogue/volleyball.md
 title: Dynamic Team Sports
 logo: "/dynamic-team-sports-logo.jpg"
 website: http://dynamicteamsports.com/
