@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: "/catalogue/tracksuits/"
+permalink: "/catalogue/track-suits/"
 title: Track Suits
 products: []
 photos: []
