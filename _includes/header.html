@@ -2,7 +2,7 @@
   <div class="container">
     <div class="grid-middle">
 
-      <div class="col-3">
+      <div class="col-2">
         <div class="logo__wrapper">
           <a href="{{ "/" | relative_url }}" class="logo">
             <img src="{{ "/assets/images/logo.svg" | relative_url }}" alt="Baltic Athletics Logo" />
@@ -10,12 +10,22 @@
         </div>
       </div>
 
-      <div class="col-9 text-right">
+      <div class="col-10 text-right">
         <div class="nav__wrapper">
           <div class="nav__item-wrapper menu-hide">
             <div class="nav__item">
               <a href="{{ "/catalogue" | relative_url }}" class="nav__link" title="Catalogue">
                 <i class="fal fa-book"></i> Catalogue
+              </a>
+            </div>
+            <div class="nav__item">
+              <a href="{{ "/brands" | relative_url }}" class="nav__link {% if page.url contains "/brands" %}active{% endif %}" title="Brands">
+                <i class="fal fa-truck"></i> Brands
+              </a>
+            </div>
+            <div class="nav__item">
+              <a href="{{ "/clearance" | relative_url }}" class="nav__link {% if page.url contains "/clearance" %}active{% endif %}" title="Clearance">
+                <i class="fal fa-badge-percent"></i> Clearance
               </a>
             </div>
             <div class="nav__item">
@@ -43,12 +53,12 @@
                     <i class="fal fa-clipboard"></i> Team Order Management
                   </a>
                 </div>
-                <div class="sub-nav__item">
+                <div class="sub-nav__item menu-show">
                   <a href="{{ "/brands" | relative_url }}" class="sub-nav__link {% if page.url contains "/brands" %}active{% endif %}" title="Brands">
                     <i class="fal fa-truck"></i> Brands
                   </a>
                 </div>
-                <div class="sub-nav__item">
+                <div class="sub-nav__item menu-show">
                   <a href="{{ "/clearance" | relative_url }}" class="sub-nav__link {% if page.url contains "/clearance" %}active{% endif %}" title="Clearance">
                     <i class="fal fa-badge-percent"></i> Clearance
                   </a>
