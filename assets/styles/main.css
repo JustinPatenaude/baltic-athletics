@@ -2566,6 +2566,28 @@ input, textarea, button {
   list-style-type: disc;
   list-style-position: inside; }
 
+.warning {
+  position: relative;
+  padding: 20px 20px 20px 50px;
+  background-color: #fdfae9;
+  border: 1px solid #efd313;
+  border-radius: 4px; }
+  .warning p:last-of-type {
+    margin-bottom: 0; }
+  .warning a {
+    color: #bba616; }
+  .warning:before {
+    content: '\f071';
+    position: absolute;
+    top: 27px;
+    left: 20px;
+    z-index: 5;
+    display: block;
+    font-family: 'Font Awesome 5 Pro';
+    font-size: 14px;
+    font-weight: 900;
+    color: #bba616; }
+
 .relative {
   position: relative; }
 
@@ -2729,7 +2751,7 @@ input, textarea, button {
 .menu-show, .menu-show-ib {
   display: none; }
 
-@media only screen and (max-width: 955px) {
+@media only screen and (max-width: 1112px) {
   .menu-hide {
     display: none !important; }
 
